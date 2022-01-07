@@ -35,7 +35,7 @@ h1, h2, h3 {
 #menu-bar-outer {
     width: 100%;
     height: 85px;
-    background-color: #7768ae;
+    background-color: #e15554;
 }
 
 #menu-bar, #company-logo {
@@ -67,6 +67,10 @@ h1, h2, h3 {
 #menu-bar a:hover {
     font-size: larger;
     color: #e1bc29;
+    border-bottom: 2px solid #e1bc29;
+}
+
+.marked {
     border-bottom: 2px solid #e1bc29;
 }
 
@@ -123,4 +127,17 @@ h1, h2, h3 {
     right: 10px;
 
     position: absolute;
+}
+
+/* about us section */
+
+#about {
+    width: 600px;
+    height: 600px;
+    font-size: 150%;
+    text-align: left;
+}
+
+.about-us {
+    color: black;
 }
