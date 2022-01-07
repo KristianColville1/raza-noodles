@@ -132,6 +132,33 @@ h1, h2, h3 {
     position: absolute;
 }
 
+/* download dropdown list */
+
+.button-dropdown {
+    color: black;
+    padding: 5px;
+    font-size: inherit;
+    border: none;
+}
+
+.downloads {
+    border: none;
+    position: relative;
+    display: inline-block;
+}
+
+.pdf-downloads {
+    display: none;
+    position: absolute;
+    background-color: #493657;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.button-dropdown:hover .pdf-downloads {
+    display: block;
+}
 /* about us section */
 
 .one-third {
