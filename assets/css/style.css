@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Ubuntu:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Licorice', cursive;
+    font-weight: 400;
+    color: rgba(32, 8, 8, 0.233);
+}
+
+/* logo and headings */
+
+#company-logo {
+    float: left;
+    font-size: 200%;
+    margin-left: 25px;
+}
