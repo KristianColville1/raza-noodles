@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Licorice', cursive;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     color: rgba(32, 8, 8, 0.233);
 }
@@ -16,6 +16,13 @@ body {
 
 #company-logo {
     float: left;
-    font-size: 200%;
+    font-size: 300%;
     margin-left: 25px;
+    margin-top: 30px;
+}
+
+h1, h2, h3 {
+    font-family: 'Licorice', cursive;
+    text-transform: capitalize;
+    color: black;
 }
