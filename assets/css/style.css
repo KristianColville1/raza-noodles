@@ -16,13 +16,45 @@ body {
 
 #company-logo {
     float: left;
-    font-size: 300%;
+    font-size: 400%;
     margin-left: 25px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 h1, h2, h3 {
     font-family: 'Licorice', cursive;
     text-transform: capitalize;
     color: black;
+}
+
+#menu-bar, #company-logo {
+    line-height: 100px;
+}
+
+#menu-bar {
+    font-size: large;
+    letter-spacing: normal;
+}
+
+#menu-bar ul {
+    float: right;
+}
+
+#menu-bar li {
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#menu-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu-bar a:hover {
+    font-size: x-large;
+    background-color: #4d9de0;
+    color: white;
+    border-bottom: 1px solid black;
 }
