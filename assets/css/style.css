@@ -23,7 +23,7 @@ body {
 
 #company-logo:hover {
     color: #e1bc29;
-    font-size: 410%;
+    font-size: 400%;
 }
 
 h1, h2, h3 {
@@ -67,7 +67,7 @@ h1, h2, h3 {
 #menu-bar a:hover {
     font-size: larger;
     color: #e1bc29;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid #e1bc29;
 }
 
 /* main image */
