@@ -55,8 +55,7 @@ h1, h2, h3 {
 
 #menu-bar a:hover {
     font-size: larger;
-    background-color: #e1bc29;
-    color: white;
+    color: #e1bc29;
     border-bottom: 1px solid black;
 }
 
