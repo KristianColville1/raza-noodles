@@ -17,6 +17,7 @@ body {
     font-family: 'The Nautigal', cursive;
     font-size: 500%;
     font-weight: 400;
+    letter-spacing: 5px;
     color: #EF3054;
     width: 30%;
     float: left;
@@ -28,6 +29,7 @@ body {
     font-size: 100%;
     font-weight: 300;
     letter-spacing: 4px;
+    padding-right: 10px;
 
 }
 
@@ -51,7 +53,7 @@ body {
 
 }
 
-#menu a:hover {
+#menu a:hover, .dropdown-button:hover {
     font-size: 110%;
     text-shadow: #EF3054;
     font-weight: 900;
@@ -67,5 +69,37 @@ body {
     color: #EAC435;
 }
 
+/* dropdown menu */
 
+.dropdown-button {
+    font-family: inherit;
+    font-size: inherit;
+    letter-spacing: inherit;
+    color: #EF3054;
+    background-color: black;
+}
 
+.content {
+    position: relative;
+    display: inline-block;
+
+}
+
+.download-content {
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    z-index: 1;
+}
+
+.download-content a {
+    font-size: initial;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.content:hover .download-content {
+    display: block;
+    border-bottom: none;
+}
