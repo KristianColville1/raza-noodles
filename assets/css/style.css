@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Vujahday+Script&display=swap');
 
 * {
     margin: none;
@@ -15,11 +15,13 @@ body {
 /* logo */
 
 #logo {
-    font-family: 'The Nautigal', cursive;
-    font-size: 500%;
+    font-family: 'Vujahday Script', cursive;
+    font-size: 250%;
     font-weight: 500;
     letter-spacing: 5px;
-    color: #EF3054;
+    color: #F73F52;
+
+    padding-left: 100px;
     float: left;
 }
 
@@ -34,7 +36,7 @@ body {
 }
 
 #menu, #logo {
-    line-height: 30px;
+    line-height: 45px;
 }
 
 #menu-links {
@@ -43,19 +45,19 @@ body {
 
 #menu-links li {
     list-style-type: none;
-    padding: 0 5px;
+    padding: 0 15px;
     float: left;
 }
 
 #menu a {
-    color: #EF3054;
+    color: #F73F52;
     text-decoration: none;
 
 }
 
 #menu a:hover, .dropdown-button:hover {
     font-size: 110%;
-    text-shadow: #EF3054;
+    text-shadow: #F73F52;
     font-weight: 900;
     color: #FFFFFF;
     border-bottom: 2px solid #FFFFFF;
@@ -66,7 +68,7 @@ body {
 }
 
 #logo:hover {
-    color: #EAC435;
+    color: #FFEA85;
 }
 
 /* dropdown menu */
@@ -75,7 +77,7 @@ body {
     font-family: inherit;
     font-size: inherit;
     letter-spacing: inherit;
-    color: #EF3054;
+    color: #F73F52;
     background-color: black;
 }
 
@@ -88,18 +90,34 @@ body {
 .download-content {
     display: none;
     position: absolute;
-    min-width: 180px;
+    min-width: 100px;
     z-index: 1;
 }
 
 .download-content a {
     font-size: initial;
-    padding: 5px 5px;
+    padding: 0px 5px;
     text-decoration: none;
     display: block;
 }
 
 .content:hover .download-content {
+    background-color: black;
     display: block;
     border-bottom: none;
+}
+
+/* hero image */
+
+#hero-image-above {
+    height: 80px;
+}
+
+#hero-image {
+    width: 100%;
+    height: 500px;
+    padding-top: 250px;
+    /* background: url('../logo/logo_transparent.png') no-repeat center center; */
+    background: url('/assets/images/hero-image.jpeg') no-repeat center center;
+    opacity: 85%;
 }
