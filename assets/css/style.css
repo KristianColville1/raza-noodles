@@ -6,12 +6,39 @@
     border: none;
 }
 
-/* logo */
-
-#logo {
-    font-size: 300%;
+body {
     font-family: 'Luxurious Roman', cursive;
 }
 
+/* logo */
+
+#logo {
+    font-size: 410%;
+    font-weight: 400;
+    text-align: justify;
+    width: 30%;
+    float: left;
+}
+
 /* navigation bar */
+
+#menu {
+    font-size: 115%;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 30px;
+}
+
+#menu-links {
+    float: right;
+}
+
+#menu-links li {
+    list-style-type: none;
+    padding: 0 5px;
+    float: left;
+}
 
