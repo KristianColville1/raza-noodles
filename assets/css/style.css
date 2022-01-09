@@ -126,3 +126,29 @@ body {
 
 /* about section */
 
+#left-about-section {
+    width: 33%;
+    height: 450px;
+    background-color: #F73F52;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+#middle-about {
+    width: 33%;
+    height: 450px;
+    background-color: #2B50AA;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+#right-about-section {
+    width: 33%;
+    height: 450px;
+    background-color: #B74F6F;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
