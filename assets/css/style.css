@@ -197,25 +197,40 @@ hr {
     height: 800px;
 }
 
-#left-about {
+.left-about {
     width: 50%;
     float: left;
 }
 
-#right-about {
+.right-about {
     width: 50%;
     float: right;
 }
 
-#left-about-content {
+.left-about-content {
+    width: 50%;
     float: right;
+    line-height: 25px;
+    clear: both;
+    margin: 20px;
 }
 
-#right-about-content {
+.right-about-content {
+    width: 50%;
     float: left;
+    line-height: 25px;
+    clear: both;
+    margin: 20px;
 }
 
 .yellow-color:hover {
     color: #F79F24;
+}
+
+.medium-image {
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 5%;
 }
 
