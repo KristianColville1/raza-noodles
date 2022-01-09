@@ -234,3 +234,10 @@ hr {
     border-radius: 5%;
 }
 
+#perfect-list > li {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 5px;
+    font-size: 150%;
+}
+
