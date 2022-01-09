@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Rock+Salt&display=swap');
 
 * {
     margin: none;
@@ -14,8 +14,13 @@ body {
 
 h1, h2, h3 {
     font-size: 300%;
-    font-family: 'Vujahday Script', cursive;
+    font-family: 'Rock Salt', cursive;
 }
+
+hr {
+    border: 2px solid #F79F24;
+}
+
 /* logo */
 
 #logo-container {
@@ -189,9 +194,9 @@ h1, h2, h3 {
     width: 33%;
     height: 450px;
     display: inline-block;
-    text-align: center;
+    text-align: right;
     position: relative;
-    top: 50px;
+    bottom: 200px;
 }
 
 #middle-about {
