@@ -12,6 +12,10 @@ body {
     background-color: black;
 }
 
+h1, h2, h3 {
+    font-size: 300%;
+    font-family: 'Vujahday Script', cursive;
+}
 /* logo */
 
 #logo-container {
@@ -141,7 +145,7 @@ body {
     display: inline-block;
     text-align: center;
     position: relative;
-    bottom: 260px;
+    bottom: 200px;
 }
 
 #right-about-section {
