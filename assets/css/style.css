@@ -129,7 +129,7 @@ body {
 #left-about-section {
     width: 33%;
     height: 450px;
-    background-color: #F73F52;
+    display: inline-block;
     text-align: center;
     position: relative;
     top: 50px;
@@ -138,16 +138,16 @@ body {
 #middle-about {
     width: 33%;
     height: 450px;
-    background-color: #2B50AA;
+    display: inline-block;
     text-align: center;
     position: relative;
-    top: 50px;
+    bottom: 260px;
 }
 
 #right-about-section {
     width: 33%;
     height: 450px;
-    background-color: #B74F6F;
+    display: inline-block;
     text-align: center;
     position: relative;
     top: 50px;
