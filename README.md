@@ -23,6 +23,9 @@ Aspirations for this website.
 
 ## Credits
 
+### The logo
+I created the branding and logo here [External link to hatchful.shopify.com](https://hatchful.shopify.com/)
+
 ### Content
 
 ### Media
