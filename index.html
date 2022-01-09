@@ -12,7 +12,7 @@
     <title>Raza Noodles</title>
 </head>
 <body>
-    <header>
+    <header id="home-section">
         <div id="menu-bar">
             <div id="logo-container">
                 <a href="index.html" aria-label="Go to the main home page"><img class="logo" src="/assets/logo/logo_transparent.png" alt="Raza Noodles logo"></a>
@@ -20,16 +20,16 @@
                 <nav id="menu">
                     <ul id="menu-links">
                         <li><a href="index.html" class="currently-active"  aria-label="Go to the main home page"><i class="fas fa-home"></i> Home</a></li>
-                        <li><a href="#about-section" aria-label="Scroll down to about section"><i class="fas fa-sticky-note"></i> About</a></li>
-                        <li><a href="#"><i class="fas fa-map"></i> Menu</a></li>
-                        <li><a href="#"><i class="fas fa-phone"></i> Contact</a></li>
-                        <li><a href="#"><i class="fas fa-images"></i> Gallery</a></li>
+                        <li><a href="#about-section" aria-label="Go to the about section"><i class="fas fa-sticky-note"></i> About</a></li>
+                        <li><a href="#" aria-label="Internal link to the food menu page"><i class="fas fa-map"></i> Menu</a></li>
+                        <li><a href="#contact-section" aria-label="Scroll down to the contact section"><i class="fas fa-phone"></i> Contact</a></li>
+                        <li><a href="#" aria-label="Internal link to our food gallery page"><i class="fas fa-images"></i> Gallery</a></li>
                         <li>
                             <div class="content">
-                                <button class="dropdown-button"><i class="fas fa-file-download"></i> Downloads</button>
+                                <button class="dropdown-button"  aria-label="Hover mouse here to display download dropdown menu"><i class="fas fa-file-download"></i> Downloads</button>
                                 <div class="download-content">
-                                    <a href="">Menu 2022</a>
-                                    <a href="">T&Cs</a>
+                                    <a href="" aria-label="Download our 2022 food menu">Menu 2022</a>
+                                    <a href="" aria-label="Download our terms and conditions">T&Cs</a>
                                 </div>
                             </div>
                     </ul>
@@ -106,7 +106,12 @@
             </div>
         </div>
     </section>
-    <section>Locations</section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <div>
+            <h3>Opening times</h3>
+        </div>
+    </section>
     <footer>Social media links</footer>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/0d880835d2.js" crossorigin="anonymous"></script>
