@@ -126,6 +126,22 @@ h1, h2, h3 {
     background: url('/assets/logo/logo_transparent.png') no-repeat center center;
     position: absolute;
     z-index: 2;
+
+    /* animation for logo */
+    animation: logo-fade ease 4s;
+    animation-iteration-count: 6;
+    animation-fill-mode: forwards;
+}
+
+/* animation for logo */
+
+@keyframes logo-fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* about section */
