@@ -23,10 +23,10 @@ Aspirations for this website.
 
 ## Credits
 
-### The logo
-I created the branding and logo here [link to hatchful.shopify.com](https://hatchful.shopify.com/)
-
 ### Content
+### The logo
+
+I created the branding and logo with help from here [link to hatchful.shopify.com](https://hatchful.shopify.com/)
 
 ### Media
 
