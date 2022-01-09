@@ -19,8 +19,10 @@ body {
 }
 
 .logo {
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 40px;
 }
 
 /* navigation bar and links */
@@ -110,7 +112,7 @@ body {
     height: 550px;
     background: url('/assets/images/hero-image.jpeg') no-repeat center center;
     position: relative;
-    top: 100px;
+    top: 50px;
     z-index: -1;
 }
 
@@ -121,4 +123,6 @@ body {
     position: absolute;
     z-index: 2;
 }
+
+/* about section */
 
