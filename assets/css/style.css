@@ -212,7 +212,8 @@ hr {
     float: right;
     line-height: 25px;
     clear: both;
-    margin: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
 }
 
 .right-about-content {
@@ -220,7 +221,8 @@ hr {
     float: left;
     line-height: 25px;
     clear: both;
-    margin: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
 }
 
 .yellow-color:hover {
