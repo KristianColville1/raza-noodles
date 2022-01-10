@@ -273,11 +273,27 @@ hr {
     top: 1000px;
 }
 
-.center-content {
-    margin-left: 800px;
-    position: relative;
-    top: 200px;
+#opening-hours-section {
+    height: 800px;
 }
+
+.one-third-left {
+    width: 33%;
+    float: left;
+}
+
+.one-third-middle {
+    width: 33%;
+}
+
+.one-third-right {
+    width: 33%;
+    float: right;
+}
+
+.left-content
+.middle-content
+.right-content
 
 .darker-text {
     font-family: 'Rock Salt', cursive;
