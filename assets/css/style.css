@@ -263,11 +263,12 @@ hr {
 }
 
 #opening-hours-background {
-    height: 600px;
+    height: 800px;
     width: 100%;
-    background: url('/assets/images/background-two.jpeg') no-repeat center center;
+    background: url('/assets/images/background.jpeg') no-repeat center center;
     background-attachment: fixed;
+    background-size: contain;
     position: relative;
     z-index: -1;
-    top: 1300px;
+    top: 1000px;
 }
