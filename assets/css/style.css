@@ -244,3 +244,20 @@ hr {
     bottom: 50px;
 }
 
+/* Opening times section and button */
+
+#button2 {
+    font-size: 200%;
+    font-weight: 900;
+    text-align: center;
+    color: 2B50AA;
+    width: 50px;
+    height: 50px;
+    background-color: #FFEDCF;
+    opacity: 80%;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 150px;
+    left: 48%;
+}
