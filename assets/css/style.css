@@ -27,14 +27,16 @@ hr {
 
 /* logo */
 
-#logo-icon {
+.logo-icon {
     position: relative;
+    z-index: 3;
 }
 
-.logo {
+.left-logo {
     height: 100px;
     width: 100px;
     position: relative;
+    z-index: 2;
     left: 40px;
 }
 
@@ -245,7 +247,6 @@ hr {
     background-size: contain;
     position: relative;
     top: 500px;
-    z-index: -1;
 }
 
 #button2 {
@@ -272,7 +273,7 @@ hr {
     font-size: 250%;
     text-align: center;
     position: relative;
-    bottom: 250px;
+    bottom: 280px;
 }
 
 .black-text {
@@ -295,3 +296,35 @@ hr {
 }
 
 /* footer */
+
+.footer-container {
+    width: 100%;
+    background-color: #F79F24;
+    position: relative;
+    top: 480px;
+    bottom: 0px;
+}
+
+.social-media-links {
+    list-style-type: none;
+    text-align: center;
+}
+
+.social-media-links li {
+    font-size: 300%;
+    margin: 0 25px;
+    display: inline;
+    position: relative;
+    bottom: 80px;
+}
+
+.policy-links {
+    list-style-type: none;
+    text-align: center;
+}
+
+.policy-links li {
+    display: inline;
+    position: relative;
+    bottom: 25px;
+}

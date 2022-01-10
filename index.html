@@ -10,17 +10,17 @@
 
     <title>Raza Noodles</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/x-icon" href="/assets/logo/favicon.png">
+    <link rel="icon" type="image/x-icon" href="/assets/logo/logo_transparent.png">
 </head>
 <body>
-    <header id="home-section">
-        <div id="logo-icon"><a href="index.html" aria-label="Go to the main home page"><img class="logo" src="/assets/logo/logo_transparent.png" alt="Raza Noodles logo"></a></div>
+    <header id="home-section" class="home">
+        <div class="logo-icon"><a href="index.html" aria-label="Go to the main home page"><img class="left-logo" src="/assets/logo/logo_transparent.png" alt="Raza Noodles logo"></a></div>
         <nav id="menu">
             <ul>
                 <li><a href="index.html" class="currently-active"  aria-label="Go to the main home page"><i class="fas fa-home"></i> Home</a></li>
                 <li><a href="#about-section" aria-label="Go to the about section"><i class="fas fa-sticky-note"></i> About</a></li>
                 <li><a href="#" aria-label="Internal link to the food menu page"><i class="fas fa-map"></i> Menu</a></li>
-                <li><a href="#contact-section" aria-label="Scroll down to the contact section"><i class="fas fa-phone"></i> Contact</a></li>
+                <li><a href="#contact-section" aria-label="Internal link to the food menu page"><i class="fas fa-phone"></i> Contact</a></li>
                 <li><a href="#" aria-label="Internal link to our food gallery page"><i class="fas fa-images"></i> Gallery</a></li>
                 <li>
                     <div class="content">
@@ -109,19 +109,30 @@
         <div class="center">
             <div class="center-text">
                 <h2 id="opening-hours">Opening Hours</i></h2>
-                <p class="black-text">Monday ~ Sunday</p>
-                <p class="time-text">4pm ~ 11:30pm</p>
+                <p class="black-text">Monday - Sunday</p>
+                <p class="time-text">4pm - 11:30pm</p>
             </div>
         </div>
     </section>
     <footer>
-        <ul>
-            <li>facebook</li>
-            <li>twitter</li>
-            <li>instagram</li>
-            <li>terms</li>
-            <li>privacy</li>
-        </ul>
+        <div class="footer-container">
+            <ul class="social-media-links">
+                <li><i class="fab fa-facebook"></i></li>
+                <li>.</li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li>.</li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li>.</li>
+                <li><i class="fab fa-linkedin"></i></li>
+            </ul>
+            <div id="policies">
+                <ul class="policy-links">
+                    <li>Terms of use</li>
+                    <li>. Privacy Policy</li>
+                    <li>. Cookie Policy</li>
+                </ul>
+            </div>
+        </div>
     </footer>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/0d880835d2.js" crossorigin="anonymous"></script>
