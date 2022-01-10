@@ -32,17 +32,12 @@ hr {
 }
 
 .logo {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     position: relative;
-    top: 40px;
 }
 
 /* navigation bar and links */
-
-#menu-bar {
-    position: relative;
-}
 
 #menu {
     text-transform: uppercase;
@@ -51,11 +46,11 @@ hr {
     padding-right: 10px;
 }
 
-#menu-links {
+#menu ul {
     float: right;
 }
 
-#menu-links li {
+#menu li {
     list-style-type: none;
     padding: 0 15px;
     float: left;
