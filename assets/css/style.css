@@ -244,7 +244,7 @@ hr {
     bottom: 50px;
 }
 
-/* Opening times section and button */
+/* Opening hours section and button */
 
 #button2 {
     font-size: 200%;
@@ -260,4 +260,14 @@ hr {
     position: relative;
     top: 150px;
     left: 48%;
+}
+
+#opening-hours-background {
+    height: 600px;
+    width: 100%;
+    background: url('/assets/images/background-two.jpeg') no-repeat center center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+    top: 1300px;
 }
