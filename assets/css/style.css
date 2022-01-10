@@ -334,3 +334,7 @@ hr {
     position: relative;
     bottom: 15px;
 }
+
+#footer-container a:hover {
+    color: #E1250A;
+}
