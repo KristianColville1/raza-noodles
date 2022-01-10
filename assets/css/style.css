@@ -297,12 +297,17 @@ hr {
 
 /* footer */
 
-.footer-container {
+#footer-container {
     width: 100%;
     background-color: #F79F24;
     position: relative;
     top: 480px;
     bottom: 0px;
+}
+
+#footer-container a {
+    color: #FFEDCF;
+    text-decoration: none;
 }
 
 .social-media-links {
