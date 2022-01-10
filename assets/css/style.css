@@ -59,6 +59,7 @@ hr {
     float: left;
     position: relative;
     bottom: 80px;
+    z-index: 3;
 }
 
 #menu a {
@@ -129,7 +130,7 @@ hr {
     height: 550px;
     background: url('/assets/logo/logo_transparent.png') no-repeat center center;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 
     /* animation for logo */
     animation: logo-fade ease 2.5s;
@@ -240,11 +241,11 @@ hr {
 /* Opening hours section and button */
 
 #opening-hours-section {
-    height: 780px;
+    height: 720px;
     width: 100%;
     background: url('/assets/images/background.jpeg') no-repeat center center;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     top: 500px;
 }
@@ -270,22 +271,22 @@ hr {
 }
 
 .center-text {
-    font-size: 250%;
+    font-size: 220%;
     text-align: center;
     position: relative;
     bottom: 280px;
 }
 
-.black-text {
+.red-text {
     font-weight: 900;
-    font-size: 180%;
-    color: black;
+    font-size: 150%;
+    color: #E1250A;
 }
 
-.time-text {
+.black-text {
     font-weight: 900;
-    font-size: 180%;
-    letter-spacing: 4px;
+    font-size: 150%;
+    color: black;
 }
 
 .orange-decoration {
@@ -320,7 +321,7 @@ hr {
     margin: 0 15px;
     display: inline;
     position: relative;
-    bottom: 80px;
+    bottom: 20px;
 }
 
 .policy-links {
@@ -331,5 +332,5 @@ hr {
 .policy-links li {
     display: inline;
     position: relative;
-    bottom: 25px;
+    bottom: 15px;
 }
