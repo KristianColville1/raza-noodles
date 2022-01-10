@@ -152,7 +152,6 @@ hr {
     font-size: 200%;
     font-weight: 900;
     text-align: center;
-    color: 2B50AA;
     width: 50px;
     height: 50px;
     background-color: #FFEDCF;
@@ -246,11 +245,21 @@ hr {
 
 /* Opening hours section and button */
 
+#opening-hours-section {
+    height: 800px;
+    width: 100%;
+    background: url('/assets/images/background.jpeg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: contain;
+    position: relative;
+    top: 1000px;
+    z-index: -1;
+}
+
 #button2 {
     font-size: 200%;
     font-weight: 900;
     text-align: center;
-    color: 2B50AA;
     width: 50px;
     height: 50px;
     background-color: #FFEDCF;
@@ -262,31 +271,28 @@ hr {
     left: 48%;
 }
 
-#opening-hours-background {
-    height: 800px;
-    width: 100%;
-    background: url('/assets/images/background.jpeg') no-repeat center center;
-    background-attachment: fixed;
-    background-size: contain;
-    position: relative;
-    z-index: -1;
-    top: 970px;
-}
-
 .center {
     width: 100%;
     float: left;
 }
 
 .center-text {
-    font-size: 200%;
+    font-size: 250%;
     text-align: center;
+    position: relative;
+    bottom: 1000px;
 }
 
 .black-text {
-    color: black;
     font-weight: 900;
-    font-size: 150%;
+    font-size: 180%;
+    color: black;
+}
+
+.time-text {
+    font-weight: 900;
+    font-size: 180%;
+    letter-spacing: 4px;
 }
 
 .orange-decoration {
@@ -294,5 +300,4 @@ hr {
     height: 30px;
     background-color: #F79F24;
     position: relative;
-    top: 150px;
 }
