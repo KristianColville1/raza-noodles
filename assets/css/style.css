@@ -272,3 +272,17 @@ hr {
     z-index: -1;
     top: 1000px;
 }
+
+.center-content {
+    margin-left: 800px;
+    position: relative;
+    top: 200px;
+}
+
+.darker-text {
+    font-family: 'Rock Salt', cursive;
+    font-weight: 900;
+    font-style: oblique;
+    font-size: 150%;
+    text-justify: auto;
+}
