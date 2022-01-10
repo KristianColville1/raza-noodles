@@ -234,3 +234,13 @@ hr {
     margin-right: 5px;
 }
 
+.vertical-image {
+    position: relative;
+    bottom: 100px;
+}
+
+.align-text-vertical {
+    position: relative;
+    bottom: 50px;
+}
+
