@@ -130,8 +130,8 @@ hr {
     z-index: 2;
 
     /* animation for logo */
-    animation: logo-fade ease 5s;
-    animation-iteration-count: 3;
+    animation: logo-fade ease 2.5s;
+    animation-iteration-count: 4;
     animation-fill-mode: forwards;
 }
 
