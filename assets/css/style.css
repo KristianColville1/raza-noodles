@@ -27,14 +27,15 @@ hr {
 
 /* logo */
 
-#logo-container {
-    padding-left: 120px;
-}
-
-.logo {
-    height: 150px;
-    width: 150px;
+#logo-icon {
+    height: 60px;
+    width: 60px;
+    margin-left: 100px;
+    background: url('/assets/logo/logo_transparent.png') no-repeat center center;
+    background-size: 100px;
+    overflow: hidden;
     position: relative;
+    top: 10px;
 }
 
 /* navigation bar and links */
@@ -52,8 +53,10 @@ hr {
 
 #menu li {
     list-style-type: none;
-    padding: 0 15px;
+    padding-right: 15px;
     float: left;
+    position: relative;
+    bottom: 50px;
 }
 
 #menu a {
@@ -115,7 +118,7 @@ hr {
     height: 650px;
     background: url('/assets/images/hero-image.jpeg') no-repeat center center;
     position: relative;
-    top: 50px;
+    top: 100px;
     z-index: -1;
 }
 
