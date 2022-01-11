@@ -378,4 +378,13 @@ hr {
         left: auto;
         right: 18px;
     }
+
+    .social-media-links li {
+        font-size: 250%;
+        bottom: 80px;
+    }
+
+    .policy-links li {
+        bottom: 80px;
+    }
 }
