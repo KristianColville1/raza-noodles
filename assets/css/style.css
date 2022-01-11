@@ -388,3 +388,17 @@ hr {
         bottom: 80px;
     }
 }
+
+/*  screen sizing for medium screens 950px wide and down */
+@media  screen and (max-width: 950px) {
+    #menu {
+        font-size: 90%;
+    }
+
+    #menu li {
+        line-height: 90%;
+        letter-spacing: 1px;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+}
