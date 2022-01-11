@@ -167,7 +167,7 @@ hr {
 
 /* hero image button and icon */
 
-#button1 {
+#button-one {
     font-size: 200%;
     font-weight: 900;
     text-align: center;
@@ -267,7 +267,7 @@ hr {
     top: 500px;
 }
 
-#button2 {
+#button-two {
     font-size: 200%;
     font-weight: 900;
     text-align: center;
@@ -354,4 +354,28 @@ hr {
 
 #footer-container a:hover {
     color: #E1250A;
+}
+
+/* screen sizing for large to medium screens 1200px wide and down */
+
+@media screen and (max-width: 1200px){ 
+    #hero-image {
+        width: 100%;
+        height: 600px;
+    }
+
+    #logo-overlay {
+        background-size: 75%;
+    }
+
+    #about-section {
+        height: 700px;
+    }
+
+    div #button-two {
+        position: relative;
+        top: 150px;
+        left: auto;
+        right: 18px;
+    }
 }
