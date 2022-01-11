@@ -372,20 +372,25 @@ hr {
         height: 700px;
     }
 
-    div #button-two {
-        position: relative;
-        top: 150px;
-        left: auto;
-        right: 18px;
+    .left-about-content {
+        width: 80%;
+    }
+    
+    .right-about-content {
+        width: 80%;
+    }
+    
+    #button-two {
+       top: 100px;
     }
 
     .social-media-links li {
         font-size: 250%;
-        bottom: 80px;
+        bottom: 140px;
     }
 
     .policy-links li {
-        bottom: 80px;
+        bottom: 145px;
     }
 }
 
@@ -401,4 +406,33 @@ hr {
         padding-right: 10px;
         padding-top: 10px;
     }
+    
+    .left-about-content {
+        width: 80%;
+        float: right;
+        line-height: 25px;
+        clear: both;
+        position: relative;
+        top: 10px;
+    }
+    
+    .right-about-content {
+        width: 80%;
+        float: left;
+        line-height: 25px;
+        clear: both;
+        position: relative;
+        top: 10px;
+        left: 15px;
+    }
+
+    .social-media-links li {
+        font-size: 200%;
+        bottom: 50px;
+    }
+
+    .policy-links li {
+        bottom: 70px;
+    }
+
 }
