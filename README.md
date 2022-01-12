@@ -11,7 +11,7 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
 Users of the site are interested in Asian cuisine. They are hungry and crave the delicious noodles Raza Noodles can provide. The potential customer wants to know who Raza Noodles are, what dishes they offer, how to contact them and where they are based. 
 
 ## Site owner's goal
-Raza Noodles serves tasty noodle dishes. They want to be a part of the online community to acquire more customers. The owner wants people to see what Raza Noodles is all about, easily access the food menu, and have a way to contact them and know where they are based.
+Raza Noodles goal is to serve tasty noodle dishes. They want to be a part of the online community to acquire more customers. The site's owner wants people to see what Raza Noodles is all about, easily access the food menu, and have a way to contact them and know where they are based.
 
 ## Potential features to include
 - Responsivity for all device users
@@ -25,6 +25,44 @@ Raza Noodles serves tasty noodle dishes. They want to be a part of the online co
     - Clear details of the opening hours
     - A showcase of actual noodle dishes
     - Links to other sites owned by Raza Noodles
+
+## Using the five planes of UX design
+### Strategy
+It is not possible to compete for business solely on a local level. Companies have a plethora of resources at their disposal in this day and age. One of them is to compete online by having a website that can help a business stand out in the overcrowded world of fine dining. The number one goal of this website is to connect hungry customers with Raza Noodles Asian cuisine.
+
+The strategy:
+
+    - Research
+        - Check out the Market
+        - Observe the competition
+        - Find commonalities between the competition
+    - Goals to keep in mind
+        - A high level of design
+        - Contrasting images
+        - Fonts and sizes
+        - The responsivity for devices
+    - Navigation for the website
+        - Menu bar
+        - Ease of access
+        - Digestible content
+    - Different web pages for content
+        - Home page
+        - Food menu
+        - Contact page
+        - Gallery showcasing food
+        - Policy pages for terms, privacy and cookies
+    - Relevant sections
+        - Address and location
+        - About Raza Noodles
+        - Opening Hours
+        - Footer with links to external pages
+    - Downloadable content
+        - Food menu
+
+### Scope
+### Structure
+### Skeleton
+### Surface
 
 ## Existing Features
 Current features.
