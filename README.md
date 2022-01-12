@@ -27,13 +27,10 @@ The theme of this website is Asian Cuisine with a focus on noodles. There are ma
 *User type four: People generally interested in noodles*
 
 ## User Stories
-### Guest users
--As a guest user I want to be able to browse the website.
--As a guest user I want to be able to 
--As a guest user I want to be able 
--As a guest user I want to be able 
--As a guest user I want to be able 
--As a guest user I want to be able 
+### Potential Customer
+
+
+
 ### Repeat customers
 ## External user's goal
 Users of the site are interested in Asian cuisine. They are hungry and crave the delicious noodles Raza Noodles can provide. The potential customer wants to know who Raza Noodles are, what dishes they offer, how to contact them and where they are based. 
