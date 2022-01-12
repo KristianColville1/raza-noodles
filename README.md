@@ -5,8 +5,21 @@ Raza Noodles is a noodle restaurant located in county Dublin, which serves delic
 
 Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/).
 
-# Features
+# Table of Contents
+* [UX](#ux)
+    * [External user's goal](#external-users-goal)
+    * [Site owner's goal](#site-owners-goal)
+    * [Potential features to include](#potential-features-to-include)
+    * [Using the five planes of UX design](#using-the-five-planes-of-ux-design)
+* [Features](#features)
+* [Features](#features)
+* [Features](#features)
+* [Features](#features)
+* [Features](#features)
+* [Features](#features)
 
+# UX
+## User Stories
 ## External user's goal
 Users of the site are interested in Asian cuisine. They are hungry and crave the delicious noodles Raza Noodles can provide. The potential customer wants to know who Raza Noodles are, what dishes they offer, how to contact them and where they are based. 
 
@@ -54,8 +67,24 @@ The strategy:
         - Address and contact number need to be on the landing page no matter what.
 
 ### Scope
-Bringing reality inline with content is difficult. These are the current targets of the website.
+It is difficult for a developer to balance reality and content. This table ranks the design of elements 1 through 6 in order of importance. The most important is one, and the least important is six.
+My potential design elements are important, but categorizing them is a useful way of completing them for the website's user.
 
+| Features: | Users score: | Raza Noodles score: | Difference |
+| --- | --- | --- | --- |
+| Branding logo | 4 | 1 | 3 |
+| Landing page | 1 | 1 | 0 |
+| Food Menu | 1 | 1 | 0 |
+| Address | 2 | 1 | 1 |
+| Contact Number | 2 | 1 | 1 |
+| About section | 2 | 3 | 1 |
+| Opening Hours Section | 1 | 2 | 1 |
+| Internal links | 2 | 3 | 1 |
+| external links | 6 | 1 | 1 |
+
+
+### Structure
+These are the current structure targets of the website.
 Targets: 
 
     - Navigation for the website
@@ -76,9 +105,13 @@ Targets:
     - Downloadable content
         - Food menu.
 
-### Structure
+
 ### Skeleton
 ### Surface
+
+[Back to top](#table-of-contents)
+# Features
+
 
 ## Existing Features
 Current features.
@@ -88,10 +121,13 @@ Aspirations for this website.
 
 
 # Testing
+[Back to top](#table-of-contents)
 ### Validator testing
 
+# Version Control
 
 # Deployment
+[Back to top](#table-of-contents)
 When I finished the homepage for Raza Noodles, I looked for a way to deploy the website. As a deployment solution, I chose the version control system GitHub. They have an excellent resource called GitHub pages that allows developers to visually inspect how their website would look on a cloud platform.
 
 1. To begin, I went to the repository and selected 'settings.'
