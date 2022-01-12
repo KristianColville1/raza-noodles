@@ -15,17 +15,26 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
 * [Features](#features)
 * [Testing](#features)
 * [Deployment](#features)
-* [Features](#features)
+* [Credits](#credits)
 * [Features](#features)
 * [Features](#features)
 
 # UX
 The theme of this website is Asian Cuisine with a focus on noodles. There are many types of users this may appeal to:
 *User type one: Customers interested in a dine-in experience.*
-*User type two: People interested in Asian cuisine*
-*User type three: People generally interested in noodles*
+*User type two: Those interested with take-away food.*
+*User type three: People interested in Asian cuisine*
+*User type four: People generally interested in noodles*
 
 ## User Stories
+### Guest users
+-As a guest user I want to be able to browse the website.
+-As a guest user I want to be able to 
+-As a guest user I want to be able 
+-As a guest user I want to be able 
+-As a guest user I want to be able 
+-As a guest user I want to be able 
+### Repeat customers
 ## External user's goal
 Users of the site are interested in Asian cuisine. They are hungry and crave the delicious noodles Raza Noodles can provide. The potential customer wants to know who Raza Noodles are, what dishes they offer, how to contact them and where they are based. 
 
@@ -135,7 +144,7 @@ Aspirations for this website.
 # Version Control
 
 # Deployment
-[Back to top](#table-of-contents)
+
 When I finished the homepage for Raza Noodles, I looked for a way to deploy the website. As a deployment solution, I chose the version control system GitHub. They have an excellent resource called GitHub pages that allows developers to visually inspect how their website would look on a cloud platform.
 
 1. To begin, I went to the repository and selected 'settings.'
@@ -144,6 +153,7 @@ When I finished the homepage for Raza Noodles, I looked for a way to deploy the 
 4. I ensured that it was deployed from the 'root' directory.
 5. Once completed, I got the website's URL.
 
+[Back to top](#table-of-contents)
 # Credits
 
 ## Content
