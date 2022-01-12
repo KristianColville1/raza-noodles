@@ -261,6 +261,7 @@ hr {
     height: 720px;
     width: 100%;
     background: url('/images/background.jpeg') no-repeat center center;
+    background-color: #57556D;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
