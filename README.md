@@ -1,13 +1,11 @@
-![logo_transparent](https://user-images.githubusercontent.com/95403588/148655256-bd6af69c-734b-4708-a101-237045cf8a3e.png){width=150px}
+![Image_of_logo](/assets/logo/logo.png)
 
-## Raza Noodles
-About.
+# Raza Noodles
+Raza Noodles is a noodle restaurant located in county Dublin, which serves delicious Asian cuisine with a noodle focus. We have talented chefs from all over the world whose goal is to provide an exceptional flavorful experience. We take pride in serving the Irish customer with an experience unlike any other.
 
+Heres a link to the [website](index.html).
 
-## Process
-Methodology. Everything that helped towards the final project result.
-
-## Features
+# Features
 ### Existing Features
 
 
@@ -24,7 +22,7 @@ Aspirations for this website.
 ## Credits
 
 ### Content
-### The logo
+#### The logo
 
 I created the branding and logo with help from here [link to hatchful.shopify.com](https://hatchful.shopify.com/)
 
