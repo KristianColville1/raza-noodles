@@ -7,7 +7,7 @@
 }
 
 body {
-    font-size: 110%;
+    font-size: 1rem;
     font-family: 'Luxurious Roman', cursive;
     color: #FFEDCF;
     background-color: black;
@@ -15,10 +15,11 @@ body {
 
 h1, h2, h3 {
     font-family: 'Rock Salt', cursive;
+
 }
 
-h3 {
-    font-size: 150%;
+h1 {
+    font-size: 2rem;
 }
 
 hr {
@@ -103,7 +104,7 @@ hr {
 
 .download-content a {
     font-size: initial;
-    padding: 5px 5px;
+    padding: 5px;
     text-decoration: none;
     display: block;
 }
