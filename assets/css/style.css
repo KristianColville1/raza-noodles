@@ -26,6 +26,13 @@ hr {
     border: 2px solid #F79F24;
 }
 
+/* Home section */
+
+header {
+    height: 100px;
+    width: 100%;
+}
+
 /* logo */
 
 .logo-icon {
@@ -207,7 +214,9 @@ hr {
 /* about section */
 
 #about-section {
-    height: 800px;
+    height: 1200px;
+    width: 100%;
+    background-color: aquamarine;
 }
 
 .left-about {
@@ -267,7 +276,6 @@ hr {
     background-attachment: fixed;
     background-size: cover;
     position: relative;
-    top: 500px;
 }
 
 #button-two {
@@ -288,14 +296,6 @@ hr {
 .left-opening {
     width: 50%;
     float: left;
-}
-
-#google-maps {
-    width: 50%;
-    height: 250px;
-    align-content: center;
-    position: relative;
-    float: right;
 }
 
 .center-text {
@@ -322,6 +322,15 @@ hr {
     height: 10px;
     background-color: #F79F24;
     position: relative;
+}
+/* locations section */
+
+#location-section {
+    height: 550px;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+    z-index: 6;
 }
 
 /* footer */
