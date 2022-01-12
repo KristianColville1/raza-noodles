@@ -28,38 +28,54 @@ Raza Noodles goal is to serve tasty noodle dishes. They want to be a part of the
 
 ## Using the five planes of UX design
 ### Strategy
-It is not possible to compete for business solely on a local level. Companies have a plethora of resources at their disposal in this day and age. One of them is to compete online by having a website that can help a business stand out in the overcrowded world of fine dining. The number one goal of this website is to connect hungry customers with Raza Noodles Asian cuisine.
+It is not possible to compete for business solely on a local level. Companies have a plethora of resources at their disposal in this day and age. One of them is to compete online by having a website that can help a business stand out in the overcrowded world of fine dining.
+
+- Build Raza Noodles a website to connect them with customers so they can experience their Asian cuisine.
+- We can address the needs of users by having a website to browse and having relevant content.
 
 The strategy:
 
-    - Research
-        - Check out the Market
-        - Observe the competition
-        - Find commonalities between the competition
-    - Goals to keep in mind
-        - A high level of design
-        - Contrasting images
-        - Fonts and sizes
-        - The responsivity for devices
-    - Navigation for the website
-        - Menu bar
-        - Ease of access
-        - Digestible content
-    - Different web pages for content
-        - Home page
-        - Food menu
-        - Contact page
-        - Gallery showcasing food
-        - Policy pages for terms, privacy and cookies
-    - Relevant sections
-        - Address and location
-        - About Raza Noodles
-        - Opening Hours
-        - Footer with links to external pages
-    - Downloadable content
-        - Food menu
+    - Research:
+        - Check out the Market.
+        - Observe the competition.
+        - Find commonalities between the competition.
+
+    - Goals to keep in mind for the website:
+        - A high level of design.
+        - Contrasting images.
+        - Fonts and sizes.
+        - The responsivity for devices.
+
+    - Outcomes after research:
+        - A food menu is top priority.
+        - Gallery page is a must have.
+        - Don't distract the customer with the background.
+        - Images need to be carefully selected for quality.
+        - Address and contact number need to be on the landing page no matter what.
 
 ### Scope
+Bringing reality inline with content is difficult. These are the current targets of the website.
+
+Targets: 
+
+    - Navigation for the website
+        - Menu bar.
+        - Ease of access.
+        - Digestible content.
+    - Different web pages for content
+        - Home page.
+        - Food menu.
+        - Contact page.
+        - Gallery page showcasing food.
+        - Policy pages for terms, privacy and cookies.
+    - Relevant sections
+        - Address and location.
+        - About Raza Noodles.
+        - Opening Hours.
+        - Footer with links to external pages.
+    - Downloadable content
+        - Food menu.
+
 ### Structure
 ### Skeleton
 ### Surface
@@ -78,11 +94,11 @@ Aspirations for this website.
 # Deployment
 When I finished the homepage for Raza Noodles, I looked for a way to deploy the website. As a deployment solution, I chose the version control system GitHub. They have an excellent resource called GitHub pages that allows developers to visually inspect how their website would look on a cloud platform.
 
-    1. Firstly, I went to the repository and clicked on 'settings'.
-    2. Navigated to the 'pages' section.
-    3. Under 'source' I selected the master branch as 'main'.
-    4. Made sure it was deployed using the 'root' directory.
-    5. Once completed I was then given the url for the website.
+1. To begin, I went to the repository and selected 'settings.'
+2. I went to the 'pages' section.
+3. I chose the master branch as the 'main' branch under 'source.'
+4. I ensured that it was deployed from the 'root' directory.
+5. Once completed, I got the website's URL.
 
 # Credits
 
