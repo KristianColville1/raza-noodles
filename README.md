@@ -104,7 +104,15 @@ When I finished the homepage for Raza Noodles, I looked for a way to deploy the 
 
 ## Content
 ### The logo
-I created the branding and logo with help from here [hatchful.shopify.com](https://hatchful.shopify.com/)
+I created the branding logo with help from here [hatchful.shopify.com](https://hatchful.shopify.com/).
+I tried to keep in mind that this was an Asian style restaurant and chose the appropriate design for the logo after careful consideration.
+The logo features an icon that intuitively shows a bowl of noodles and chopsticks.
 
-### Media
+### Icons
+All of the icons were sourced from [fontawsome](https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free)
+
+### Fonts
+Google has a wide varity of free fonts for use. I chose two fonts for my projects from [here](https://fonts.google.com/)
+
+## Media
 
