@@ -290,11 +290,19 @@ hr {
     float: left;
 }
 
+#google-maps {
+    width: 50%;
+    height: 250px;
+    align-content: center;
+    position: relative;
+    float: right;
+}
+
 .center-text {
     font-size: 220%;
     text-align: center;
     position: relative;
-    bottom: 280px;
+    bottom: 150px;
 }
 
 .red-text {
