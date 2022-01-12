@@ -7,18 +7,24 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
 
 # Table of Contents
 * [UX](#ux)
+    * [User Stories](#user-stories)
     * [External user's goal](#external-users-goal)
     * [Site owner's goal](#site-owners-goal)
     * [Potential features to include](#potential-features-to-include)
     * [Using the five planes of UX design](#using-the-five-planes-of-ux-design)
 * [Features](#features)
-* [Features](#features)
-* [Features](#features)
+* [Testing](#features)
+* [Deployment](#features)
 * [Features](#features)
 * [Features](#features)
 * [Features](#features)
 
 # UX
+The theme of this website is Asian Cuisine with a focus on noodles. There are many types of users this may appeal to:
+*User type one: Customers interested in a dine-in experience.*
+*User type two: People interested in Asian cuisine*
+*User type three: People generally interested in noodles*
+
 ## User Stories
 ## External user's goal
 Users of the site are interested in Asian cuisine. They are hungry and crave the delicious noodles Raza Noodles can provide. The potential customer wants to know who Raza Noodles are, what dishes they offer, how to contact them and where they are based. 
@@ -110,6 +116,7 @@ Targets:
 ### Surface
 
 [Back to top](#table-of-contents)
+
 # Features
 
 
@@ -122,6 +129,7 @@ Aspirations for this website.
 
 # Testing
 [Back to top](#table-of-contents)
+
 ### Validator testing
 
 # Version Control
