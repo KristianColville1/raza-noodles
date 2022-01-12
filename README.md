@@ -40,10 +40,10 @@ Aspirations for this website.
 # Deployment
 When I finished the homepage for Raza Noodles, I looked for a way to deploy the website. As a deployment solution, I chose the version control system GitHub. They have an excellent resource called GitHub pages that allows developers to visually inspect how their website would look on a cloud platform.
 
-    1. Firstly, I went to the repository and clicked on settings.
-    2. Navigated to the pages section.
-    3. Under source I selected the master branch as main.
-    4. Made sure it was deployed using the root directory.
+    1. Firstly, I went to the repository and clicked on 'settings'.
+    2. Navigated to the 'pages' section.
+    3. Under 'source' I selected the master branch as 'main'.
+    4. Made sure it was deployed using the 'root' directory.
     5. Once completed I was then given the url for the website.
 
 # Credits
