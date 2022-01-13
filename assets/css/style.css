@@ -33,7 +33,6 @@ hr {
     width: 100%;
     background-color: black;
     display: inline-block;
-    margin: 0 auto;
     position: relative;
     z-index: 3;
 }
@@ -159,24 +158,9 @@ hr {
     overflow: hidden;
 
     /* animation for logo */
-    animation: logo-fade ease 2.5s;
-    animation-iteration-count: 4;
+    animation: logo-fade ease 4s;
+    animation-iteration-count: 1;
     animation-fill-mode: forwards;
-}
-
-/* address and phone number */
-
-#address-phone {
-    text-align: center;
-}
-
-#address-phone li {
-    color: black;
-    font-size: 2.5rem;
-    font-weight: 900;
-    list-style-type: none;
-    position: relative;
-    top: 560px;
 }
 
 /* animation for logo */
@@ -190,18 +174,37 @@ hr {
     }
 }
 
-.button-container {
-    height: 100px;
+/* address and phone number */
+
+#address-phone {
+    height: 10vh;
+    width: 100%;
+    margin: opx;
+    text-align: center;
+    display: flexbox;
+    background-color: black;
+    position: absolute;
+    bottom: 18vh;
+}
+
+#address-phone li {
+    color: #FFEDCF;
+    font-size: 2.5rem;
+    font-weight: 900;
+    list-style-type: none;
+}
+
+.button-one-container {
+    height: 5vh;
     width: 100%;
     text-align: center;
-    align-content: center;
-    position: relative;
+    position: absolute;
+    bottom: 25vh;
 }
 
 #button-one {
     font-size: 2rem;
     font-weight: 900;
-    text-align: center;
     width: 50px;
     height: 50px;
     background-color: #FFEDCF;
@@ -209,7 +212,6 @@ hr {
     border: 1px solid black;
     border-radius: 50%;
     position: relative;
-    top: 520px;
 }
 
 #button-one:hover {
