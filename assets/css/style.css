@@ -514,3 +514,14 @@ hr {
         height: 1300px;
     }
 }
+
+/* screen sizing for small screens 450px wide and down */
+@media  screen and (max-width: 450px) {
+    #about-section {
+        height: 1400px;
+    }
+
+    #opening-hours-section {
+        height: 750px;
+    }
+}
