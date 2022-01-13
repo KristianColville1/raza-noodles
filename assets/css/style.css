@@ -442,6 +442,7 @@ hr {
     #button-one {
         top: 580px;
     }
+
 }
 
 /* screen sizing for large to medium screens 1280px wide and down */
@@ -449,20 +450,39 @@ hr {
 @media screen and (max-width: 1280px){ 
     .hero-background {
         height: 600px;
+    }
 
+    #logo-overlay {
+        height: 600px;
     }
 
     #address-phone li {
-        bottom: 100px;
+        top: 100px;
+    }
+
+    #address-phone li {
+        top: 520px;
     }
 
     #button-one {
-        bottom: 100px;
+        top: 480px;
     }
 
     #about-section {
-        height: 1100px;
-        top:0;
+        height: 1300px;
+        top: 10px;
+    }
+
+    .right-about-content {
+        width: 80%;
+        line-height: 30px;
+        font-size: 1rem;
+    }
+
+    .left-about-content {
+        width: 80%;
+        line-height: 30px;
+        font-size: 1rem;
     }
 
     .social-media-links li {
