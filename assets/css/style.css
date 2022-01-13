@@ -302,7 +302,7 @@ hr {
     align-content: center;
     background: url('../images/background.jpeg') no-repeat center center;
     background-color: #57556D;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -411,8 +411,30 @@ hr {
 
 /*  screen sizing for medium screens 1100px wide and down */
 @media  screen and (max-width: 1100px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    #opening-hours-section {
+        height: 700px;
+    }
+    
     #button-two {
         left: auto;
     }
 
 }
+
+/* screen sizing for medium screens 920px wide and down */
+@media  screen and (max-width: 920px) {
+    #opening-hours-section {
+        height: 625px;
+    }
+
+    .center-text {
+        font-size: 2rem;
+        text-align: center;
+        position: relative;
+    }
+}
+
