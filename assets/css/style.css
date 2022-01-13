@@ -29,12 +29,13 @@ hr {
 /* Home section */
 
 #home-section {
-    height: 2rem;
+    height: 10vh;
     width: 100%;
+    background-color: black;
     display: inline-block;
     margin: 0 auto;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 /* logo */
@@ -130,13 +131,19 @@ hr {
 /* hero image with logo overlayed */
 #landing-logo {
     width: 100%;
-    height: 800px;
+    height: 90vh;
+}
+
+#hero-bg-container {
+    height: 75vh;
+    width: 100%;
+    position: relative;
 }
 
 .hero-background {
     width: 100%;
-    height: 800px;
-    display: inline;
+    height: 65vh;
+    display: inline-block;
     position: absolute;
     overflow: hidden;
     z-index: -1;
@@ -144,11 +151,13 @@ hr {
 
 #logo-overlay {
     width: 100%;
-    height: 800px;
+    height: 65vh;
+    align-content: center;
+    display: inline-block;
     background: url('../logo/logo_transparent.png') no-repeat center center;
-    background-size: 60%;
     position: absolute;
-    bottom: 100px;
+    overflow: hidden;
+
     /* animation for logo */
     animation: logo-fade ease 2.5s;
     animation-iteration-count: 4;
@@ -309,10 +318,12 @@ hr {
     background-color: #57556D;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
 }
 
 .center {
     width: 100%;
+    align-content: center;
 }
 
 .center-text {
@@ -343,7 +354,7 @@ hr {
 /* footer */
 
 #footer-container {
-    max-height: 150px;
+    height: 15vh;
     width: 98%;
     align-content: center;
     text-align: center;
@@ -380,20 +391,4 @@ hr {
 
 #footer-container a:hover {
     color: #E1250A;
-}
-
-/*  screen sizing for large to medium screens 1440px wide and down */
-@media screen and (max-width: 1440px){ 
-    #menu {
-        font-size: 1rem;
-    }
-
-    #address-phone li {
-        top: 580px;
-    }
-
-    #button-one {
-        top: 540px;
-    }
-
 }
