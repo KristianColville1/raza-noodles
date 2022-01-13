@@ -223,7 +223,7 @@ hr {
 /* about section and button */
 
 #about-section {
-    height: 1400px;
+    height: 1500px;
     width: 100%;
     position: relative;
     top: 225px;
@@ -240,7 +240,7 @@ hr {
 }
 
 .left-about-content {
-    width: 50%;
+    width: 60%;
     float: right;
     margin-top: 10px;
     line-height: 25px;
@@ -249,7 +249,7 @@ hr {
 }
 
 .right-about-content {
-    width: 50%;
+    width: 60%;
     float: left;
     margin-top: 10px;
     line-height: 25px;
@@ -265,7 +265,6 @@ hr {
 .medium-image {
     height: 100%;
     width: 100%;
-    border-radius: 5%;
     position: relative;
 }
 
