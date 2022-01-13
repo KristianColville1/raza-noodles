@@ -290,20 +290,20 @@ hr {
     left: 50%;
 }
 
+#button-two:hover {
+    background-color: #E1250A;
+}
+
 /* Opening hours section */
 
 #opening-hours-section {
     height: 900px;
     width: 100%;
     align-content: center;
-    background: url('../images/background.jpeg');
+    background: url('../images/background.jpeg') no-repeat center center;
     background-color: #57556D;
     background-size: contain;
     background-attachment: fixed;
-}
-
-#button-two:hover {
-    background-color: #E1250A;
 }
 
 .center {
@@ -409,45 +409,10 @@ hr {
     }
 }
 
-/*  screen sizing for medium screens 950px wide and down */
-@media  screen and (max-width: 950px) {
-    #menu {
-        font-size: 90%;
-    }
-
-    #menu li {
-        line-height: 90%;
-        letter-spacing: 1px;
-        padding-right: 10px;
-        padding-top: 10px;
-    }
-    
-    .left-about-content {
-        width: 80%;
-        float: right;
-        line-height: 25px;
-        clear: both;
-        position: relative;
-        top: 10px;
-    }
-    
-    .right-about-content {
-        width: 80%;
-        float: left;
-        line-height: 25px;
-        clear: both;
-        position: relative;
-        top: 10px;
-        left: 15px;
-    }
-
-    .social-media-links li {
-        font-size: 200%;
-        bottom: 50px;
-    }
-
-    .policy-links li {
-        bottom: 70px;
+/*  screen sizing for medium screens 1100px wide and down */
+@media  screen and (max-width: 1100px) {
+    #button-two {
+        left: auto;
     }
 
 }
