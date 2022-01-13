@@ -183,7 +183,7 @@ hr {
 /* hero image button and icon */
 
 #button-one {
-    font-size: 200%;
+    font-size: 2rem;
     font-weight: 900;
     text-align: center;
     width: 50px;
@@ -377,41 +377,35 @@ hr {
     color: #E1250A;
 }
 
-/* screen sizing for large to medium screens 1200px wide and down */
+/* screen sizing for large to medium screens 1280px wide and down */
 
-@media screen and (max-width: 1200px){ 
-    #hero-image {
-        width: 100%;
+@media screen and (max-width: 1280px){ 
+    .hero-background {
         height: 600px;
+
     }
 
-    #logo-overlay {
-        background-size: 75%;
+    #address-phone li {
+        bottom: 100px;
+    }
+
+    #button-one {
+        bottom: 100px;
     }
 
     #about-section {
-        height: 700px;
+        height: 1100px;
+        width: 100%;
+        position: relative;
+        top:0;
     }
 
-    .left-about-content {
-        width: 80%;
-    }
-    
-    .right-about-content {
-        width: 80%;
-    }
-    
     #button-two {
-       top: 100px;
+        top: 0px;
     }
 
     .social-media-links li {
-        font-size: 250%;
-        bottom: 140px;
-    }
-
-    .policy-links li {
-        bottom: 145px;
+        font-size: 2rem;
     }
 }
 
