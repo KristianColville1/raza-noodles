@@ -510,6 +510,18 @@ hr {
 }
 
 /* screen sizing for medium screens 920px wide and down */
+
+@media  screen and (max-width: 1024px) {
+    #address-phone li {
+        font-size: 2rem;
+    }
+
+    #button-one {
+        top: 510px;
+    }
+}
+/* screen sizing for medium screens 920px wide and down */
+
 @media  screen and (max-width: 920px) {
     #address-phone li {
         font-size: 2rem;
