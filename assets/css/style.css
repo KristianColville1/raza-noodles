@@ -163,7 +163,7 @@ hr {
 
 #address-phone li {
     color: black;
-    font-size: 200%;
+    font-size: 2.5rem;
     font-weight: 900;
     list-style-type: none;
     position: relative;
@@ -200,7 +200,7 @@ hr {
     border: 1px solid black;
     border-radius: 50%;
     position: relative;
-    top: 540px;
+    top: 520px;
 }
 
 #button-one:hover {
