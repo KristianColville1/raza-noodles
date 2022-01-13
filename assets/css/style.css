@@ -293,8 +293,9 @@ hr {
 /* Opening hours section */
 
 #opening-hours-section {
-    height: 720px;
+    height: 900px;
     width: 100%;
+    align-content: center;
     background: url('../images/background.jpeg');
     background-color: #57556D;
     background-size: contain;
@@ -305,16 +306,14 @@ hr {
     background-color: #E1250A;
 }
 
-.left-opening {
-    width: 50%;
-    float: left;
+.center {
+    width: 100%;
 }
 
 .center-text {
-    font-size: 220%;
+    font-size: 3rem;
     text-align: center;
     position: relative;
-    bottom: 150px;
 }
 
 .red-text {
@@ -335,15 +334,6 @@ hr {
     background-color: #F79F24;
     position: relative;
 }
-/* locations section */
-
-#location-section {
-    height: 550px;
-    width: 100%;
-    background-color: aqua;
-    position: absolute;
-    z-index: 6;
-}
 
 /* footer */
 
@@ -352,6 +342,7 @@ hr {
     width: 100%;
     background-color: #F79F24;
     position: fixed;
+    z-index: 4;
     bottom: 0px;
 }
 
