@@ -392,17 +392,17 @@ hr {
     }
     
     #logo-overlay {
-        height: 900px;
+        height: 850px;
     }
 
     #address-phone li {
         color: #E1250A;
         font-size: 3rem;
-        top: 720px;
+        top: 700px;
     }
 
     #button-one {
-        top: 750px;
+        top: 680px;
     }
 
     #about-section {
@@ -509,7 +509,7 @@ hr {
     }
 }
 
-/* screen sizing for medium screens 920px wide and down */
+/* screen sizing for medium screens 1024px wide and down */
 
 @media  screen and (max-width: 1024px) {
     #address-phone li {
