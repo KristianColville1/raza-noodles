@@ -275,10 +275,17 @@ hr {
     top: 15px;
 }
 
+#button-container {
+    max-height: 100px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    position: relative;
+}
+
 #button-two {
     font-size: 200%;
     font-weight: 900;
-    text-align: center;
     width: 50px;
     height: 50px;
     background-color: #FFEDCF;
@@ -286,8 +293,7 @@ hr {
     border: 1px solid black;
     border-radius: 50%;
     position: relative;
-    top: 80px;
-    left: 50%;
+    bottom: 100px;
 }
 
 #button-two:hover {
@@ -418,11 +424,6 @@ hr {
     #opening-hours-section {
         height: 700px;
     }
-    
-    #button-two {
-        left: auto;
-    }
-
 }
 
 /* screen sizing for medium screens 920px wide and down */
@@ -442,5 +443,24 @@ hr {
 @media  screen and (max-width: 850px) {
     #menu {
         padding-right: 10px;
+    }
+}
+
+/* screen sizing for medium to small screens 790px wide and down */
+@media  screen and (max-width: 790px) {
+    .left-logo {
+        left: 0px;
+    }
+
+    #menu {
+        padding-right: 0;
+    }
+
+    .left-about-content {
+        width: 80%;
+    }
+    
+    .right-about-content {
+        width: 80%;
     }
 }
