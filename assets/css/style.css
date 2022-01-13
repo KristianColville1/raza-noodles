@@ -143,12 +143,11 @@ hr {
 
 #logo-overlay {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background: url('../logo/logo_transparent.png') no-repeat center center;
-    background-size: 55%;
-    position: relative;
-    z-index: 1;
-
+    background-size: 80%;
+    position: absolute;
+    top: 50px;
     /* animation for logo */
     animation: logo-fade ease 2.5s;
     animation-iteration-count: 4;
@@ -162,11 +161,12 @@ hr {
 }
 
 #address-phone li {
-    color: #FFEDCF;
+    color: black;
     font-size: 200%;
     font-weight: 900;
     list-style-type: none;
     position: relative;
+    top: 480px;
 }
 
 /* animation for logo */
@@ -201,6 +201,7 @@ hr {
     border: 1px solid black;
     border-radius: 50%;
     position: relative;
+    top: 480px;
 }
 
 #button-one:hover {
@@ -344,7 +345,9 @@ hr {
 
 #footer-container {
     max-height: 150px;
-    width: 100%;
+    width: 98%;
+    align-content: center;
+    text-align: center;
     background-color: #F79F24;
     position: fixed;
     z-index: 4;
@@ -358,7 +361,6 @@ hr {
 
 .social-media-links {
     list-style-type: none;
-    text-align: center;
 }
 
 .social-media-links li {
@@ -370,7 +372,6 @@ hr {
 
 .policy-links {
     list-style-type: none;
-    text-align: center;
 }
 
 .policy-links li {
@@ -439,6 +440,14 @@ hr {
     #menu {
         padding-right: 10px;
     }
+
+    .left-about-content {
+        width: 80%;
+    }
+    
+    .right-about-content {
+        width: 80%;
+    }
 }
 
 /* screen sizing for medium to small screens 790px wide and down */
@@ -449,13 +458,5 @@ hr {
 
     #menu {
         padding-right: 0;
-    }
-
-    .left-about-content {
-        width: 80%;
-    }
-    
-    .right-about-content {
-        width: 80%;
     }
 }
