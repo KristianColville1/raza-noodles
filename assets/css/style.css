@@ -219,13 +219,13 @@ hr {
     }
 }
 
-/* about section */
+/* about section and button */
 
 #about-section {
-    height: 1200px;
+    height: 1400px;
     width: 100%;
-    background-color: aquamarine;
     position: relative;
+    top: 225px;
 }
 
 .left-about {
@@ -275,17 +275,6 @@ hr {
     top: 15px;
 }
 
-/* Opening hours section and button */
-
-#opening-hours-section {
-    height: 720px;
-    width: 100%;
-    background: url('../images/background.jpeg');
-    background-color: #57556D;
-    background-size: contain;
-    background-attachment: fixed;
-}
-
 #button-two {
     font-size: 200%;
     font-weight: 900;
@@ -297,7 +286,19 @@ hr {
     border: 1px solid black;
     border-radius: 50%;
     position: relative;
+    top: 80px;
     left: 50%;
+}
+
+/* Opening hours section */
+
+#opening-hours-section {
+    height: 720px;
+    width: 100%;
+    background: url('../images/background.jpeg');
+    background-color: #57556D;
+    background-size: contain;
+    background-attachment: fixed;
 }
 
 #button-two:hover {
