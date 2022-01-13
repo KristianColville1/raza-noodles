@@ -511,6 +511,14 @@ hr {
 
 /* screen sizing for medium screens 920px wide and down */
 @media  screen and (max-width: 920px) {
+    #address-phone li {
+        font-size: 2rem;
+    }
+
+    #button-one {
+        top: 500px;
+    }
+
     #opening-hours-section {
         height: 625px;
     }
