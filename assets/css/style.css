@@ -195,6 +195,10 @@ hr {
     left: 50%;
 }
 
+#button-one:hover {
+    background-color: #E20049;
+}
+
 .scroll-icon {
     color: black;
     position: relative;
@@ -294,6 +298,10 @@ hr {
     border-radius: 50%;
     position: relative;
     left: 50%;
+}
+
+#button-two:hover {
+    background-color: #E20049;
 }
 
 .left-opening {
