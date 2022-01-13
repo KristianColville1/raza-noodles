@@ -381,3 +381,19 @@ hr {
 #footer-container a:hover {
     color: #E1250A;
 }
+
+/*  screen sizing for large to medium screens 1440px wide and down */
+@media screen and (max-width: 1440px){ 
+    #menu {
+        font-size: 1rem;
+    }
+
+    #address-phone li {
+        top: 580px;
+    }
+
+    #button-one {
+        top: 540px;
+    }
+
+}
