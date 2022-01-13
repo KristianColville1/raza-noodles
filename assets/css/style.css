@@ -462,7 +462,7 @@ hr {
     }
 }
 
-/* screen sizing for medium to small screens 790px wide and down */
+/* screen sizing for medium to small screens 720px wide and down */
 @media  screen and (max-width: 720px) {
     #menu ul {
         top: 30px;
@@ -472,5 +472,25 @@ hr {
     #menu li {
         bottom: 20px;
         float: left;
+    }
+}
+
+/* screen sizing for small screens 690px wide and down */
+@media  screen and (max-width: 690px) {
+    .hero-background {
+        height: 500px;
+    }
+
+    #menu {
+        display: inline-block;
+        position: relative;
+    }
+
+    #address-phone li {
+        top: 400px;
+    }
+
+    #button-one {
+        top: 380px;
     }
 }
