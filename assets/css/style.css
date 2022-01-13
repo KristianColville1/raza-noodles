@@ -402,8 +402,6 @@ hr {
 
     #about-section {
         height: 1100px;
-        width: 100%;
-        position: relative;
         top:0;
     }
 
@@ -492,5 +490,20 @@ hr {
 
     #button-one {
         top: 380px;
+    }
+}
+
+/* screen sizing for small screens 560px wide and down */
+@media  screen and (max-width: 560px) {
+    #landing-logo {
+        height: 550px;
+    }
+
+    .hero-background {
+        height: 400px;
+    }
+
+    #about-section {
+        height: 1200px;
     }
 }
