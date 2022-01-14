@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Rock+Salt&display=swap');
 
 * {
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0;
     border: none;
 }
 
@@ -179,9 +179,7 @@ hr {
 #address-phone {
     height: 10vh;
     width: 100%;
-    margin: opx;
     text-align: center;
-    display: flexbox;
     background-color: black;
     position: absolute;
     bottom: 18vh;
@@ -417,4 +415,17 @@ hr {
     position: relative;
     z-index: -1;
     bottom: 0px;
+}
+
+/* Responsive screen sizing */
+
+/* For large to medium screens 1440px wide and down */
+
+@media  screen and (max-width: 1440px) {
+    #about-section {
+        height: 122vh;
+        width: 100%;
+        position: relative;
+        bottom: 10vh;
+    }
 }
