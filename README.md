@@ -33,6 +33,7 @@ The theme of this website is Asian Cuisine with a focus on noodles. There are ma
 - As a user I want to see the foods on offer.
 - As a user I need to able find Raza Noodles on other sites.
 - As a user I would like different forms of contacting Raza Noodles.
+- As a user I would like to know more about Raza Noodles.
 
 ## External user's goal
 Users of the site are interested in Asian cuisine. They are hungry and crave the delicious noodles Raza Noodles can provide. The potential customer wants to know who Raza Noodles are, what dishes they offer, how to contact them and where they are based. 
@@ -109,6 +110,9 @@ Targets:
         - Home page.
         - Food menu.
         - Contact page.
+            - Contact details.
+            - Map for location.
+            - Reservations.
         - Gallery page showcasing food.
         - Policy pages for terms, privacy and cookies.
     - Relevant sections
@@ -118,6 +122,7 @@ Targets:
         - Footer with links to external pages.
     - Downloadable content
         - Food menu.
+        - Wine list.
 
 
 ### Skeleton
