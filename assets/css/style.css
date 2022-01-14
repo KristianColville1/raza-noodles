@@ -335,15 +335,11 @@ hr {
     position: relative;
 }
 
-.center {
-    width: 100%;
-    align-content: center;
-}
-
 .center-text {
+    width: 100%;
     font-size: 3rem;
     text-align: center;
-    position: relative;
+    position: absolute;
 }
 
 .red-text {
@@ -435,5 +431,17 @@ hr {
 
     .sc-two-outer{
         top: 105vh;
+    }
+}
+
+/* For medium screens 768px wide and down */
+
+@media  screen and (max-width: 768px) {
+    #address-phone li {
+        font-size: 2rem;
+    }
+
+    .center-text {
+        font-size: 2rem;
     }
 }
