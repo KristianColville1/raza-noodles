@@ -21,17 +21,21 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
 
 # UX
 The theme of this website is Asian Cuisine with a focus on noodles. There are many types of users this may appeal to:
-*User type one: Customers interested in a dine-in experience.*
-*User type two: Those interested with take-away food.*
-*User type three: People interested in Asian cuisine*
-*User type four: People generally interested in noodles*
+
+    *User type one: Customers interested in a dine-in experience.*
+    *User type two: People interested in Asian cuisine that enjoy noodles.*
 
 ## User Stories
-### Potential Customer
 
+- As a user I would like to browse the website.
+- As a user I need to easily find a contact number.   
+- As a user it is important I can find an address.
+- As a user I would like to be able to view a food menu.
+- As a user I want to know the opening hours.   
+- As a user I want to see the foods on offer.
+- As a user I need to able find Raza Noodles on other sites.
+- As a user I would like different forms of contacting Raza Noodles.
 
-
-### Repeat customers
 ## External user's goal
 Users of the site are interested in Asian cuisine. They are hungry and crave the delicious noodles Raza Noodles can provide. The potential customer wants to know who Raza Noodles are, what dishes they offer, how to contact them and where they are based. 
 
@@ -89,10 +93,10 @@ My potential design elements are important, but categorizing them is a useful wa
 | Food Menu | 1 | 1 | 0 |
 | Address | 2 | 1 | 1 |
 | Contact Number | 2 | 1 | 1 |
-| About section | 2 | 3 | 1 |
+| About section | 5 | 3 | 2 |
 | Opening Hours Section | 1 | 2 | 1 |
 | Internal links | 2 | 3 | 1 |
-| external links | 6 | 1 | 1 |
+| external links | 6 | 1 | 5 |
 
 
 ### Structure
@@ -124,7 +128,7 @@ Targets:
 [Back to top](#table-of-contents)
 
 # Features
-
+[Back to top](#table-of-contents)
 
 ## Existing Features
 Current features.
@@ -139,7 +143,7 @@ Aspirations for this website.
 ### Validator testing
 
 # Version Control
-
+[Back to top](#table-of-contents)
 # Deployment
 
 When I finished the homepage for Raza Noodles, I looked for a way to deploy the website. As a deployment solution, I chose the version control system GitHub. They have an excellent resource called GitHub pages that allows developers to visually inspect how their website would look on a cloud platform.
@@ -151,7 +155,9 @@ When I finished the homepage for Raza Noodles, I looked for a way to deploy the 
 5. Once completed, I got the website's URL.
 
 [Back to top](#table-of-contents)
+
 # Credits
+
 
 ## Content
 ### The logo
@@ -166,4 +172,4 @@ All of the icons were sourced from [fontawsome](https://fontawesome.com/v5.15/ic
 Google has a wide varity of free fonts for use. I chose two fonts for my projects from [here](https://fonts.google.com/)
 
 ## Media
-
+[Back to top](#table-of-contents)
