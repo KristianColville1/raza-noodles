@@ -16,8 +16,6 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
 * [Testing](#features)
 * [Deployment](#features)
 * [Credits](#credits)
-* [Features](#features)
-* [Features](#features)
 
 # UX
 The theme of this website is Asian Cuisine with a focus on noodles. There are many types of users this may appeal to:
