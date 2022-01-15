@@ -13,6 +13,8 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
     * [Potential features to include](#potential-features-to-include)
     * [Using the five planes of UX design](#using-the-five-planes-of-ux-design)
 * [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features left to implement](#features-left-to-implement)
 * [Testing](#features)
 * [Deployment](#features)
 * [Credits](#credits)
@@ -149,6 +151,7 @@ Includes:
     - Downloadable pdf documents.
 
 ### Download dropdown Menu
+This allows the user the option of downloading the menu and keeping it. The dropdown menu currently has two pdf files for download by the websites user.
 
 ![Drop down Menu](/features/drop-down.png)
 
@@ -159,6 +162,8 @@ Includes:
         - Terms and conditions.
 
 ### Fixed footer
+Allows the user to see available links to other Raza Noodle social media and the policy pages.
+
 ![Fixed footer](/features/fixed-footer.png)
 
 Includes:
@@ -172,6 +177,15 @@ Includes:
         - Privacy policy.
         - Cookie policy.
 
+### Scroll icons
+
+Allows the user to scroll down to the relavent sections on all pages.
+The icons contain links that bring the user to the next section.
+
+![Scroll icons](/features/scroll-icon-one.png)
+
+![Scroll icons](/features/scroll-icon-two.png)
+
 ### About section
 
 Gives us some information about Raza Noodles and the food.
@@ -183,6 +197,7 @@ Includes:
     - Description of Raza Noodles.
     - Photos of noodle dishes.
 
+
 ### Landing page
 
 ![Landing page](/features/landing-page.png)
@@ -193,6 +208,7 @@ Aspirations for this website
 
     - A mobile app.
     - Online Delivery service.
+    - Payment system.
     - Cookie pop up banner.
     - Covid pop up banner.
 
