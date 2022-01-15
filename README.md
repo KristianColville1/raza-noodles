@@ -200,6 +200,22 @@ Aspirations for this website
 
 # Testing
 
+## Tasks
+
+| Task to be completed | not finished | completed |
+| -------------------- | ------------ | --------- |
+| Create logo icons    |              | x         |
+| Landing page         |              | x         |
+| Dropdown menu        |              | x         |
+| Logo fade            |              | x         |
+| Scroll icons         |              | x         |
+| About section        |              | x         |
+| Opening hours section |             | x         |
+| Footer               |              | x         |
+| External Links       |      x       |           |
+| Menu page            |      x       |   |
+| Gallery page         |      x       |   |
+| Contact page         |      x       |   |
 
 ## Validator testing
 
