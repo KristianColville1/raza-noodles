@@ -508,8 +508,7 @@ hr {
         height: 315vh;
         text-align: center;
         bottom: 0vh;
-        top: 45vh;
-        background-color: red;
+        top: 48vh;
     }
 
     .left-about {
@@ -554,5 +553,40 @@ hr {
     
     .sc-two {
         left: 45%;
+    }
+}
+
+/* For small screens 320px wide and down */
+
+@media  screen and (max-width: 320px) {
+    #menu {
+        font-size: .8rem;
+        text-align: justify;
+    }
+
+    .download-content a {
+        font-size: inherit;
+    }
+
+    #address-phone {
+        bottom: 40vh;
+    }
+    
+    #address-phone li {
+        font-size: 2rem;
+    }
+
+    .social-media-links li {
+        font-size: 2rem;
+    }
+
+    #logo-overlay {
+        background-size: 95%;
+    }
+
+    /* scroll icon one */
+
+    .sc-one-outer{
+        bottom: 25vh;
     }
 }
