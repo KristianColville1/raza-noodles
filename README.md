@@ -220,6 +220,9 @@ Currently this website is static. All code for the website is in HTML5 and CSS3.
 
 # Testing
 
+## Colors
+All colors were tested using [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer). The contrast checker pointed out my red color as a poor choice for my footer links. I opted for a black contrast instead as it made it visually easier to see when hovered over with a mouse.
+
 ## Tasks
 
 | Task to be completed | not finished | completed |
@@ -236,6 +239,7 @@ Currently this website is static. All code for the website is in HTML5 and CSS3.
 | Menu page            |      x       |   |
 | Gallery page         |      x       |   |
 | Contact page         |      x       |   |
+| README               |      x       |   |
 
 ## Validator testing
 
