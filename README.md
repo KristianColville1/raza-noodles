@@ -200,17 +200,21 @@ Includes:
 
 ### Landing page
 
+On the main home page is the logo and logo fade design. The user can see a contact number and address. The scroll icon one brings the user to the next section and it has an arrow to indicate the direction of navigation. The menu bar features in the top right corner, this is a mordern and intitiative design. The logo is also present in the top left corner and has a link to the home page. All sections, internal links and external links are either present on the landing page or can be indicated to.
+
 ![Landing page](/features/landing-page.png)
 
 ## Features left to implement
+Currently this website is static. All code for the website is in HTML5 and CSS3. The following aspirations are currently beyond the scope of this project. I currently do not possess the skills to implement these features.
 
-Aspirations for this website
+### Aspirations for this website
 
     - A mobile app.
     - Online Delivery service.
     - Payment system.
     - Cookie pop up banner.
     - Covid pop up banner.
+    - Advertising.
 
 [Back to top](#table-of-contents)
 
