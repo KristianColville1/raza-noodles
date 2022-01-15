@@ -445,3 +445,114 @@ hr {
         font-size: 2rem;
     }
 }
+
+/* For small screens 425px wide and down */
+
+@media  screen and (max-width: 425px) {
+    /* logo */
+
+    .left-logo {
+        left: 10px;
+    }
+
+    /* navigation bar and links */
+
+    #menu {
+        text-align: center;
+    }
+
+    #menu ul {
+        float: none;
+    }
+
+    #menu li {
+        float: left;
+        margin-right: 0px;
+        padding: 1vh;
+        bottom: 0px;
+    }
+
+    /* hero image with logo overlayed */
+
+    #landing-logo {
+        height: 30vh;
+    }
+
+    #hero-bg-container {
+        height: 30vh;
+        top: 10vh;
+    }
+
+    .hero-background {
+        height: 30vh;
+    }
+
+    #logo-overlay {
+        height: 30vh;
+        background-size: 80%;
+    }
+    
+    /* scroll icon one */
+
+    .sc-one-outer{
+        bottom: 45vh;
+    }
+    
+    .sc-one {
+        left: 45%;
+    }
+
+    /* about section and button */
+
+    #about-section {
+        height: 315vh;
+        text-align: center;
+        bottom: 0vh;
+        top: 45vh;
+        background-color: red;
+    }
+
+    .left-about {
+        width: 100%;
+    }
+
+    .right-about {
+        width: 100%;
+        float: left;
+    }
+
+    .left-about-content {
+        width: 100%;
+        float: left;
+        margin-top: 10px;
+        line-height: 5vh;
+    }
+
+    .right-about-content {
+        width: 100%;
+        float: left;
+        margin-top: 10px;
+        left: 0px;
+    }
+
+    .medium-image {
+        padding-top: 5vh;
+        width: 90%;
+    }
+
+    #perfect-list > li {
+        padding-right: 0px;
+        top: 15px;
+    }
+
+    /* scroll icon two */
+
+    .sc-two-outer{
+        top: 260vh;
+        bottom: 0vh;
+    }
+    
+    .sc-two {
+        left: 45%;
+    }
+}
