@@ -133,10 +133,70 @@ Look and feel.
 
 # Features
 ## Existing Features
-Current features.
+### Navigational Menu
+Included on all 4 pages at the top of the page. Allows access to internal links and the different sections on the home page.
 
-### Features left to implement
-Aspirations for this website.
+![Navigational Menu](/features/nav-menu.png)
+
+Includes:
+
+    - Pages to internal links.
+        - Logo.
+        - Home page.
+        - Menu page.
+        - Gallery page.
+        - Contact page.
+    - Downloadable pdf documents.
+
+### Download dropdown Menu
+
+![Drop down Menu](/features/drop-down.png)
+
+Includes:
+
+    - Downloadable pdf documents.
+        - Food Menu.
+        - Terms and conditions.
+
+### Fixed footer
+![Fixed footer](/features/fixed-footer.png)
+
+Includes:
+
+    - Links to external websites.
+        - Facebook.
+        - Twitter.
+        - Instagram.
+        - Linkedin.
+        - Terms of use.
+        - Privacy policy.
+        - Cookie policy.
+
+### About section
+
+Gives us some information about Raza Noodles and the food.
+
+![About section](/features/about-section.png)
+
+Includes:
+
+    - Description of Raza Noodles.
+    - Photos of noodle dishes.
+
+### Landing page
+
+![Landing page](/features/landing-page.png)
+
+## Features left to implement
+
+Aspirations for this website
+
+    - A mobile app.
+    - Online Delivery service.
+    - Cookie pop up banner.
+    - Covid pop up banner.
+
+[Back to top](#table-of-contents)
 
 # Testing
 
@@ -177,6 +237,9 @@ All of the icons were sourced from [fontawsome](https://fontawesome.com/v5.15/ic
 
 ### Fonts
 Google has a wide varity of free fonts for use. I chose two fonts for my projects from [here](https://fonts.google.com/)
+
+### Terms of Use, Privacy Policy, Cookies Policy
+I used a generator to build my policies from [TermsFeed](https://www.termsfeed.com/).
 
 ## Media
 [Back to top](#table-of-contents)
