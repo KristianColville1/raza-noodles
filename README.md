@@ -144,6 +144,7 @@ Aspirations for this website.
 ## Validator testing
 
 Html passed official W3C validation.
+
 Css passed official W3C validation.
 
 [Back to top](#table-of-contents)
