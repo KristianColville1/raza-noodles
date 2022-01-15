@@ -556,11 +556,18 @@ hr {
     }
 }
 
+/* For small screens 360px wide and down */
+
+@media  screen and (max-width: 360px) {
+    #menu {
+        font-size: .8rem;
+    }
+}
+
 /* For small screens 320px wide and down */
 
 @media  screen and (max-width: 320px) {
     #menu {
-        font-size: .8rem;
         text-align: justify;
     }
 
@@ -573,7 +580,7 @@ hr {
     }
     
     #address-phone li {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .social-media-links li {
