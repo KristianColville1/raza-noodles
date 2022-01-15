@@ -134,7 +134,7 @@ Look and feel.
 # Features
 ## Existing Features
 ### Navigational Menu
-Included on all 4 pages at the top of the page. Allows access to internal links and the different sections on the home page.
+Included on all internal pages at the top of the page. Allows access to internal links and the different sections on the home page.
 
 ![Navigational Menu](/features/nav-menu.png)
 
