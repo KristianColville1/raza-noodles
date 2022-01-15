@@ -15,8 +15,8 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
 * [Features](#features)
     * [Existing Features](#existing-features)
     * [Features left to implement](#features-left-to-implement)
-* [Testing](#features)
-* [Deployment](#features)
+* [Testing](#testing)
+* [Deployment](#deployment)
 * [Credits](#credits)
 
 # UX
