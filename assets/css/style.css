@@ -213,7 +213,7 @@ hr {
     border: 1px solid black;
     border-radius: 50%;
     position: absolute;
-    left: 50%;
+    left: 48%;
 }
 
 .sc-one:hover {
@@ -315,7 +315,7 @@ hr {
     border-radius: 50%;
     position: relative;
     z-index: 10;
-    left: 50%;
+    left: 48%;
 }
 
 .sc-two:hover {
@@ -550,7 +550,7 @@ hr {
         top: 260vh;
         bottom: 0vh;
     }
-    
+
     .sc-two {
         left: 45%;
     }
