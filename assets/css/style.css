@@ -229,7 +229,7 @@ hr {
     animation-fill-mode: forwards;
 }
 
-/* animation for button icon */
+/* animation for scroll icon */
 
 @keyframes icon-up-down {
     0% {
@@ -594,6 +594,6 @@ hr {
     /* scroll icon one */
 
     .sc-one-outer{
-        bottom: 25vh;
+        bottom: 35vh;
     }
 }
