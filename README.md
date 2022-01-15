@@ -97,7 +97,6 @@ My potential design elements are important, but categorizing them is a useful wa
 | Internal links | 2 | 3 | 1 |
 | external links | 6 | 1 | 5 |
 
-
 ### Structure
 These are the current structure targets of the website.
 Targets: 
@@ -124,26 +123,30 @@ Targets:
         - Food menu.
         - Wine list.
 
-
 ### Skeleton
+Wireframes.
+
 ### Surface
+Look and feel.
 
 [Back to top](#table-of-contents)
 
 # Features
-[Back to top](#table-of-contents)
-
 ## Existing Features
 Current features.
 
 ### Features left to implement
 Aspirations for this website.
 
-
 # Testing
-[Back to top](#table-of-contents)
 
-### Validator testing
+
+## Validator testing
+
+Html passed official W3C validation.
+Css passed official W3C validation.
+
+[Back to top](#table-of-contents)
 
 # Version Control
 [Back to top](#table-of-contents)
