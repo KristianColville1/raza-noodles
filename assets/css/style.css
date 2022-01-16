@@ -55,6 +55,27 @@ hr {
 
 /* navigation bar and links */
 
+.burger-icon {
+    height: 50px;
+    width: 50px;
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 97%;
+}
+
+span.bars {
+    height: 5px;
+    width: 40px;
+    margin: 6px 0;
+    background: #F79F24;
+    display: none;
+    position: relative;
+    top: 20px;
+    left: 97%;
+    z-index: 1;
+}
+
 #menu {
     width: 100%;
     text-transform: uppercase;
@@ -480,6 +501,7 @@ hr {
 /* For medium screens 768px wide and down */
 
 @media  screen and (max-width: 768px) {
+
     #address-phone li {
         font-size: 2rem;
     }
