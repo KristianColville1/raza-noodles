@@ -53,9 +53,9 @@ hr {
     left: 50px;
 }
 
-/* navigation bar and links */
+/* navigation bar links and hidden menu icon */
 
-.burger-icon {
+#burger-icon {
     height: 50px;
     width: 50px;
     display: none;
@@ -501,6 +501,43 @@ span.bars {
 /* For medium screens 768px wide and down */
 
 @media  screen and (max-width: 768px) {
+    /* burger icon is shown at this max-width */
+    #burger-icon {
+        display: block;
+        top: 2vh;
+        left: 90%;
+        appearance: none;
+        outline: 1px solid #F79F24;
+        z-index: 3;
+    }
+    
+    span.bars {
+        display: block;
+        left: 90%;
+        top: 0%;
+        bottom: 5vh;
+    }
+    
+    #menu {
+        bottom: 10vh;
+    }
+    
+    #menu ul {
+        float: right;
+    }
+    
+    #menu li {
+        font-size: 2rem;
+        float: none;
+        display: none;
+        margin: 1vh 2vh;
+        top: 1vh;
+        background-color: black;
+    }
+
+    #hidden-hamburger input:checked ~ ul > li {
+        display: block;
+    }
 
     #address-phone li {
         font-size: 2rem;
