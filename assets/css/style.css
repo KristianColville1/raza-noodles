@@ -59,7 +59,7 @@ hr {
     width: 100%;
     text-transform: uppercase;
     font-size: 100%;
-
+    margin: 5px;
 }
 
 #menu ul {
@@ -69,7 +69,7 @@ hr {
 #menu li {
     list-style-type: none;
     float: left;
-    margin-right: 15px;
+    margin: 2vh;
     position: relative;
     bottom: 70px;
     z-index: 3;
@@ -448,6 +448,35 @@ hr {
     }
 }
 
+/* For large to medium screens 1024px wide and down */
+
+@media  screen and (max-width: 1024px) {
+    #about-section {
+        height: 80vh;
+    }
+
+    .left-about-content {
+        width: 60%;
+    }
+    
+    .right-about-content {
+        width: 60%;
+    }
+
+    .sc-two-outer{
+        top: 80vh;
+    }
+
+    .center-text {
+        width: 40%;
+        left: 30%;
+    }
+    
+    .center-text-bg {
+        width: 40%;
+        left: 30%;
+    }
+}
 /* For medium screens 768px wide and down */
 
 @media  screen and (max-width: 768px) {
