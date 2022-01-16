@@ -505,7 +505,7 @@ span.bars {
     #burger-icon {
         display: block;
         top: 2vh;
-        left: 90%;
+        left: 85%;
         appearance: none;
         outline: 1px solid #F79F24;
         z-index: 3;
@@ -513,7 +513,7 @@ span.bars {
     
     span.bars {
         display: block;
-        left: 90%;
+        left: 85%;
         top: 0%;
         bottom: 5vh;
     }
@@ -539,6 +539,10 @@ span.bars {
         display: block;
     }
 
+    #hidden-hamburger input:checked ~ span {
+        background-color: #FFEDCF;
+    }
+
     #address-phone li {
         font-size: 2rem;
     }
@@ -559,16 +563,8 @@ span.bars {
 
     /* navigation bar and links */
 
-    #menu {
-        text-align: center;
-    }
-
-    #menu ul {
-        float: none;
-    }
-
     #menu li {
-        float: left;
+        font-size: 1rem;
         margin-right: 0px;
         padding: 1vh;
         bottom: 0px;
@@ -607,7 +603,7 @@ span.bars {
     /* about section and button */
 
     #about-section {
-        height: 315vh;
+        height: 285vh;
         text-align: center;
         bottom: 0vh;
         top: 48vh;
@@ -649,20 +645,25 @@ span.bars {
     /* scroll icon two */
 
     .sc-two-outer{
-        top: 260vh;
+        top: 230vh;
         bottom: 0vh;
     }
 
     .sc-two {
         left: 45%;
     }
-}
 
-/* For small screens 360px wide and down */
+    /* opening-hours-section */
 
-@media  screen and (max-width: 360px) {
-    #menu {
-        font-size: .8rem;
+    .center-text {
+        width: 80%;
+        left: 10%;
+        font-size: 2rem;
+    }
+    
+    .center-text-bg {
+        width: 80%;
+        left: 10%;
     }
 }
 
@@ -682,7 +683,7 @@ span.bars {
     }
     
     #address-phone li {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .social-media-links li {
