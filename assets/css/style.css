@@ -264,7 +264,7 @@ span.bars {
 /* about section and button */
 
 #about-section {
-    height: 122vh;
+    height: 1800px;
     width: 100%;
     position: relative;
     bottom: 10vh;
@@ -346,7 +346,7 @@ span.bars {
 /* Opening hours section */
 
 #opening-hours-section {
-    height: 87vh;
+    height: 600px;
     width: 100%;
     align-items: center;
     display: block;
@@ -368,7 +368,7 @@ span.bars {
 }
 
 .center-text-bg {
-    height: 87vh;
+    height: 100%;
     width: 33%;
     position: absolute;
     left: 33%;
@@ -394,7 +394,6 @@ span.bars {
     height: 2vh;
     background-color: #F79F24;
     position: absolute;
-    bottom: 85vh;
 }
 
 /* footer */
@@ -458,7 +457,7 @@ span.bars {
 
 @media  screen and (max-width: 1440px) {
     #about-section {
-        height: 110vh;
+        height: 1800px;
         width: 100%;
         position: relative;
         bottom: 10vh;
@@ -466,6 +465,10 @@ span.bars {
 
     .sc-two-outer{
         top: 105vh;
+    }
+
+    .social-media-links li {
+        font-size: 1.5rem;
     }
 }
 
@@ -504,7 +507,7 @@ span.bars {
     /* burger icon is shown at this max-width */
     #burger-icon {
         display: block;
-        top: 2vh;
+        top: 4vh;
         left: 85%;
         appearance: none;
         z-index: 3;
@@ -548,6 +551,10 @@ span.bars {
 
     .center-text {
         font-size: 2rem;
+    }
+
+    #logo-overlay {
+        background-size: 60%;
     }
 }
 
@@ -602,7 +609,7 @@ span.bars {
     /* about section and button */
 
     #about-section {
-        height: 285vh;
+        height: 350vh;
         text-align: center;
         bottom: 0vh;
         top: 48vh;
@@ -657,9 +664,13 @@ span.bars {
     .center-text {
         width: 80%;
         left: 10%;
+        font-size: 1rem;
+    }
+
+    .center-text > p {
         font-size: 2rem;
     }
-    
+
     .center-text-bg {
         width: 80%;
         left: 10%;
