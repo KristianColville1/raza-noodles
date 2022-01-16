@@ -327,7 +327,8 @@ hr {
 #opening-hours-section {
     height: 87vh;
     width: 100%;
-    align-content: center;
+    align-items: center;
+    display: block;
     background: url('../images/background.jpeg') no-repeat center center;
     background-color: #57556D;
     background-size: cover;
@@ -336,21 +337,34 @@ hr {
 }
 
 .center-text {
-    width: 100%;
+    height: 60vh;
+    width: 33%;
     font-size: 3rem;
     text-align: center;
     position: absolute;
+    left: 33%;
+    top: 2vh;
+}
+
+.center-text-bg {
+    height: 87vh;
+    width: 33%;
+    position: absolute;
+    left: 33%;
+    top: 2vh;
+    background-color: #57556D;
+    opacity: 75%;
 }
 
 .red-text {
     font-weight: 900;
-    font-size: 150%;
+    font-size: 4.5rem;
     color: #E20049;
 }
 
 .black-text {
     font-weight: 900;
-    font-size: 150%;
+    font-size: 4.5rem;
     color: black;
 }
 
