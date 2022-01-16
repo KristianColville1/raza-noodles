@@ -507,13 +507,12 @@ span.bars {
         top: 2vh;
         left: 85%;
         appearance: none;
-        outline: 1px solid #F79F24;
         z-index: 3;
     }
     
     span.bars {
         display: block;
-        left: 85%;
+        left: 83%;
         top: 0%;
         bottom: 5vh;
     }
