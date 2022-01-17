@@ -55,47 +55,40 @@ hr {
 
 /* navigation bar links and hidden menu icon */
 
-#hamburger-menu {
-    height: 40px;
-    width: 40px;
-    align-items: center;
-    border: 2px solid #E1250A;
+#hamburger-menu, #burger-icon{
     display: none;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    top: 12px;
     right: 10px;
+    top: 10px;
 }
 
-#burger-icon {
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    z-index: 3;
-}
-
-span {
+span.bars {
+    width: 50px;
     height: 5px;
-    width: 40px;
-    background: #F79F24;
+    display: none;
+    background-color: #E20049;
     position: absolute;
+    right: 10px;
+    top: 10px;
 }
 
 .one {
-    transform: translateY(5px);
+    transform: translateY(10px);
 }
 .two {
-    transform: translateY(17px);
+    transform: translateY(25px);
 }
 
 .three {
-    transform: translateY(29px);
+    transform: translateY(40px);
 }
 
 #menu {
     width: 100%;
     text-transform: uppercase;
     font-size: 100%;
-    margin: 5px;
 }
 
 #menu ul {
@@ -516,23 +509,21 @@ span {
         left: 30%;
     }
 }
+
 /* For medium screens 768px wide and down */
 
 @media  screen and (max-width: 768px) {
     /* burger icon is shown at this max-width */
-    /* #burger-icon {
+    #burger-icon{
         display: block;
-        /* bottom: 5vh; */
-        /* appearance: none; */
-        /* z-index: 3; */
-    /* } */
-    
-    /* .bars {
-        display: block;
-        top: 30px;
+        appearance: none;
         z-index: 10;
-    } */
-    
+    }
+
+    span.bars {
+        display: block;
+    }
+
     #menu {
         bottom: 10vh;
     }
@@ -545,16 +536,16 @@ span {
         font-size: 2rem;
         float: none;
         display: none;
-        margin: 1vh 2vh;
-        top: 1vh;
+        margin: 0 2vh;
+        top: 5px;
         background-color: black;
     }
 
-    #hidden-hamburger input:checked ~ ul > li {
+    #menu input:checked ~ ul > li {
         display: block;
     }
 
-    #hidden-hamburger input:checked ~ span {
+    #menu input:checked ~ span {
         background-color: #FFEDCF;
     }
 
