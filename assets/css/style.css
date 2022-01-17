@@ -621,6 +621,7 @@ span.bars {
     .sc-two-outer {
         top: 2150px;
     }
+
     /* opening-hours-section */
 
     #opening-hours-section {
@@ -639,4 +640,7 @@ span.bars {
 /* For small screens 320px wide and down */
 
 @media  screen and (max-width: 320px) {
+    .center-text {
+        font-size: 1.5rem;
+    }
 }
