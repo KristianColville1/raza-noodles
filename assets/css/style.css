@@ -55,25 +55,40 @@ hr {
 
 /* navigation bar links and hidden menu icon */
 
-#burger-icon {
-    height: 50px;
-    width: 50px;
+#hamburger-menu {
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    border: 2px solid #E1250A;
     display: none;
     position: absolute;
-    top: 10px;
-    left: 97%;
+    top: 12px;
+    right: 10px;
 }
 
-span.bars {
+#burger-icon {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    z-index: 3;
+}
+
+span {
     height: 5px;
     width: 40px;
-    margin: 6px 0;
     background: #F79F24;
-    display: none;
-    position: relative;
-    top: 20px;
-    left: 97%;
-    z-index: 1;
+    position: absolute;
+}
+
+.one {
+    transform: translateY(5px);
+}
+.two {
+    transform: translateY(17px);
+}
+
+.three {
+    transform: translateY(29px);
 }
 
 #menu {
@@ -505,20 +520,18 @@ span.bars {
 
 @media  screen and (max-width: 768px) {
     /* burger icon is shown at this max-width */
-    #burger-icon {
+    /* #burger-icon {
         display: block;
-        top: 4vh;
-        left: 85%;
-        appearance: none;
-        z-index: 3;
-    }
+        /* bottom: 5vh; */
+        /* appearance: none; */
+        /* z-index: 3; */
+    /* } */
     
-    span.bars {
+    /* .bars {
         display: block;
-        left: 83%;
-        top: 0%;
-        bottom: 5vh;
-    }
+        top: 30px;
+        z-index: 10;
+    } */
     
     #menu {
         bottom: 10vh;
