@@ -327,6 +327,11 @@ span.bars {
     top: 15px;
 }
 
+#meats > li {
+    list-style-type: none;
+    text-align: center;
+}
+
 .sc-two-outer{
     width: 100%;
     height: 5vh;
