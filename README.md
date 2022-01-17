@@ -16,6 +16,9 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
     * [Existing Features](#existing-features)
     * [Features left to implement](#features-left-to-implement)
 * [Testing](#testing)
+    * [Tasks](#tasks)
+    * [Colors](#colors)
+    * [Responsive Design](#responsive-design)
 * [Deployment](#deployment)
 * [Credits](#credits)
 
@@ -240,6 +243,29 @@ All colors were tested using [Adobe Color](https://color.adobe.com/create/color-
 | Gallery page         |      x       |   |
 | Contact page         |      x       |   |
 | README               |      x       |   |
+
+## Responsive Design 
+
+I was able to make the website responsive by primarily using pixels and percentages. These maximum screen sizes, which I implemented, allow the site to adapt to various user screens.
+Chrome Developer Tools was the tool I used to make the site responsive.
+
+| features / widths | 1920px | 1440px | 1024px | 768px | 425px | 375px | 320px |
+| -------------------- | --- | --- | --- | --- | --- | --- | --- |
+| Hamburger menu        | hidden | hidden | hidden | shown | n/a | n/a | n/a |
+| Create logo icons    | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
+| Landing page         | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
+| Dropdown menu        | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
+| Logo fade            | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
+| Scroll icons         | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
+| About section        | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
+| Opening hours section | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a | Adjusted |
+| Footer               | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
+| External Links       | x | x | x | x | x | x | x |
+| Menu page            | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Gallery page         | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Contact page         | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+
+I experimented with many approaches for making the site responsive and discovered that using pixels was the most accurate and straightforward method for converting the various items on the pages to a suitable format for each screen size. Because the different portions of this website are all positioned 'absolute,' it made the most sense to use pixels to make it responsive. By doing it this way, I was able to save time. Because of this design, the screen's height is irrelevant.
 
 ## Validator testing
 
