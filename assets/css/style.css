@@ -50,7 +50,7 @@ hr {
     width: 80px;
     position: relative;
     z-index: 2;
-    left: 50px;
+    left: 20px;
 }
 
 /* navigation bar links and hidden menu icon */
@@ -167,9 +167,8 @@ span.bars {
 }
 
 #hero-bg-container {
-    height: 75vh;
+    height: 800px;
     width: 100%;
-
 }
 
 .hero-background {
@@ -230,7 +229,7 @@ span.bars {
     height: 5vh;
     text-align: center;
     position: absolute;
-    bottom: 25vh;
+    top: 550px;
 }
 
 .sc-one {
@@ -553,152 +552,91 @@ span.bars {
 /* For small screens 425px wide and down */
 
 @media  screen and (max-width: 425px) {
-    /* logo */
-
-    .left-logo {
-        left: 10px;
-    }
-
-    /* navigation bar and links */
-
-    #menu li {
-        font-size: 1rem;
-        margin-right: 0px;
-        padding: 1vh;
-        bottom: 0px;
-    }
-
     /* hero image with logo overlayed */
 
     #landing-logo {
-        height: 30vh;
+        height: 400px;
     }
 
     #hero-bg-container {
-        height: 30vh;
-        top: 10vh;
+        height: 400px;
     }
 
     .hero-background {
-        height: 30vh;
+        height: 400px;
     }
 
     #logo-overlay {
-        height: 30vh;
-        background-size: 80%;
-    }
-    
-    /* scroll icon one */
-
-    .sc-one-outer{
-        bottom: 45vh;
-    }
-    
-    .sc-one {
-        left: 45%;
+        height: 400px;
+        background-size: 100%;
     }
 
-    /* about section and button */
+    .sc-one-outer {
+        top: 350px;
+    }
+
+    /* Address and phone number */
 
     #about-section {
-        height: 350vh;
-        text-align: center;
-        bottom: 0vh;
-        top: 48vh;
+        height: 1400px;
+    }
+
+    #address-phone {
+        top: 480px;
     }
 
     .left-about {
+        float: none;
         width: 100%;
     }
 
     .right-about {
+        float: none;
         width: 100%;
-        float: left;
     }
 
     .left-about-content {
-        width: 100%;
-        float: left;
-        margin-top: 10px;
-        line-height: 5vh;
+        width: 90%;
+        margin: 5vh 5vw;
+        float: none;
     }
 
     .right-about-content {
-        width: 100%;
-        float: left;
-        margin-top: 10px;
+        width: 90%;
+        margin: 5vh 5vw;
+        float: none;
+    }
+
+    .left-about-content {
+        width: 90%;
+        float: none;
+    }
+    
+    .right-about-content {
+        width: 90%;
+        float: none;
         left: 0px;
     }
 
-    .medium-image {
-        padding-top: 5vh;
-        width: 90%;
+    .sc-two-outer {
+        top: 2150px;
     }
-
-    #perfect-list > li {
-        padding-right: 0px;
-        top: 15px;
-    }
-
-    /* scroll icon two */
-
-    .sc-two-outer{
-        top: 230vh;
-        bottom: 0vh;
-    }
-
-    .sc-two {
-        left: 45%;
-    }
-
     /* opening-hours-section */
 
-    .center-text {
-        width: 80%;
-        left: 10%;
-        font-size: 1rem;
+    #opening-hours-section {
+        top: 3100px;
     }
 
     .center-text > p {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
-    .center-text-bg {
-        width: 80%;
-        left: 10%;
+    /* bottom space for footer */
+    #bottom-space {
+        top: 4000px;
     }
 }
-
 /* For small screens 320px wide and down */
 
 @media  screen and (max-width: 320px) {
-    #menu {
-        text-align: justify;
-    }
-
-    .download-content a {
-        font-size: inherit;
-    }
-
-    #address-phone {
-        bottom: 40vh;
-    }
-    
-    #address-phone li {
-        font-size: 1rem;
-    }
-
-    .social-media-links li {
-        font-size: 2rem;
-    }
-
-    #logo-overlay {
-        background-size: 95%;
-    }
-
-    /* scroll icon one */
-
-    .sc-one-outer{
-        bottom: 35vh;
-    }
 }
