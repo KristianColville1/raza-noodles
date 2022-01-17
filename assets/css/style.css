@@ -452,12 +452,12 @@ span.bars {
 /* space on bottom for fixed footer */
 
 #bottom-space {
-    height: 15vh;
+    height: 100px;
     width: 100%;
     background-color: #F79F24;
     position: absolute;
     z-index: 2;
-    top: 2985px;
+    top: 3185px;
 }
 
 /* Responsive screen sizing */
@@ -546,6 +546,10 @@ span.bars {
         margin: 5px;
         display: inline;
         position: relative;
+    }
+
+    #bottom-space {
+        top: 2985px;
     }
 }
 
