@@ -60,6 +60,11 @@ Raza Noodles goal is to serve tasty noodle dishes. They want to be a part of the
     - Links to other sites owned by Raza Noodles
 
 ## Using the five planes of UX design
+
+<details>
+<summary>Strategy</summary>
+<br>
+
 ### Strategy
 It is not possible to compete for business solely on a local level. Companies have a plethora of resources at their disposal in this day and age. One of them is to compete online by having a website that can help a business stand out in the overcrowded world of fine dining.
 
@@ -86,6 +91,13 @@ The strategy:
         - Images need to be carefully selected for quality.
         - Address and contact number need to be on the landing page no matter what.
 
+<br>
+</details>
+
+<details>
+<summary>Scope</summary>
+<br>
+
 ### Scope
 It is difficult for a developer to balance reality and content. This table ranks the design of elements 1 through 6 in order of importance. The most important is one, and the least important is six.
 My potential design elements are important, but categorizing them is a useful way of completing them for the website's user.
@@ -101,6 +113,13 @@ My potential design elements are important, but categorizing them is a useful wa
 | Opening Hours Section | 1 | 2 | 1 |
 | Internal links | 2 | 3 | 1 |
 | external links | 6 | 1 | 5 |
+
+<br>
+</details>
+
+<details>
+<summary>Structure</summary>
+<br>
 
 ### Structure
 These are the current structure targets of the website.
@@ -128,24 +147,47 @@ Targets:
         - Food menu.
         - Wine list.
 
+<br>
+</details>
+
+<details>
+<summary>Skeleton</summary>
+<br>
+
 ### Skeleton
 Wireframes.
 
+<br>
+</details>
+
+<details>
+<summary>Surface</summary>
+<br>
+
 ### Surface
 Look and feel.
+
+<br>
+</details>
 
 [Back to top](#table-of-contents)
 
 # Features
 
 ## Existing Features
-### Landing page
 
+<details>
+<summary>Landing page</summary>
+<br>
 On the main home page is the logo and logo fade design. The user can see a contact number and address. The scroll icon one brings the user to the next section and it has an arrow to indicate the direction of navigation. The menu bar features in the top right corner, this is a mordern and intitiative design. The logo is also present in the top left corner and has a link to the home page. All sections, internal links and external links are either present on the landing page or can be indicated to.
 
 ![Landing page](/assets/images/features/landing-page.png)
+<br>
+</details>
 
-### Navigational Menu
+<details>
+<summary>Navigational Menu</summary>
+<br>
 Included on all internal pages at the top of the page. Allows access to internal links and the different sections on the home page.
 
 ![Navigational Menu](/assets/images/features/nav-menu.png)
@@ -160,7 +202,23 @@ Includes:
         - Contact page.
     - Downloadable pdf documents.
 
-### Download dropdown Menu
+<br>
+</details>
+
+<details>
+<summary>Hamburger Menu</summary>
+<br>
+This was a fun feature to make. I'm proud of the fact that it's all HTML5 and CSS3. Users with smaller screens (768px wide and below) can use a hamburger menu with this feature.
+When there are several menu selections, it helps the website maintain structural integrity.
+
+![Hamburger Menu](/assets/images/features/hamburger-one.png)
+![Hamburger Menu](/assets/images/features/hamburger-two.png)
+<br>
+</details>
+
+<details>
+<summary>Download dropdown Menu</summary>
+<br>
 This allows the user the option of downloading the menu and keeping it. The dropdown menu currently has two pdf files for download by the websites user.
 
 ![Drop down Menu](/assets/images/features/drop-down.png)
@@ -171,7 +229,12 @@ Includes:
         - Food Menu.
         - Terms and conditions.
 
-### Fixed footer
+<br>
+</details>
+
+<details>
+<summary>Fixed footer</summary>
+<br>
 Allows the user to see available links to other Raza Noodle social media and the policy pages.
 
 ![Fixed footer](/assets/images/features/fixed-footer.png)
@@ -187,17 +250,25 @@ Includes:
         - Privacy policy.
         - Cookie policy.
 
-### Scroll icons
+<br>
+</details>
 
-Allows the user to scroll down to the relavent sections on all pages.
+<details>
+<summary>Scroll Icons</summary>
+<br>
+Allows the user to scroll down to the relavent sections on all internal pages.
 The icons contain links that bring the user to the next section.
 
 ![Scroll icons](/assets/images/features/scroll-icon-one.png)
 
 ![Scroll icons](/assets/images/features/scroll-icon-two.png)
 
-### About section
+<br>
+</details>
 
+<details>
+<summary>About Section</summary>
+<br>
 Gives us some information about Raza Noodles and the food.
 
 ![About section](/assets/images/features/about-section.png)
@@ -207,6 +278,41 @@ Includes:
     - Description of Raza Noodles.
     - Photos of noodle dishes.
 
+<br>
+</details>
+
+<details>
+<summary>Opening Hours section</summary>
+<br>
+This section allows the user of the website to see opening hours for Raza Noodles. It features a fixed background and the text is wrapped in another background to make it visually easier to read for the user.
+
+![Opening-hours section](/assets/images/features/opening-hours-section.png)
+<br>
+</details>
+
+<details>
+<summary>Menu Page</summary>
+<br>
+<br>
+</details>
+
+<details>
+<summary>Contact Page</summary>
+<br>
+<br>
+</details>
+
+<details>
+<summary>Gallery Page</summary>
+<br>
+<br>
+</details>
+
+<details>
+<summary></summary>
+<br>
+<br>
+</details>
 
 ## Features left to implement
 Currently this website is static. All code for the website is in HTML5 and CSS3. The following aspirations are currently beyond the scope of this project. I currently do not possess the skills to implement these features.
@@ -223,6 +329,139 @@ Currently this website is static. All code for the website is in HTML5 and CSS3.
 [Back to top](#table-of-contents)
 
 # Testing
+
+## Features
+<details>
+<summary>Landing page</summary>
+<br>
+On the main home page is the logo and logo fade design. The user can see a contact number and address. The scroll icon one brings the user to the next section and it has an arrow to indicate the direction of navigation. The menu bar features in the top right corner, this is a mordern and intitiative design. The logo is also present in the top left corner and has a link to the home page. All sections, internal links and external links are either present on the landing page or can be indicated to.
+
+![Landing page](/assets/images/features/landing-page.png)
+<br>
+</details>
+
+<details>
+<summary>Navigational Menu</summary>
+<br>
+Included on all internal pages at the top of the page. Allows access to internal links and the different sections on the home page.
+
+![Navigational Menu](/assets/images/features/nav-menu.png)
+
+Includes:
+
+    - Pages to internal links.
+        - Logo.
+        - Home page.
+        - Menu page.
+        - Gallery page.
+        - Contact page.
+    - Downloadable pdf documents.
+
+<br>
+</details>
+
+<details>
+<summary>Hamburger Menu</summary>
+<br>
+This was a fun feature to make. I'm proud of the fact that it's all HTML5 and CSS3. Users with smaller screens (768px wide and below) can use a hamburger menu with this feature.
+When there are several menu selections, it helps the website maintain structural integrity.
+
+![Hamburger Menu](/assets/images/features/hamburger-one.png)
+![Hamburger Menu](/assets/images/features/hamburger-two.png)
+<br>
+</details>
+
+<details>
+<summary>Download dropdown Menu</summary>
+<br>
+This allows the user the option of downloading the menu and keeping it. The dropdown menu currently has two pdf files for download by the websites user.
+
+![Drop down Menu](/assets/images/features/drop-down.png)
+
+Includes:
+
+    - Downloadable pdf documents.
+        - Food Menu.
+        - Terms and conditions.
+
+<br>
+</details>
+
+<details>
+<summary>Fixed footer</summary>
+<br>
+Allows the user to see available links to other Raza Noodle social media and the policy pages.
+
+![Fixed footer](/assets/images/features/fixed-footer.png)
+
+Includes:
+
+    - Links to external websites.
+        - Facebook.
+        - Twitter.
+        - Instagram.
+        - Linkedin.
+        - Terms of use.
+        - Privacy policy.
+        - Cookie policy.
+
+<br>
+</details>
+
+<details>
+<summary>Scroll Icons</summary>
+<br>
+Allows the user to scroll down to the relavent sections on all internal pages.
+The icons contain links that bring the user to the next section.
+
+![Scroll icons](/assets/images/features/scroll-icon-one.png)
+
+![Scroll icons](/assets/images/features/scroll-icon-two.png)
+
+<br>
+</details>
+
+<details>
+<summary>About Section</summary>
+<br>
+Gives us some information about Raza Noodles and the food.
+
+![About section](/assets/images/features/about-section.png)
+
+Includes:
+
+    - Description of Raza Noodles.
+    - Photos of noodle dishes.
+
+<br>
+</details>
+
+<details>
+<summary>Opening Hours section</summary>
+<br>
+This section allows the user of the website to see opening hours for Raza Noodles. It features a fixed background and the text is wrapped in another background to make it visually easier to read for the user.
+
+![Opening-hours section](/assets/images/features/opening-hours-section.png)
+<br>
+</details>
+
+<details>
+<summary>Menu Page</summary>
+<br>
+<br>
+</details>
+
+<details>
+<summary>Contact Page</summary>
+<br>
+<br>
+</details>
+
+<details>
+<summary>Gallery Page</summary>
+<br>
+<br>
+</details>
 
 ## Colors
 All colors were tested using [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer). The contrast checker pointed out my red color as a poor choice for my footer links. I opted for a black contrast instead as it made it visually easier to see when hovered over with a mouse.
