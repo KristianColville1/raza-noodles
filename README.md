@@ -16,9 +16,12 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
     * [Existing Features](#existing-features)
     * [Features left to implement](#features-left-to-implement)
 * [Testing](#testing)
-    * [Tasks](#tasks)
+    * [Testing the Features](#testing-the-features)
     * [Colors](#colors)
     * [Responsive Design](#responsive-design)
+    * [Validator Testing](#validator-testing)
+    * [Tasks](#tasks)
+* [Version Control](#version-control)
 * [Deployment](#deployment)
 * [Credits](#credits)
 
@@ -330,7 +333,7 @@ Currently this website is static. All code for the website is in HTML5 and CSS3.
 
 # Testing
 
-## Features
+## Testing the Features
 <details>
 <summary>Landing page</summary>
 <br>
@@ -466,24 +469,6 @@ This section allows the user of the website to see opening hours for Raza Noodle
 ## Colors
 All colors were tested using [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer). The contrast checker pointed out my red color as a poor choice for my footer links. I opted for a black contrast instead as it made it visually easier to see when hovered over with a mouse.
 
-## Tasks
-
-| Task to be completed | not finished | completed |
-| -------------------- | ------------ | --------- |
-| Create logo icons    |              | x         |
-| Landing page         |              | x         |
-| Dropdown menu        |              | x         |
-| Logo fade            |              | x         |
-| Scroll icons         |              | x         |
-| About section        |              | x         |
-| Opening hours section |             | x         |
-| Footer               |              | x         |
-| External Links       |      x       |           |
-| Menu page            |      x       |   |
-| Gallery page         |      x       |   |
-| Contact page         |      x       |   |
-| README               |      x       |   |
-
 ## Responsive Design 
 
 I was able to make the website responsive by primarily using pixels and percentages. These maximum screen sizes, which I implemented, allow the site to adapt to various user screens.
@@ -507,12 +492,29 @@ Chrome Developer Tools was the tool I used to make the site responsive.
 
 I experimented with many approaches for making the site responsive and discovered that using pixels was the most accurate and straightforward method for converting the various items on the pages to a suitable format for each screen size. Because the different portions of this website are all positioned 'absolute,' it made the most sense to use pixels to make it responsive. By doing it this way, I was able to save time. Because of this design, the screen's height is irrelevant.
 
-## Validator testing
+## Validator Testing
 
 Html passed official W3C validation.
 
 Css passed official W3C validation.
 
+## Tasks
+
+| Task to be completed | not finished | completed |
+| -------------------- | ------------ | --------- |
+| Create logo icons    |              | x         |
+| Landing page         |              | x         |
+| Dropdown menu        |              | x         |
+| Logo fade            |              | x         |
+| Scroll icons         |              | x         |
+| About section        |              | x         |
+| Opening hours section |             | x         |
+| Footer               |              | x         |
+| External Links       |      x       |           |
+| Menu page            |      x       |   |
+| Gallery page         |      x       |   |
+| Contact page         |      x       |   |
+| README               |      x       |   |
 [Back to top](#table-of-contents)
 
 # Version Control
