@@ -469,18 +469,28 @@ This section allows the user of the website to see opening hours for Raza Noodle
 ## Colors
 All colors were tested using [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer). The contrast checker pointed out my red color as a poor choice for my footer links. I opted for a black contrast instead as it made it visually easier to see when hovered over with a mouse.
 
+I experimented with several colors for the logo. I studied a lot of information about colors on Google, and I discovered that black is associated with strength, authority, and power.
+It also represents prestige, and formality. For Raza Noodles it is perfect.
+
+After looking into other websites that offered similar services to Raza Noodles, I realized it was a good fit for the concept I was striving to achieve.
+
+It was difficult to choose an orange color, so I went with a softer, more natural orange called [Orange peel](https://en.wikipedia.org/wiki/Shades_of_orange#:~:text=Orange%20peel%20is%20the%20color,amber%20on%20the%20color%20wheel.). It is related to joy, pleasure, and warmth. It's also a fairly trendy color, according to [Color Matters](https://www.colormatters.com/color-and-marketing/59-color-symbolism/the-meanings-of-colors). It's also self evident that it has something to do with food.
+I experimented with several colors before settling on it as the main contrasting hue on a black background. It's halfway between orange and amber.
+
+The background color behind the main image is just a lighter shade of the orange peel color. At the current moment it's intended purpose is for other pages.
+
 ## Responsive Design 
 
-I was able to make the website responsive by primarily using pixels and percentages. These maximum screen sizes, which I implemented, allow the site to adapt to various user screens.
-Chrome Developer Tools was the tool I used to make the site responsive.
+I was able to make the website responsive by primarily using pixels and percentages. The maximum screen sizes, which I implemented, allow the site to adapt to various user screens.
+[Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was the tool I used to make the site responsive.
 
 | features / widths | 1920px | 1440px | 1024px | 768px | 425px | 375px | 320px |
 | -------------------- | --- | --- | --- | --- | --- | --- | --- |
 | Hamburger menu        | hidden | hidden | hidden | shown | n/a | n/a | n/a |
 | Create logo icons    | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
-| Landing page         | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
+| Landing page         | n/a | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a |
 | Dropdown menu        | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
-| Logo fade            | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
+| Logo fade            | n/a | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a |
 | Scroll icons         | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
 | About section        | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
 | Opening hours section | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a | Adjusted |
@@ -491,6 +501,9 @@ Chrome Developer Tools was the tool I used to make the site responsive.
 | Contact page         | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 
 I experimented with many approaches for making the site responsive and discovered that using pixels was the most accurate and straightforward method for converting the various items on the pages to a suitable format for each screen size. Because the different portions of this website are all positioned 'absolute,' it made the most sense to use pixels to make it responsive. By doing it this way, I was able to save time. Because of this design, the screen's height is irrelevant.
+
+I tried using viewport height as the unit of measurement for elements on the page, but it had an unacceptably large impact on structural integrity. I can see how these units of measurement could be really useful.
+It's just trying to keep the responsive design in mind, which is tricky with viewport height and width. For starters, different gadgets come in a variety of heights and widths. If this design was for a specific device I would find those units of measurement very handy to have.
 
 ## Validator Testing
 
