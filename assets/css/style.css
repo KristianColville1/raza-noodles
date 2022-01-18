@@ -185,7 +185,7 @@ span.bars {
     height: 600px;
     display: inline-block;
     background: url('../logo/logo_transparent.png') no-repeat center center;
-    background-size: 60%;
+    background-size: 70%;
     position: absolute;
     overflow: hidden;
 
@@ -644,6 +644,17 @@ span.bars {
     /* bottom space for footer */
     #bottom-space {
         top: 4000px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .hero-background {
+        height: 300px;
+    }
+
+    #logo-overlay {
+        height: 300px;
+        bottom: 100px;
     }
 }
 /* For small screens 320px wide and down */
