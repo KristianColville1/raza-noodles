@@ -177,7 +177,7 @@ span.bars {
     display: inline-block;
     background: url('../images/hero-image.jpeg') no-repeat center center;
     background-color: #FAC375;
-    background-size: 95%;
+    background-size: cover;
     position: absolute;
     overflow: hidden;
     z-index: -1;
