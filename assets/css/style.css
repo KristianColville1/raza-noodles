@@ -175,6 +175,9 @@ span.bars {
     width: 100%;
     height: 600px;
     display: inline-block;
+    background: url('../images/hero-image.jpeg') no-repeat center center;
+    background-color: #FAC375;
+    background-size: 95%;
     position: absolute;
     overflow: hidden;
     z-index: -1;
@@ -204,6 +207,21 @@ span.bars {
     100% {
         opacity: 1;
     }
+}
+
+/* Hidden background text incase images fail to load */
+#hidden-background {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    position: absolute;
+    z-index: -2;
+}
+
+#hidden-background h1{
+    color: black;
+    font-size: 4rem;
+    text-align: center;
 }
 
 /* address and phone number */
