@@ -557,7 +557,13 @@ It's just trying to keep the responsive design in mind, which is tricky with vie
 
 ## Validator Testing
 <hr>
-Html passed official W3C validation.
+<details>
+<summary>HTML5</summary>
+<br>
+The HTML passed all official validation from W3C.
+
+I modified items in the landing page section that would have made it impossible for screen readers to grasp the intent behind the divs. The spans displaying these objects now have suitable aria labels. I looked up the proper syntax for this and gave roles to the spans so that they could act as images.
+</details>
 
 Css passed official W3C validation.
 
