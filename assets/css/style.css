@@ -209,19 +209,10 @@ span.bars {
     }
 }
 
-/* Hidden background text incase images fail to load */
-#hidden-background {
-    width: 100%;
-    height: 600px;
-    text-align: center;
-    position: absolute;
-    z-index: -2;
-}
+/* hides elements I dont want shown */
 
-#hidden-background h1{
-    color: black;
-    font-size: 4rem;
-    text-align: center;
+.hidden {
+    display: none;
 }
 
 /* address and phone number */
