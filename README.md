@@ -518,7 +518,21 @@ Css passed official W3C validation.
 [Back to top](#table-of-contents)
 
 # Version Control
+
+I used [GitPod](https://www.gitpod.io/) as a local repository and IDE & [GitHub](https://github.com) as a remote repository.
+
+1. To begin with, I needed to create a new repository on GitHub [raza-noodles](https://github.com/KristianColville1/raza-noodles).
+2. Then I opened that repository on GitPod by prefixing 'gitpod.io/' at the start of the URL in Github when I was in the repository.
+3. GitPod opened a new workspace for me.
+4. I created some files and folders.
+5. To push my newly created files to GitHub I used a Bash terminal:
+
+    *   **git add (name of file)** *This selects the file for the commit*
+    *   **git commit -m "Commit message: (i.e. Initial commit)"** *Allows the developer to assign a specific concise statement to the commit*
+    *   **git push** *The final command sends the code to GitHub*
+
 [Back to top](#table-of-contents)
+
 # Deployment
 
 When I finished the homepage for Raza Noodles, I looked for a way to deploy the website. As a deployment solution, I chose the version control system GitHub. They have an excellent resource called GitHub pages that allows developers to visually inspect how their website would look on a cloud platform.
