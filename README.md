@@ -25,6 +25,8 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
 * [Deployment](#deployment)
 * [Credits](#credits)
 
+<hr>
+
 # UX
 The theme of this website is Asian Cuisine with a focus on noodles. There are many types of users this may appeal to:
 
@@ -32,6 +34,7 @@ The theme of this website is Asian Cuisine with a focus on noodles. There are ma
     *User type two: People interested in Asian cuisine that enjoy noodles.*
 
 ## User Stories
+<hr>
 
 - As a user I would like to browse the website.
 - As a user I need to easily find a contact number.   
@@ -43,13 +46,21 @@ The theme of this website is Asian Cuisine with a focus on noodles. There are ma
 - As a user I would like different forms of contacting Raza Noodles.
 - As a user I would like to know more about Raza Noodles.
 
+<hr>
+
 ## External user's goal
+<hr>
 Users of the site are interested in Asian cuisine. They are hungry and crave the delicious noodles Raza Noodles can provide. The potential customer wants to know who Raza Noodles are, what dishes they offer, how to contact them and where they are based. 
 
+<hr>
+
 ## Site owner's goal
+<hr>
 Raza Noodles goal is to serve tasty noodle dishes. They want to be a part of the online community to acquire more customers. The site's owner wants people to see what Raza Noodles is all about, easily access the food menu, and have a way to contact them and know where they are based.
 
 ## Potential features to include
+<hr>
+
 - Responsivity for all device users
 - Navigation bar
 - Landing page image/logo
@@ -63,7 +74,7 @@ Raza Noodles goal is to serve tasty noodle dishes. They want to be a part of the
     - Links to other sites owned by Raza Noodles
 
 ## Using the five planes of UX design
-
+<hr>
 <details>
 <summary>Strategy</summary>
 <br>
@@ -174,11 +185,12 @@ Look and feel.
 </details>
 
 [Back to top](#table-of-contents)
+<hr>
 
 # Features
 
 ## Existing Features
-
+<hr>
 <details>
 <summary>Landing page</summary>
 <br>
@@ -318,6 +330,7 @@ This section allows the user of the website to see opening hours for Raza Noodle
 </details>
 
 ## Features left to implement
+<hr>
 Currently this website is static. All code for the website is in HTML5 and CSS3. The following aspirations are currently beyond the scope of this project. I currently do not possess the skills to implement these features.
 
 ### Aspirations for this website
@@ -330,10 +343,12 @@ Currently this website is static. All code for the website is in HTML5 and CSS3.
     - Advertising.
 
 [Back to top](#table-of-contents)
+<hr>
 
 # Testing
 
 ## Testing the Features
+<hr>
 <details>
 <summary>Landing page</summary>
 <br>
@@ -466,20 +481,53 @@ This section allows the user of the website to see opening hours for Raza Noodle
 <br>
 </details>
 
+<hr>
+
 ## Colors
-All colors were tested using [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer). The contrast checker pointed out my red color as a poor choice for my footer links. I opted for a black contrast instead as it made it visually easier to see when hovered over with a mouse.
+<hr>
+<details>
+<summary>Adobe Color</summary>
+<br>
+
+All colors were tested using [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer). The contrast checker pointed out my red color as a poor choice for my footer links. I opted for a black contrast instead as it made it visually easier to see when hovered over with a mouse. All colors scored above on all tests with high scores.
+
+<br>
+</details>
+
+<details>
+<summary>Black</summary>
+<br>
 
 I experimented with several colors for the logo. I studied a lot of information about colors on Google, and I discovered that black is associated with strength, authority, and power.
 It also represents prestige, and formality. For Raza Noodles it is perfect.
 
-After looking into other websites that offered similar services to Raza Noodles, I realized it was a good fit for the concept I was striving to achieve.
+<br>
+</details>
 
-It was difficult to choose an orange color, so I went with a softer, more natural orange called [Orange peel](https://en.wikipedia.org/wiki/Shades_of_orange#:~:text=Orange%20peel%20is%20the%20color,amber%20on%20the%20color%20wheel.). It is related to joy, pleasure, and warmth. It's also a fairly trendy color, according to [Color Matters](https://www.colormatters.com/color-and-marketing/59-color-symbolism/the-meanings-of-colors). It's also self evident that it has something to do with food.
+<details>
+<summary>Orange Peel</summary>
+<br>
+
+It was difficult to choose an orange color, so I went with a softer, more natural orange called [Orange peel](https://en.wikipedia.org/wiki/Shades_of_orange#:~:text=Orange%20peel%20is%20the%20color,amber%20on%20the%20color%20wheel.). It is related to joy, pleasure, and warmth. It's also a fairly trendy color, according to [Color Matters](https://www.colormatters.com/color-and-marketing/59-color-symbolism/the-meanings-of-colors).
 I experimented with several colors before settling on it as the main contrasting hue on a black background. It's halfway between orange and amber.
 
-The background color behind the main image is just a lighter shade of the orange peel color. At the current moment it's intended purpose is for other pages.
+<br>
+</details>
+
+<details>
+<summary>Outcomes</summary>
+<br>
+
+After looking into other websites that offered similar services to Raza Noodles, I found it was a good fit for the concept I was striving to achieve.
+It's self evident that the orange peel color has something to do with food. The black fit the role Raza noodles was after, an elegent design.
+
+<br>
+</details>
+
+<hr>
 
 ## Responsive Design 
+<hr>
 
 I was able to make the website responsive by primarily using pixels and percentages. The maximum screen sizes, which I implemented, allow the site to adapt to various user screens.
 [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was the tool I used to make the site responsive.
@@ -505,13 +553,18 @@ I experimented with many approaches for making the site responsive and discovere
 I tried using viewport height as the unit of measurement for elements on the page, but it had an unacceptably large impact on structural integrity. I can see how these units of measurement could be really useful.
 It's just trying to keep the responsive design in mind, which is tricky with viewport height and width. For starters, different gadgets come in a variety of heights and widths. If this design was for a specific device I would find those units of measurement very handy to have.
 
-## Validator Testing
+<hr>
 
+## Validator Testing
+<hr>
 Html passed official W3C validation.
 
 Css passed official W3C validation.
 
+<hr>
+
 ## Tasks
+<hr>
 
 | Task to be completed | not finished | completed |
 | -------------------- | ------------ | --------- |
@@ -530,6 +583,8 @@ Css passed official W3C validation.
 | README               |      x       |   |
 [Back to top](#table-of-contents)
 
+<hr>
+
 # Version Control
 
 I used [GitPod](https://www.gitpod.io/) as a local repository and IDE & [GitHub](https://github.com) as a remote repository.
@@ -545,10 +600,11 @@ I used [GitPod](https://www.gitpod.io/) as a local repository and IDE & [GitHub]
     *   **git push** *The final command sends the code to GitHub*
 
 [Back to top](#table-of-contents)
+<hr>
 
 # Deployment
 
-When I finished the homepage for Raza Noodles, I looked for a way to deploy the website. As a deployment solution, I chose the version control system GitHub. They have an excellent resource called GitHub pages that allows developers to visually inspect how their website would look on a cloud platform.
+When I finished the homepage for Raza Noodles, I looked for a way to deploy the website. As a deployment solution, I chose the version control system [GitHub](https://github.com). They have an excellent resource called [GitHub pages](https://pages.github.com/) that allows developers to visually inspect how their website would look on a cloud platform.
 
 1. To begin, I went to the repository and selected 'settings.'
 2. I went to the 'pages' section.
@@ -558,10 +614,13 @@ When I finished the homepage for Raza Noodles, I looked for a way to deploy the 
 
 [Back to top](#table-of-contents)
 
+<hr>
+
 # Credits
 
-
 ## Content
+<hr>
+
 ### The logo
 I created the branding logo with help from here [hatchful.shopify.com](https://hatchful.shopify.com/).
 I tried to keep in mind that this was an Asian style restaurant and chose the appropriate design for the logo after careful consideration.
@@ -576,5 +635,10 @@ Google has a wide varity of free fonts for use. I chose two fonts for my project
 ### Terms of Use, Privacy Policy, Cookies Policy
 I used a generator to build my policies from [TermsFeed](https://www.termsfeed.com/).
 
+<hr>
+
 ## Media
+
+<hr>
+
 [Back to top](#table-of-contents)
