@@ -1,4 +1,4 @@
-![Image_of_logo](/assets/logo/logo.png)
+![Image_of_logo](/assets/images/logo/logo.png)
 
 # Raza Noodles
 Raza Noodles is a noodle restaurant located in county Dublin, which serves delicious Asian cuisine with a noodle focus. We have talented chefs from all over the world whose goal is to provide an exceptional flavorful experience. We take pride in serving the Irish customer with an experience unlike any other.
@@ -137,11 +137,18 @@ Look and feel.
 [Back to top](#table-of-contents)
 
 # Features
+
 ## Existing Features
+### Landing page
+
+On the main home page is the logo and logo fade design. The user can see a contact number and address. The scroll icon one brings the user to the next section and it has an arrow to indicate the direction of navigation. The menu bar features in the top right corner, this is a mordern and intitiative design. The logo is also present in the top left corner and has a link to the home page. All sections, internal links and external links are either present on the landing page or can be indicated to.
+
+![Landing page](/assets/images/features/landing-page.png)
+
 ### Navigational Menu
 Included on all internal pages at the top of the page. Allows access to internal links and the different sections on the home page.
 
-![Navigational Menu](/features/nav-menu.png)
+![Navigational Menu](/assets/images/features/nav-menu.png)
 
 Includes:
 
@@ -156,7 +163,7 @@ Includes:
 ### Download dropdown Menu
 This allows the user the option of downloading the menu and keeping it. The dropdown menu currently has two pdf files for download by the websites user.
 
-![Drop down Menu](/features/drop-down.png)
+![Drop down Menu](/assets/images/features/drop-down.png)
 
 Includes:
 
@@ -167,7 +174,7 @@ Includes:
 ### Fixed footer
 Allows the user to see available links to other Raza Noodle social media and the policy pages.
 
-![Fixed footer](/features/fixed-footer.png)
+![Fixed footer](/assets/images/features/fixed-footer.png)
 
 Includes:
 
@@ -185,27 +192,21 @@ Includes:
 Allows the user to scroll down to the relavent sections on all pages.
 The icons contain links that bring the user to the next section.
 
-![Scroll icons](/features/scroll-icon-one.png)
+![Scroll icons](/assets/images/features/scroll-icon-one.png)
 
-![Scroll icons](/features/scroll-icon-two.png)
+![Scroll icons](/assets/images/features/scroll-icon-two.png)
 
 ### About section
 
 Gives us some information about Raza Noodles and the food.
 
-![About section](/features/about-section.png)
+![About section](/assets/images/features/about-section.png)
 
 Includes:
 
     - Description of Raza Noodles.
     - Photos of noodle dishes.
 
-
-### Landing page
-
-On the main home page is the logo and logo fade design. The user can see a contact number and address. The scroll icon one brings the user to the next section and it has an arrow to indicate the direction of navigation. The menu bar features in the top right corner, this is a mordern and intitiative design. The logo is also present in the top left corner and has a link to the home page. All sections, internal links and external links are either present on the landing page or can be indicated to.
-
-![Landing page](/features/landing-page.png)
 
 ## Features left to implement
 Currently this website is static. All code for the website is in HTML5 and CSS3. The following aspirations are currently beyond the scope of this project. I currently do not possess the skills to implement these features.
