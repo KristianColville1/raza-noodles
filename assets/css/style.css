@@ -493,6 +493,17 @@ span.bars {
     width: 100%;
 }
 
+.prices{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.food {
+    width: 50%;
+    float: left;
+}
+
 
 /* Responsive screen sizing */
 
