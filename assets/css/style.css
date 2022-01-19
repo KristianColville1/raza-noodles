@@ -479,34 +479,20 @@ span.bars {
     top: 3185px;
 }
 
-/* Menu page */
-.page-title {
-    font-size: 4rem;
-    color: #E20049;
-    letter-spacing: 10px;
-    text-align: center;
-}
-
-/* food menu layout */
-#food-menu {
-    height: 3000px;
+/* internal menu page */
+#menu-page {
     width: 100%;
+    background: #E20049;
+    height: 800px;
 }
 
-.prices{
-    width: 10%;
-    float: right;
-    text-align: center;
+#menu-bg-video {
+    width: 100%;
+    background: #E20049;
+    height: 800px;
+    border: 3px solid #57556D;
 }
-
-.food {
-    width: 90%;
-    float: left;
-}
-
-.padded {
-    padding-top: 25px;
-}
+/* food menu layout */
 
 
 /* Responsive screen sizing */
