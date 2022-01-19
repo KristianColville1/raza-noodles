@@ -496,19 +496,8 @@ span.bars {
 #food-menu {
     height: 1400px;
     width: 100%;
-    background: orange;
-    align-items: center;
-    position: relative;
-    left: 0;
-    right: 0;
 }
 
-.menu-left, .menu-right {
-    display: inline-block;
-    height: 800px;
-    background-color: #FFEDCF;
-    width: 33%;
-}
 
 /* Responsive screen sizing */
 
