@@ -489,19 +489,23 @@ span.bars {
 
 /* food menu layout */
 #food-menu {
-    height: 1800px;
+    height: 3000px;
     width: 100%;
 }
 
 .prices{
-    width: 50%;
+    width: 10%;
     float: right;
     text-align: center;
 }
 
 .food {
-    width: 50%;
+    width: 90%;
     float: left;
+}
+
+.padded {
+    padding-top: 25px;
 }
 
 
