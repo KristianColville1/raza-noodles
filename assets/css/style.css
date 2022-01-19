@@ -482,44 +482,6 @@ span.bars {
     background-color: #FFEDCF;
 }
 
-#testimonial-box {
-    height: 100px;
-    width: 100%;
-    color: black;
-    background-color: #ffffff;
-    position: absolute;
-}
-
-.testimonials {
-    height: 100px;
-    width: 40%;
-    font-size: 1.2rem;
-    padding-top: 5px;
-    margin: 0 auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-}
-
-.t-one {
-    background-color: aqua;
-    z-index: -1;
-}
-
-.t-two {
-    background-color: yellow;
-    z-index: -2;
-}
-
-.t-three {
-    background-color: peru;
-    z-index: -3;
-}
-
-.bold-text {
-    font-weight: 700;
-}
-
 /* Responsive screen sizing */
 
 /* For large to medium screens 1024px wide and down */
