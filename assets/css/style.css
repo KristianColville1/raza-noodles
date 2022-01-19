@@ -289,17 +289,17 @@ span.bars {
     bottom: 0;
 }
 
-.left-about {
+.left {
     width: 50%;
     float: left;
 }
 
-.right-about {
+.right {
     width: 50%;
     float: right;
 }
 
-.left-about-content {
+.left-content {
     width: 60%;
     float: right;
     margin-top: 10px;
@@ -308,7 +308,7 @@ span.bars {
     position: relative;
 }
 
-.right-about-content {
+.right-content {
     width: 60%;
     float: left;
     margin-top: 10px;
@@ -492,10 +492,21 @@ span.bars {
     text-align: center;
 }
 
-.menu-left, .menu-center, .menu-right {
+/* food menu layout */
+#food-menu {
+    height: 1400px;
+    width: 100%;
+    background: orange;
+    align-items: center;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.menu-left, .menu-right {
     display: inline-block;
     height: 800px;
-    background-color: pink;
+    background-color: #FFEDCF;
     width: 33%;
 }
 
@@ -628,34 +639,34 @@ span.bars {
         top: 480px;
     }
 
-    .left-about {
+    .left {
         float: none;
         width: 100%;
     }
 
-    .right-about {
+    .right {
         float: none;
         width: 100%;
     }
 
-    .left-about-content {
+    .left-content {
         width: 90%;
         margin: 5vh 5vw;
         float: none;
     }
 
-    .right-about-content {
+    .right-content {
         width: 90%;
         margin: 5vh 5vw;
         float: none;
     }
 
-    .left-about-content {
+    .left-content {
         width: 90%;
         float: none;
     }
     
-    .right-about-content {
+    .right-content {
         width: 90%;
         float: none;
         left: 0px;
