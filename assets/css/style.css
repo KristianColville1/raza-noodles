@@ -492,6 +492,13 @@ span.bars {
     text-align: center;
 }
 
+.menu-left, .menu-center, .menu-right {
+    display: inline-block;
+    height: 800px;
+    background-color: pink;
+    width: 33%;
+}
+
 /* Responsive screen sizing */
 
 /* For large to medium screens 1024px wide and down */
