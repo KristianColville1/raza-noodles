@@ -244,15 +244,14 @@ span.bars {
 .sc-one {
     font-size: 2rem;
     font-weight: 900;
-    width: 50px;
-    height: 50px;
     text-align: center;
     background-color: #FFEDCF;
     opacity: 80%;
     border: 1px solid black;
     border-radius: 50%;
-    position: absolute;
-    left: 48%;
+    position: relative;
+    left: 0;
+    right: 0;
 }
 
 .sc-one:hover {
@@ -260,6 +259,8 @@ span.bars {
 }
 
 .scroll-icon {
+    height: 50px;
+    width: 50px;
     color: black;
     position: relative;
     /* animation for icon */
@@ -352,16 +353,15 @@ span.bars {
 .sc-two {
     font-size: 2rem;
     font-weight: 900;
-    width: 50px;
-    height: 50px;
     text-align: center;
     background-color: #FFEDCF;
     opacity: 80%;
     border: 1px solid black;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
     z-index: 5;
-    left: 48%;
+    left: 0;
+    right: 0;
 }
 
 .sc-two:hover {
