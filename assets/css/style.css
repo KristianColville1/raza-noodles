@@ -474,6 +474,30 @@ span.bars {
     top: 3185px;
 }
 
+/* Menu section */
+
+#menu-page {
+    width: 100%;
+    height: 750px;
+    background-color: #FFEDCF;
+}
+
+#testimonial-box {
+    height: 100px;
+    width: 100%;
+    color: black;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.testimonials {
+    height: 100px;
+    width: 33%;
+    margin: auto;
+    padding-top: 30px;
+}
+
 /* Responsive screen sizing */
 
 /* For large to medium screens 1024px wide and down */
