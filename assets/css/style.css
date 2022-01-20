@@ -790,17 +790,9 @@ span.bars {
 }
 
 @media screen and (max-width: 375px){
-    .hero-background {
-        height: 300px;
-    }
-
-    #logo-overlay {
-        height: 300px;
-        bottom: 100px;
-    }
 
     .sc-one-outer {
-        top: 230px;
+        top: 250px;
     }
 
     #address-phone {
@@ -810,6 +802,10 @@ span.bars {
     #about-section {
         height: 2200px;
         top: 600px;
+    }
+
+    .sc-two-outer {
+        top: 2150px;
     }
 
     #opening-hours-section {
