@@ -546,6 +546,8 @@ span.bars {
     top: 150px;
 }
 
+/* food menu section */
+
 /* Responsive screen sizing */
 
 /* For large to medium screens 1024px wide and down */
@@ -730,6 +732,17 @@ span.bars {
     #bottom-space {
         top: 4000px;
     }
+
+    /* Menu page */
+
+    #menu-landing-page, #menu-bg  {
+        height: 400px;
+    }
+
+    .menu-bg-title {
+        font-size: 5rem;
+        top: 100px;
+    }
 }
 
 /* For small screens 550px wide and down */
@@ -858,6 +871,17 @@ span.bars {
 
     #bottom-space {
         top: 3500px;
+    }
+
+    /* Menu page */
+
+    #menu-landing-page, #menu-bg  {
+        height: 350px;
+    }
+
+    .menu-bg-title {
+        font-size: 4.5rem;
+        top: 100px;
     }
 
 }
