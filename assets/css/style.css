@@ -242,7 +242,7 @@ span.bars {
 }
 
 .sc-one {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 900;
     text-align: center;
     background-color: #FFEDCF;
@@ -300,6 +300,14 @@ span.bars {
     float: right;
 }
 
+.left p {
+    margin-top: 10px;
+}
+
+.right p {
+    margin-top: 10px;
+}
+
 .left-content {
     width: 60%;
     float: right;
@@ -351,7 +359,7 @@ span.bars {
 }
 
 .sc-two {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 900;
     text-align: center;
     background-color: #FFEDCF;
