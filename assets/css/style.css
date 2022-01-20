@@ -647,6 +647,14 @@ ul.lunch-text li {
     text-decoration: none;
 }
 
+/* early bird menu section */
+
+#early-menu {
+    height: 2100px;
+    width: 100%;
+    position: absolute;
+    top: 3100px;
+}
 
 /* Responsive screen sizing */
 
