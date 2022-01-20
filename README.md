@@ -518,7 +518,7 @@ I experimented with several colors before settling on it as the main contrasting
 <summary>Outcomes</summary>
 <br>
 
-After looking into other websites that offered similar services to Raza Noodles, I found it was a good fit for the concept I was striving to achieve.
+After looking into other websites that offered similar services to Raza Noodles, I found these colors as a good fit for the concept I was striving to achieve.
 It's self evident that the orange peel color has something to do with food. The black fit the role Raza noodles was after, an elegent design.
 
 <br>
@@ -526,8 +526,27 @@ It's self evident that the orange peel color has something to do with food. The 
 
 <hr>
 
-## Responsive Design 
+## Testing the Content
+
+<details>
+<summary>Images and Text</summary>
+<br>
+Raza Noodles is an Asian style resturant. However, I felt after research during the strategy section that the less gimmicky it looked the better. This resturant is not a common fast-food enterprise so it needed to be presented as syphosticated and in its own way it reached those goals.
+
+The images selected are beautiful, anyone interested in noodles that was hungry would find those images delectable. The black background sucks the viewers eyes into the page creating a focus that does not strain the eyes but lifts the viewers attention to the capabilities of this resturant. The colors in the images go with eachother and add great contrast.
+
+There's abit of extra color brought in with these images. I spent along time trying to make this website as cohesive as possible and I am satisfied with my images.
+
+All text on the homepage was wrote by myself.
+
+The menu page food item text was sourced from online. (finish this)
+<br>
+</details>
+
+[Back to top](#table-of-contents)
 <hr>
+
+## Responsive Design
 
 I was able to make the website responsive by primarily using pixels and percentages. The maximum screen sizes, which I implemented, allow the site to adapt to various user screens.
 [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was the tool I used to make the site responsive.
