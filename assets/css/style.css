@@ -197,8 +197,8 @@ span.bars {
     overflow: hidden;
 
     /* animation for logo */
-    animation: logo-fade ease 10s;
-    animation-iteration-count: 3;
+    animation: logo-fade ease 3s;
+    animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
@@ -524,29 +524,59 @@ span.bars {
     top: 0;
 }
 
+#menu-bg-outer {
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
 #menu-bg {
     width: 100%;
-    height: 850px;
+    height: 650px;
     display: block;
     position: absolute;
     z-index: -1;
     top: 0px;
-    background: url('../images/background-two.jpeg') no-repeat center center;
+    bottom: 200px;
+    background: url('../images/background-four.jpeg') no-repeat center center;
     background-color: #FAC375;
     background-attachment: fixed;
     background-size: cover;
-    background-blend-mode: hard-light;
+    background-blend-mode: soft-light;
+
+    /* menu-background-animation */
+    animation-name: menu-page-zoom;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
 }
 
+/* animation for menu-background */
+@keyframes menu-page-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+    
+}
 .menu-bg-title {
     color: black;
-    font-size: 7rem;
+    font-size: 9rem;
     text-align: center;
     position: relative;
     top: 150px;
 }
 
 /* food menu section */
+#food-menu {
+    width: 100%;
+    height: 850px;
+    position: absolute;
+    top: 950px;
+}
 
 /* Responsive screen sizing */
 
