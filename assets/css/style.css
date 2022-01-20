@@ -596,6 +596,98 @@ span.bars {
     }
 }
 
+/* For smaller screens 670px wide and down */
+
+@media screen and (max-width: 670px) {
+        /* hero image with logo overlayed */
+
+        #landing-logo {
+            height: 400px;
+        }
+    
+        #hero-bg-container {
+            height: 400px;
+        }
+    
+        .hero-background {
+            height: 400px;
+        }
+    
+        #logo-overlay {
+            height: 400px;
+            background-size: 100%;
+        }
+    
+        .sc-one-outer {
+            top: 330px;
+        }
+    
+        /* Address and phone number */
+    
+        #address-phone {
+            top: 410px;
+        }
+
+        /* about-section */
+
+        #about-section {
+            top: 700px;
+            height: 1800px;
+        }
+    
+        .left {
+            float: none;
+            width: 100%;
+        }
+    
+        .right {
+            float: none;
+            width: 100%;
+        }
+    
+        .left-content {
+            width: 90%;
+            margin: 5vh 5vw;
+            float: none;
+        }
+    
+        .right-content {
+            width: 90%;
+            margin: 5vh 5vw;
+            float: none;
+        }
+    
+        .left-content {
+            width: 90%;
+            float: none;
+        }
+        
+        .right-content {
+            width: 90%;
+            float: none;
+            left: 0px;
+        }
+    
+        .sc-two-outer {
+            top: 2480px;
+        }
+    
+        /* opening-hours-section */
+    
+        #opening-hours-section {
+            top: 3300px;
+            height: 700px;
+        }
+    
+        .center-text > p {
+            font-size: 2.5rem;
+        }
+    
+        /* bottom space for footer */
+        #bottom-space {
+            top: 4000px;
+        }
+}
 /* For small screens 425px wide and down */
 
 @media  screen and (max-width: 425px) {
