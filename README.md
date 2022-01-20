@@ -532,10 +532,14 @@ It's self evident that the orange peel color has something to do with food. The 
 I was able to make the website responsive by primarily using pixels and percentages. The maximum screen sizes, which I implemented, allow the site to adapt to various user screens.
 [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was the tool I used to make the site responsive.
 
+Many features were not affected until certain widths were reached and those are indicated as n/a.
+
+These adjustments did not apply to the external pages because the policys were created using a generator. External links to other websites were not included in the adjustments because I don't own those websites.
+
 | features / widths | 1920px | 1440px | 1024px | 768px | 425px | 375px | 320px |
 | -------------------- | --- | --- | --- | --- | --- | --- | --- |
 | Hamburger menu        | hidden | hidden | hidden | shown | n/a | n/a | n/a |
-| Create logo icons    | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
+| logos                | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
 | Landing page         | n/a | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a |
 | Dropdown menu        | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
 | Logo fade            | n/a | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a |
@@ -547,6 +551,24 @@ I was able to make the website responsive by primarily using pixels and percenta
 | Menu page            | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 | Gallery page         | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 | Contact page         | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+
+Personal breakpoints for Raza Noodles
+
+| features / widths | 670px | 550px | 475px |
+| -------------------- | --- | --- | --- |
+| Hamburger menu        | shown | shown | shown |
+| logos                | Adjusted | n/a | n/a |
+| Landing page         | Adjusted | n/a | n/a |
+| Dropdown menu        | n/a | n/a | n/a |
+| Logo fade            | Adjusted | n/a | n/a |
+| Scroll icons         | Adjusted | Adjusted | n/a |
+| About section        | Adjusted | Adjusted | n/a |
+| Opening hours section | Adjusted | Adjusted | Adjusted |
+| Footer               | Adjusted | Adjusted | Adjusted |
+| External Links       | x | x | x |
+| Menu page            | n/a | n/a | n/a |
+| Gallery page         | n/a | n/a | n/a |
+| Contact page         | n/a | n/a | n/a |
 
 I experimented with many approaches for making the site responsive and discovered that using pixels was the most accurate and straightforward method for converting the various items on the pages to a suitable format for each screen size. Because the different portions of this website are all positioned 'absolute,' it made the most sense to use pixels to make it responsive. By doing it this way, I was able to save time. Because of this design, the screen's height is irrelevant.
 
