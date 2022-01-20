@@ -619,17 +619,17 @@ span.bars {
     }
 
     .sc-one-outer {
-        top: 350px;
+        top: 310px;
     }
 
     /* Address and phone number */
 
     #about-section {
-        height: 1400px;
+        height: 1500px;
     }
 
     #address-phone {
-        top: 480px;
+        top: 410px;
     }
 
     .left {
@@ -672,7 +672,7 @@ span.bars {
     /* opening-hours-section */
 
     #opening-hours-section {
-        top: 3100px;
+        top: 3200px;
     }
 
     .center-text > p {
