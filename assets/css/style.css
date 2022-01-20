@@ -599,94 +599,94 @@ span.bars {
 /* For smaller screens 670px wide and down */
 
 @media screen and (max-width: 670px) {
-        /* hero image with logo overlayed */
+    /* hero image with logo overlayed */
 
-        #landing-logo {
-            height: 400px;
-        }
-    
-        #hero-bg-container {
-            height: 400px;
-        }
-    
-        .hero-background {
-            height: 400px;
-        }
-    
-        #logo-overlay {
-            height: 400px;
-            background-size: 100%;
-        }
-    
-        .sc-one-outer {
-            top: 330px;
-        }
-    
-        /* Address and phone number */
-    
-        #address-phone {
-            top: 410px;
-        }
+    #landing-logo {
+        height: 400px;
+    }
 
-        /* about-section */
+    #hero-bg-container {
+        height: 400px;
+    }
 
-        #about-section {
-            top: 700px;
-            height: 1800px;
-        }
+    .hero-background {
+        height: 400px;
+    }
+
+    #logo-overlay {
+        height: 400px;
+        background-size: 100%;
+    }
+
+    .sc-one-outer {
+        top: 330px;
+    }
+
+    /* Address and phone number */
+
+    #address-phone {
+        top: 410px;
+    }
+
+    /* about-section */
+
+    #about-section {
+        top: 700px;
+        height: 1800px;
+    }
+
+    .left {
+        float: none;
+        width: 100%;
+    }
+
+    .right {
+        float: none;
+        width: 100%;
+    }
+
+    .left-content {
+        width: 90%;
+        margin: 5vh 5vw;
+        float: none;
+    }
+
+    .right-content {
+        width: 90%;
+        margin: 5vh 5vw;
+        float: none;
+    }
+
+    .left-content {
+        width: 90%;
+        float: none;
+    }
     
-        .left {
-            float: none;
-            width: 100%;
-        }
-    
-        .right {
-            float: none;
-            width: 100%;
-        }
-    
-        .left-content {
-            width: 90%;
-            margin: 5vh 5vw;
-            float: none;
-        }
-    
-        .right-content {
-            width: 90%;
-            margin: 5vh 5vw;
-            float: none;
-        }
-    
-        .left-content {
-            width: 90%;
-            float: none;
-        }
-        
-        .right-content {
-            width: 90%;
-            float: none;
-            left: 0px;
-        }
-    
-        .sc-two-outer {
-            top: 2480px;
-        }
-    
-        /* opening-hours-section */
-    
-        #opening-hours-section {
-            top: 3300px;
-            height: 700px;
-        }
-    
-        .center-text > p {
-            font-size: 2.5rem;
-        }
-    
-        /* bottom space for footer */
-        #bottom-space {
-            top: 4000px;
-        }
+    .right-content {
+        width: 90%;
+        float: none;
+        left: 0px;
+    }
+
+    .sc-two-outer {
+        top: 2480px;
+    }
+
+    /* opening-hours-section */
+
+    #opening-hours-section {
+        top: 3300px;
+        height: 700px;
+    }
+
+    .center-text > p {
+        font-size: 2.5rem;
+    }
+
+    /* bottom space for footer */
+    #bottom-space {
+        top: 4000px;
+    }
 }
 
 /* For small screens 550px wide and down */
@@ -740,77 +740,43 @@ span.bars {
     /* hero image with logo overlayed */
 
     #landing-logo {
-        height: 400px;
+        height: 350px;
     }
 
     #hero-bg-container {
-        height: 400px;
+        height: 350px;
     }
 
     .hero-background {
-        height: 400px;
+        height: 350px;
     }
 
     #logo-overlay {
-        height: 400px;
-        background-size: 100%;
+        height: 350px;
     }
 
     .sc-one-outer {
-        top: 310px;
+        top: 280px;
     }
 
     /* Address and phone number */
+    #address-phone {
+        top: 360px;
+    }
 
     #about-section {
-        height: 1500px;
-    }
-
-    #address-phone {
-        top: 410px;
-    }
-
-    .left {
-        float: none;
-        width: 100%;
-    }
-
-    .right {
-        float: none;
-        width: 100%;
-    }
-
-    .left-content {
-        width: 90%;
-        margin: 5vh 5vw;
-        float: none;
-    }
-
-    .right-content {
-        width: 90%;
-        margin: 5vh 5vw;
-        float: none;
-    }
-
-    .left-content {
-        width: 90%;
-        float: none;
-    }
-    
-    .right-content {
-        width: 90%;
-        float: none;
-        left: 0px;
+        height: 2300px;
+        top: 600px;
     }
 
     .sc-two-outer {
-        top: 2150px;
+        top: 2250px;
     }
 
     /* opening-hours-section */
 
     #opening-hours-section {
-        top: 3200px;
+        top: 2900px;
     }
 
     .center-text > p {
@@ -819,7 +785,7 @@ span.bars {
 
     /* bottom space for footer */
     #bottom-space {
-        top: 4000px;
+        top: 3600px;
     }
 }
 
