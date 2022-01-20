@@ -193,7 +193,7 @@ span.bars {
     overflow: hidden;
 
     /* animation for logo */
-    animation: logo-fade ease 4s;
+    animation: logo-fade ease 10s;
     animation-iteration-count: 3;
     animation-fill-mode: forwards;
 }
