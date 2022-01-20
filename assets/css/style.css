@@ -694,6 +694,29 @@ span.bars {
         height: 300px;
         bottom: 100px;
     }
+
+    .sc-one-outer {
+        top: 230px;
+    }
+
+    #address-phone {
+        top: 300px;
+    }
+
+    #about-section {
+        height: 2200px;
+        top: 600px;
+    }
+
+    #opening-hours-section {
+        height: 700px;
+        top: 2800px;
+    }
+
+    #bottom-space {
+        top: 3500px;
+    }
+
 }
 /* For small screens 320px wide and down */
 
