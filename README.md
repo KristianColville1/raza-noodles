@@ -1,4 +1,4 @@
-![Image_of_logo](/assets/images/logo/logo.png)
+![Image_of_logo](/assets/images/logo/logo_transparent.png)
 
 # Raza Noodles
 Raza Noodles is a noodle restaurant located in county Dublin, which serves delicious Asian cuisine with a noodle focus. We have talented chefs from all over the world whose goal is to provide an exceptional flavorful experience. We take pride in serving the Irish customer with an experience unlike any other.

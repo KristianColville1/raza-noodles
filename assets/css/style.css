@@ -520,13 +520,23 @@ span.bars {
 #menu-landing-page {
     width: 100%;
     height: 850px;
-    background: url('../images/background-two.jpeg') no-repeat center center;
-    background-color: #FAC375;
-    background-blend-mode: darken;
-    background-size: cover;
-    background-attachment: fixed;
     position: absolute;
     top: 0;
+
+
+}
+
+#menu-bg {
+    width: 100%;
+    height: 900px;
+    display: block;
+    position: absolute;
+    top: 100px;
+    background: url('../images/background-four.jpeg') no-repeat center center;
+    background-color: #FAC375;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
 }
 
 .menu-title {
@@ -548,161 +558,6 @@ span.bars {
     position: absolute;
     left: 5%;
     top: 200px;
-}
-
-/* menu links */
-
-#food-menu-outer {
-    width: 100%;
-    height: 150px;
-    position: absolute;
-    top: 500px;
-}
-
-#food-menu {
-    width: 40%;
-    height: 80px;
-    text-align: center;
-    background-color: #FAC375;
-    border: 1px solid black;
-    position: relative;
-    margin: 0 auto;
-}
-
-#food-menu li {
-    margin: 2vh 50px;
-    list-style-type: none;
-    display: inline-block;
-}
-
-#food-menu a {
-    font-weight: 600;
-    font-size: 1.5rem;
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-/* lunch section */
-
-#lunch-menu {
-    width: 100%;
-    height: 2000px;
-    position: absolute;
-    top: 920px;
-}
-
-.lunch-headings {
-    font-size: 4rem;
-    text-align: center;
-    border-bottom: 1px solid #FAC375;
-}
-
-ul.lunch-text {
-    font-size: 1.2rem;
-    list-style-type: none;
-}
-
-ul.lunch-text li {
-    text-align: center;
-}
-
-.padded {
-    padding: 35px;
-    border-top: 3px solid #F79F24;
-    border-left: 3px solid #F79F24;
-    border-bottom: #FAC375;
-    border-right: #FAC375;
-    border-style: groove;
-}
-
-.food-headings {
-    padding-top: 35px;
-}
-
-.food {
-    padding: 0 30px;
-}
-
-.food p {
-    padding: 20px;
-    border-bottom: 1px solid #FAC375;
-}
-
-.lunch {
-    bottom: 0;
-}
-
-/* lunch section end */
-
-#lunch-end {
-    width: 100%;
-    height: 250px;
-    display: block;
-    position: absolute;
-    top: 1700px;
-    background: url('../images/background-three.jpeg') no-repeat center center;
-    background-color: #FAC375;
-    background-attachment: fixed;
-    background-size: cover;
-    background-blend-mode: soft-light;
-}
-
-#lunch-end p {
-    font-size: 2rem;
-    font-weight: 700;
-    color: black;
-    padding: 35px 0;
-    text-align: center;
-}
-
-#lunch-end a {
-    font-size: 2rem;
-    color: black;
-    text-decoration: none;
-}
-
-/* early bird menu section */
-
-#early-menu {
-    height: 2000px;
-    width: 100%;
-    position: absolute;
-    top: 2850px;
-}
-
-#tester {
-    width: 20px;
-    height: 45px;
-    background-color: red;
-    position: relative;
-}
-
-#early-end {
-    width: 100%;
-    height: 250px;
-    display: block;
-    position: absolute;
-    top: 1700px;
-    background: url('../images/background-four.jpeg') no-repeat center center;
-    background-color: #FAC375;
-    background-attachment: fixed;
-    background-size: cover;
-    background-blend-mode: soft-light;
-}
-
-#early-end p {
-    padding: 10px 0;
-    text-align: center;
-}
-
-/* à la carte section */
-
-#a-menu {
-    height: 1700px;
-    width: 100%;
-    position: absolute;
-    top: 4800px;
 }
 
 /* Responsive screen sizing */
