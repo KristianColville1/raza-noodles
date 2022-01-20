@@ -508,15 +508,16 @@ span.bars {
     height: 800px;
     border: 3px solid #57556D;
 }
-/* food menu layout */
+
+/* Menu page */
 #menu-landing-page {
     width: 100%;
     height: 800px;
-    background: url('../images/background-two.jpeg');
+    background: url('../images/background-two.jpeg') no-repeat center center;
     background-color: #FAC375;
-    background-blend-mode: overlay;
+    background-blend-mode: darken;
     background-size: cover;
-    position: fixed;
+    background-attachment: fixed;
 }
 
 .menu-title {
@@ -531,6 +532,29 @@ span.bars {
     position: absolute;
     left: 5%;
     top: 150px;
+}
+
+#food-menu-outer {
+    width: 100%;
+    height: 150px;
+    background-color: #FFEDCF;
+    position: absolute;
+    top: 400px;
+}
+
+#food-menu {
+    width: 700px;
+    height: 80px;
+    background-color: black;
+    position: relative;
+    margin: 0 auto;
+}
+
+#lunch-menu {
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 800px;
 }
 
 /* Responsive screen sizing */
