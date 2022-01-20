@@ -572,12 +572,36 @@ span.bars {
     top: 920px;
 }
 
+.lunch-headings {
+    font-size: 4rem;
+    text-align: center;
+    border-bottom: 1px solid #FAC375;
+}
+
+ul.lunch-text {
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+ul.lunch-text li {
+    text-align: center;
+}
+
 .padded {
     padding: 35px;
+    border-bottom: 1px solid #FAC375;
+}
+
+.food-headings {
+    padding-top: 35px;
 }
 .food p {
     padding: 20px;
     border-bottom: 1px solid #FAC375;
+}
+
+.lunch {
+    bottom: 0;
 }
 
 /* Responsive screen sizing */
