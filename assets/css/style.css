@@ -531,11 +531,12 @@ span.bars {
 
 .menu-title {
     color: black;
+    text-transform: uppercase;
     font-size: 6rem;
     height: 250px;
     text-align: center;
     position: absolute;
-    top: 100px;
+    top: 150px;
     left: 0;
     right: 0;
 }
@@ -555,7 +556,7 @@ span.bars {
     width: 100%;
     height: 150px;
     position: absolute;
-    top: 400px;
+    top: 500px;
 }
 
 #food-menu {
@@ -608,7 +609,11 @@ ul.lunch-text li {
 
 .padded {
     padding: 35px;
-    border-bottom: 1px solid #FAC375;
+    border-top: 3px solid #F79F24;
+    border-left: 3px solid #F79F24;
+    border-bottom: #FAC375;
+    border-right: #FAC375;
+    border-style: groove;
 }
 
 .food-headings {
