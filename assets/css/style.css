@@ -577,7 +577,7 @@ span.bars {
 
 #lunch-menu {
     width: 100%;
-    height: 2300px;
+    height: 2000px;
     position: absolute;
     top: 920px;
 }
@@ -636,8 +636,9 @@ ul.lunch-text li {
 
 #lunch-end p {
     font-size: 2rem;
+    font-weight: 700;
     color: black;
-    padding: 20px;
+    padding: 35px 0;
     text-align: center;
 }
 
@@ -650,10 +651,44 @@ ul.lunch-text li {
 /* early bird menu section */
 
 #early-menu {
-    height: 2100px;
+    height: 2000px;
     width: 100%;
     position: absolute;
-    top: 3100px;
+    top: 2850px;
+}
+
+#tester {
+    width: 20px;
+    height: 45px;
+    background-color: red;
+    position: relative;
+}
+
+#early-end {
+    width: 100%;
+    height: 250px;
+    display: block;
+    position: absolute;
+    top: 1700px;
+    background: url('../images/background-four.jpeg') no-repeat center center;
+    background-color: #FAC375;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+#early-end p {
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* à la carte section */
+
+#a-menu {
+    height: 1700px;
+    width: 100%;
+    position: absolute;
+    top: 4050px;
 }
 
 /* Responsive screen sizing */
