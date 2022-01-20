@@ -538,25 +538,27 @@ These adjustments did not apply to the external pages because the policys were c
 
 | features / widths | 1920px | 1440px | 1024px | 768px | 425px | 375px | 320px |
 | -------------------- | --- | --- | --- | --- | --- | --- | --- |
-| Hamburger menu        | hidden | hidden | hidden | shown | n/a | n/a | n/a |
+| Menu                 | Shown | Shown | Shown | Hidden | Hidden | Hidden | Hidden |
+| Hamburger menu        | Hidden | Hidden | Hidden | Shown | Shown | Shown | Shown |
 | logos                | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
 | Landing page         | n/a | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a |
 | Dropdown menu        | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
 | Logo fade            | n/a | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a |
-| Scroll icons         | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
-| About section        | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
+| Scroll icons         | n/a | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a |
+| About section        | n/a | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a |
 | Opening hours section | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a | Adjusted |
-| Footer               | n/a | n/a | n/a | Adjusted | Adjusted | n/a | n/a |
+| Footer               | n/a | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a |
 | External Links       | x | x | x | x | x | x | x |
 | Menu page            | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 | Gallery page         | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 | Contact page         | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 
-Personal breakpoints for Raza Noodles
+Personal breakpoints for Raza Noodles:
 
 | features / widths | 670px | 550px | 475px |
 | -------------------- | --- | --- | --- |
-| Hamburger menu        | shown | shown | shown |
+| Menu                 | Hidden | Hidden | Hidden |
+| Hamburger menu        | Shown | Shown | Shown |
 | logos                | Adjusted | n/a | n/a |
 | Landing page         | Adjusted | n/a | n/a |
 | Dropdown menu        | n/a | n/a | n/a |
