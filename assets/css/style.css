@@ -711,6 +711,29 @@ span.bars {
     }
 }
 
+/* For small screens 475px wide and down */
+
+@media screen and (max-width: 475px){
+    #about-section {
+        height: 1500px;
+    }
+
+    .sc-two-outer {
+        top: 2220px;
+    }
+        
+    /* opening-hours-section */
+
+    #opening-hours-section {
+        top: 3000px;
+    }
+
+    /* bottom space for footer */
+    #bottom-space {
+        top: 3700px;
+    }
+}
+
 /* For small screens 425px wide and down */
 
 @media  screen and (max-width: 425px) {
