@@ -23,6 +23,10 @@ h1 {
     margin: 3vh;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
 hr {
     border: 2px solid #F79F24;
 }
@@ -515,20 +519,25 @@ span.bars {
 
 #menu-landing-page {
     width: 100%;
-    height: 800px;
+    height: 850px;
     background: url('../images/background-two.jpeg') no-repeat center center;
     background-color: #FAC375;
     background-blend-mode: darken;
     background-size: cover;
     background-attachment: fixed;
+    position: absolute;
+    top: 0;
 }
 
 .menu-title {
     color: black;
-    font-size: 7rem;
-    height: 150px;
+    font-size: 6rem;
+    height: 250px;
     text-align: center;
-
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
 }
 
 .menu-img {
