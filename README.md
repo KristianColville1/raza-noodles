@@ -684,6 +684,10 @@ Google has a wide varity of free fonts for use. I chose two fonts for my project
 ### Terms of Use, Privacy Policy, Cookies Policy
 I used a generator to build my policies from [TermsFeed](https://www.termsfeed.com/).
 
+### Food menu items
+
+The soups for my food menu were sources from [bonappetit](https://www.bonappetit.com/recipes/slideshow/noodle-soup)
+
 <hr>
 
 ## Media
