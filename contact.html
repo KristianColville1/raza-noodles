@@ -43,7 +43,7 @@
         </nav>
     </header>
     <section id="contact-section">
-        <form id="contact-form" method="POST">
+        <form id="contact-form" action="#">
             <h2>Let us know what you think</h2>
             <label for="first-name">First name</label>
             <input class="text-input" type="text" id="first-name" name="first-name" required>
@@ -52,12 +52,9 @@
             <label for="email">Email</label>
             <input class="text-input" type="email" id="first-name" name="first-name" required>
             <label for="user-text">Your Message</label>
-            <input class="user-input" type="text" id="user-text" name="user-text" required>
+            <textarea class="user-text" id="user-text" name="user-text" required></textarea>
             <input class="submit-button" type="submit" id="first-name" name="first-name" required>
         </form>
-        <div id="contact-tb-outer">
-            <span id="contact-text"></span>
-        </div>
     </section>
     <footer>
         <div id="footer-container">

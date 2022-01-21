@@ -615,15 +615,47 @@ form label {
     margin-left: 10px;
 }
 
-.text-input {
+.text-input, #user-text {
     color: black;
     width: 100%;
     height: 30px;
+    background: transparent;
     margin: 10px 5px;
-    border: 2px solid black;
+    border: 2px solid #FFEDCF;
+    border-style: inset;
 }
 
+.text-input:hover, #user-text:hover {
+    background-color: #FAC375;
+    border: 2px solid #F79F24;
+}
 
+.text-input:focus-within, #user-text:focus-within  {
+    background: #FFEDCF;
+    border: 0;
+}
+
+#user-text {
+    height: 100px;
+    width: 100%;
+    resize: none;
+}
+
+.submit-button {
+    width: 80px;
+    height: 35px;
+    margin: 10px 5px;
+    background-color: #F79F24;
+    border: 4px solid #FAC375;
+    border-style: outset;
+    color: black;
+}
+
+.submit-button:focus-within {
+    background-color: #FAC375;
+    border: 4px solid #F79F24;
+    border-style: inset;
+}
 
 /* Responsive screen sizing */
 
