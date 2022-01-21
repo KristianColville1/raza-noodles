@@ -721,7 +721,6 @@ span.bars {
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: 5;
     line-height: 35px;
     transform: translateY(400px);
 }
@@ -741,10 +740,56 @@ span.bars {
     height: 400px;
     background-color: #F79F24;
     position: absolute;
-    z-index: 5;
     transform: translateY(880px);
 }
 
+.soup-one, .soup-two, .soup-three {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+}
+
+.soup-one {
+    z-index: 2;
+    animation: menu-images-fade-in-out;
+    animation-timing-function: ease-in-out;
+    animation-duration: 27s;
+    animation-delay: 9s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:both;
+}
+
+.soup-three {
+    z-index: 2;
+    animation: menu-images-fade-in-out;
+    animation-timing-function: ease-in-out;
+    animation-duration: 27s;
+    animation-delay: 18s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:both;
+}
+
+
+/* menu images animation */
+@keyframes menu-images-fade-in-out {
+    0%{
+        opacity: 1;
+    }
+    33%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+    66%{
+        opacity: 0;
+    }
+    99%{
+        opacity: 0;
+    }
+}
 /* gallery page */
 
 /* contact page */
