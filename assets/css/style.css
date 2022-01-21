@@ -649,6 +649,27 @@ span.bars {
     background-color: yellow;
 }
 
+/* food and prices */
+
+.food-and-prices {
+    width: 100%;
+    height: 100%;
+}
+
+.food-left {
+    width: 85%;
+    height: 33%;
+    float: left;
+    background: red;
+}
+
+.prices-right {
+    width: 15%;
+    height: 33%;
+    float: right;
+    background: white;
+}
+
 /* food menu logo on left */
 
 #inside-menu-left {
