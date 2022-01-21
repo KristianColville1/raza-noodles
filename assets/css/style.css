@@ -581,9 +581,8 @@ span.bars {
 }
 
 .white-line {
-    height: 100%;
-    border: 2px solid #FFEDCF;
-    border-style: groove;
+    border: 3px solid #FAC375;
+    border-style: inset;
     display: block;
     position: absolute;
     z-index: 3;
@@ -592,11 +591,23 @@ span.bars {
 /* food menu sections split in three equal parts */
 
 .line-one {
+    height: 100%;
     left: 33%;
 }
 
 .line-two {
+    height: 100%;
     left: 66%;
+}
+
+.line-top {
+    width: 100%;
+    position: absolute;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #F79F24;
+    border-radius: 50%;
 }
 
 #menu-left {
@@ -638,7 +649,30 @@ span.bars {
     background-color: yellow;
 }
 
-/* food menu logo */
+/* food menu logo on left */
+
+#inside-menu-left {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+#food-logo {
+    width: 100%;
+    height: 300px;
+    background: url('../images/logo/logo_transparent.png') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+}
+
+#inside-menu-left > a {
+    text-decoration: none;
+    position: relative;
+    color: #F79F24;
+    top: 300px;
+    background-color: red;
+}
 
 /* gallery page */
 
