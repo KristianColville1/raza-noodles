@@ -582,7 +582,7 @@ span.bars {
 
 /* contact page */
 
-#contact-bg {
+#contact-section {
     width: 100%;
     height: 850px;
     position: absolute;
@@ -593,11 +593,22 @@ span.bars {
     background-blend-mode: soft-light;
 }
 
-#contact-title {
-    color: black;
-    font-size: 3rem;
-    position: relative;
-    z-index: 2;
+#contact-form {
+    width: 500px;
+    height: 600px;
+    padding: 40px;
+    background-color: black;
+    opacity: 60%;
+    position: absolute;
+    top: 100px;
+    left: 2.5%;
+}
+
+.text-input {
+    color: #FFEDCF;
+    width: 100%;
+    height: 30px;
+    margin: 10px 5px;
 }
 
 
