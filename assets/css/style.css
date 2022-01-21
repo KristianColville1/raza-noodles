@@ -571,12 +571,32 @@ span.bars {
 }
 
 /* food menu section */
-#food-menu {
+
+#food-menu-section {
     width: 100%;
     height: 850px;
     position: absolute;
-    top: 950px;
+    z-index: -1;
+    top: 850px;
 }
+
+.white-line {
+    height: 100%;
+    border: 2px solid #FFEDCF;
+    border-style: groove;
+    display: block;
+    position: absolute;
+}
+
+.line-one {
+    left: 33%;
+}
+
+.line-two {
+    left: 66%;
+}
+
+
 
 /* gallery page */
 
@@ -592,6 +612,8 @@ span.bars {
     background-size: cover;
     background-blend-mode: difference;
 }
+
+/* contact form */
 
 #contact-form {
     width: 600px;
@@ -1077,11 +1099,12 @@ form label {
     /* contact page */
 
     #contact-form {
-        width: 300px;
+        width: 280px;
         height: 400px;
         padding-left: 1vw;
         top: 100px;
-        left: 1vw;
+        left: 0;
+        margin: 0 4vw;
     }
 
     #contact-form h2 {
