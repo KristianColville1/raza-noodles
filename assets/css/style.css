@@ -574,7 +574,7 @@ span.bars {
 
 #food-menu-section {
     width: 100%;
-    height: 850px;
+    height: 1200px;
     position: absolute;
     z-index: -1;
     top: 850px;
@@ -586,7 +586,10 @@ span.bars {
     border-style: groove;
     display: block;
     position: absolute;
+    z-index: 3;
 }
+
+/* food menu sections split in three equal parts */
 
 .line-one {
     left: 33%;
@@ -596,7 +599,46 @@ span.bars {
     left: 66%;
 }
 
+#menu-left {
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    background-color: blue;
+}
 
+#menu-center {
+    position: absolute;
+    left: 33%;
+    width: 33%;
+    height: 100%;
+}
+
+#menu-right {
+    position: absolute;
+    left: 66%;
+    width: 33%;
+    height: 100%;
+    background-color: green;
+}
+
+/* menu center split for resizing later */
+
+#top-half, #bottom-half {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+}
+
+#top-half {
+    background-color: yellowgreen;
+}
+
+#bottom-half {
+    top: 50%;
+    background-color: yellow;
+}
+
+/* food menu logo */
 
 /* gallery page */
 
