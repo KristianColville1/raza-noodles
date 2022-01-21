@@ -639,7 +639,6 @@ span.bars {
     left: 66%;
     width: 33%;
     height: 100%;
-    background-color: green;
 }
 
 /* menu center split for resizing later */
@@ -697,6 +696,10 @@ span.bars {
 
 .h-three {
     top: 330px;
+}
+
+.h-five {
+    top: 300px;
 }
 
 #inside-menu-left > a {
@@ -767,6 +770,14 @@ span.bars {
     transform: translateY(100px);
 }
 
+.food-prices-five {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    line-height: 35px;
+    transform: translateY(85px);
+}
+
 /* food menu images */
 #img-container-1 {
     width: 100%;
@@ -791,8 +802,17 @@ span.bars {
     position: absolute;
 }
 
-/* soup images and animation*/
-.soup-one, .soup-two, .soup-three {
+#img-container-3 {
+    width: 100%;
+    height: 300px;
+    background-color: #FAC375;
+    border: 3px solid #F79F24;
+    border-style: inset;
+    position: absolute;
+}
+
+/* image animations */
+.slide-one, .slide-two, .slide-three {
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -800,7 +820,7 @@ span.bars {
     left: 0;
 }
 
-.soup-one {
+.slide-one {
     z-index: 2;
     animation: menu-images-fade-in-out;
     animation-timing-function: ease-in-out;
@@ -810,7 +830,7 @@ span.bars {
     animation-fill-mode:both;
 }
 
-.soup-three {
+.slide-three {
     z-index: 2;
     animation: menu-images-fade-in-out;
     animation-timing-function: ease-in-out;
@@ -839,7 +859,7 @@ span.bars {
     }
 }
 
-
+/* noodle animation
 /* gallery page */
 
 /* contact page */
