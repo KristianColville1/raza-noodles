@@ -652,7 +652,6 @@ span.bars {
 
 #bottom-half {
     top: 50%;
-    background-color: yellow;
 }
 
 /* beginning of food menu */
@@ -713,7 +712,7 @@ span.bars {
     width: 85%;
     height: 540px;
     text-align: center;
-    text-indent: 10%;
+    text-indent: 15%;
     float: left;
     list-style-type: none;
     color: #FFEDCF;
@@ -758,6 +757,14 @@ span.bars {
     position: absolute;
     line-height: 35px;
     transform: translateY(415px);
+}
+
+.food-prices-four {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    line-height: 35px;
+    transform: translateY(100px);
 }
 
 /* food menu images */
