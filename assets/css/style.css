@@ -588,27 +588,39 @@ span.bars {
     position: absolute;
     top: 0;
     background: url('../images/contact-background.jpeg') no-repeat center center;
-    background-color: #F9BA62;
+    background-color: black;
     background-size: cover;
-    background-blend-mode: soft-light;
+    background-blend-mode: difference;
 }
 
 #contact-form {
-    width: 500px;
+    width: 600px;
     height: 600px;
-    padding: 40px;
+    padding: 25px 30px;
     background-color: black;
-    opacity: 60%;
+    opacity: 70%;
     position: absolute;
     top: 100px;
     left: 2.5%;
 }
 
+#contact-form h2 {
+    color: #F79F24;
+    font-size: 2rem;
+    margin: 20px auto;
+}
+
+form label {
+    color: white;
+    margin-left: 10px;
+}
+
 .text-input {
-    color: #FFEDCF;
+    color: black;
     width: 100%;
     height: 30px;
     margin: 10px 5px;
+    border: 2px solid black;
 }
 
 
