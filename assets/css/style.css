@@ -584,7 +584,7 @@ span.bars {
 
 #food-menu-section {
     width: 100%;
-    height: 2000px;
+    height: 1800px;
     position: absolute;
     overflow: hidden;
     z-index: -1;
@@ -625,7 +625,6 @@ span.bars {
     position: absolute;
     width: 33%;
     height: 100%;
-    background-color: blue;
 }
 
 #menu-center {
@@ -651,10 +650,6 @@ span.bars {
     position: absolute;
 }
 
-#top-half {
-    background-color: yellowgreen;
-}
-
 #bottom-half {
     top: 50%;
     background-color: yellow;
@@ -662,6 +657,13 @@ span.bars {
 
 /* beginning of food menu */
 #inside-menu-left {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+#inside-menu-center {
     width: 100%;
     height: 100%;
     text-align: center;
@@ -691,7 +693,11 @@ span.bars {
 }
 
 .h-two {
-    top: 1300px;
+    top: 1100px;
+}
+
+.h-three {
+    top: 330px;
 }
 
 #inside-menu-left > a {
@@ -699,7 +705,6 @@ span.bars {
     position: relative;
     color: #F79F24;
     top: 300px;
-    background-color: red;
 }
 
 /* food and prices */
@@ -710,9 +715,8 @@ span.bars {
     text-align: center;
     text-indent: 10%;
     float: left;
-    background: red;
     list-style-type: none;
-    color: black;
+    color: #FFEDCF;
 }
 
 .food-left ul > li {
@@ -720,11 +724,10 @@ span.bars {
 }
 
 .prices-right {
-    color: black;
+    color: #FFEDCF;
     width: 15%;
     height: 540px;
     float: right;
-    background: white;
 }
 
 .prices-right ul > li {
@@ -746,24 +749,45 @@ span.bars {
     height: 100%;
     position: absolute;
     line-height: 35px;
-    transform: translateY(1380px);
+    transform: translateY(1180px);
+}
+
+.food-prices-three {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    line-height: 35px;
+    transform: translateY(415px);
 }
 
 /* food menu images */
 #img-container-1 {
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-color: #FAC375;
     border: 3px solid #F79F24;
     border-style: inset;
     position: absolute;
-    transform: translateY(880px);
+    transform: translateY(780px);
+}
+
+#img-container-2 {
+    width: 100%;
+    height: 325px;
+    background: url('../images/background-two.jpeg') no-repeat center center;
+    background-attachment: fixed;
+    background-blend-mode: hard-light;
+    background-size: contain;
+    background-color: #F79F24;
+    border: 3px solid #F79F24;
+    border-style: inset;
+    position: absolute;
 }
 
 /* soup images and animation*/
 .soup-one, .soup-two, .soup-three {
     width: 100%;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
     position: absolute;
     left: 0;
@@ -807,6 +831,7 @@ span.bars {
         opacity: 0;
     }
 }
+
 
 /* gallery page */
 

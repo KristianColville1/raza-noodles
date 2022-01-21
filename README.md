@@ -686,8 +686,9 @@ I used a generator to build my policies from [TermsFeed](https://www.termsfeed.c
 
 ### Food menu items
 
-The soups for my food menu were sources from [bonappetit](https://www.bonappetit.com/recipes/slideshow/noodle-soup)
+The soups for my food menu were sourced from [bonappetit](https://www.bonappetit.com/recipes/slideshow/noodle-soup)
 
+The appetizers for the menu were sourced from [insanelygoodrecipes](https://insanelygoodrecipes.com/asian-appetizers/).
 <hr>
 
 ## Media
