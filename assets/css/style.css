@@ -132,7 +132,6 @@ span.bars {
     color: #F79F24;
     background-color: black;
     position: relative;
-    bottom: 2px;
 }
 
 .content {
@@ -825,7 +824,7 @@ span.bars {
     animation: menu-images-fade-in-out;
     animation-timing-function: ease-in-out;
     animation-duration: 27s;
-    animation-delay: 9s;
+    animation-delay: 4s;
     animation-iteration-count: infinite;
     animation-fill-mode:both;
 }
@@ -835,7 +834,7 @@ span.bars {
     animation: menu-images-fade-in-out;
     animation-timing-function: ease-in-out;
     animation-duration: 27s;
-    animation-delay: 18s;
+    animation-delay: 13s;
     animation-iteration-count: infinite;
     animation-fill-mode:both;
 }
