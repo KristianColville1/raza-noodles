@@ -23,10 +23,6 @@ h1 {
     margin: 3vh;
 }
 
-h2 {
-    font-size: 2.5rem;
-}
-
 hr {
     border: 2px solid #F79F24;
 }
@@ -986,6 +982,46 @@ form label {
 }
 
 /* Responsive screen sizing */
+
+/* For large to medium screens 1414px wide and down */
+
+@media screen and (max-width: 1414px){
+
+    /* menu page */
+
+    /* food and prices */
+
+    .food-left {
+        text-indent: 10%;
+    }
+
+    .prices-right {
+        width: 10%;
+    }
+}
+
+/* For large to medium screens 1335px wide and down */
+
+@media screen and (max-width: 1335px){
+
+    /* menu page */
+
+    /* food menu section */
+
+    #food-menu-section {
+        height: 1850px;
+    }
+
+    #inside-menu-left > a {
+        top: 250px;
+    }
+
+    /* food and prices */
+
+    .food-left {
+        text-indent: 5%;
+    }
+}
 
 /* For large to medium screens 1024px wide and down */
 
