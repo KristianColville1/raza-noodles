@@ -636,7 +636,7 @@ span.bars {
     position: absolute;
 }
 
-#bottom-half {
+.bottom-half {
     top: 50%;
 }
 
@@ -671,7 +671,7 @@ span.bars {
     border-top: 3px solid #F79F24;
 }
 
-.h-two, .h-six {
+.h-two {
     top: 1100px;
 }
 
@@ -680,8 +680,11 @@ span.bars {
 }
 
 .h-four {
-    top: 900px;
     border-top: 3px solid #F79F24;
+}
+
+.h-six {
+    top: 200px;
 }
 
 #inside-menu-left > a {
@@ -749,7 +752,7 @@ span.bars {
     height: 100%;
     position: absolute;
     line-height: 35px;
-    transform: translateY(985px);
+    transform: translateY(100px);
 }
 
 .food-prices-five {
@@ -792,7 +795,7 @@ span.bars {
     border: 3px solid #F79F24;
     border-style: inset;
     position: absolute;
-    transform: translateY(780px);
+    transform: translateY(-100px);
 }
 
 /* image animations */
@@ -856,7 +859,7 @@ span.bars {
     border: 2px solid #FFEDCF;
     border-style: inset;
     position: absolute;
-    top: 1200px;
+    top: 300px;
     left: 10px;
 }
 
@@ -1006,12 +1009,6 @@ form label {
 
     /* menu page */
 
-    /* food menu section */
-
-    #food-menu-section {
-        height: 1850px;
-    }
-
     #inside-menu-left > a {
         top: 250px;
     }
@@ -1020,6 +1017,109 @@ form label {
 
     .food-left {
         text-indent: 5%;
+    }
+}
+
+/* For large to medium screens 1265px wide and down */
+
+@media screen and (max-width: 1265px){
+
+    /* menu page */
+
+    /* food and prices */
+
+    .food-left {
+        text-indent: 0;
+    }
+}
+
+/* For large to medium screens 1202px wide and down */
+
+@media screen and (max-width: 1202px){
+
+    /* menu page */
+
+    /* food menu section */
+
+    #food-menu-section {
+        height: 2800px;
+    }
+
+    /* food menu sections split in three equal parts */
+
+    .line-one {
+        left: 50%;
+    }
+
+    .line-two {
+        display: none;
+    }
+
+    #menu-left {
+        width: 50%;
+    }
+
+    #menu-center {
+        left: 0%;
+        width: 50%;
+    }
+
+    #menu-right {
+        left: 50%;
+        width: 50%;
+    }
+
+    /* push middle menu top center down below appetizers */
+
+    #inside-menu-center > .top-half {
+        top: 1700px;
+    }
+
+    #inside-menu-center > .bottom-half {
+        left: 100%;
+        transform: translateY(-1400px);
+    }
+
+    /* push right side menu top down */
+
+    #inside-menu-right > .top-half {
+        top: 800px;
+    }
+
+    /* push right side menu bottom up */
+
+    #inside-menu-right > .bottom-half {
+        transform: translateY(400px);
+    }
+
+    /* styling adjustments to menu */
+
+    .h-five {
+        border-top: 3px solid #F79F24;
+    }
+
+    #img-container-2 {
+        height: 300px;
+    }
+
+    #inside-menu-left > a {
+        top: 280px;
+    }
+
+    /* food and prices */
+
+    .food-left {
+        width: 85%;
+        text-indent: 15%;
+    }
+
+    .prices-right {
+        width: 15%;
+    }
+
+    #google-maps {
+        width: 97%;
+        height: 500px;
     }
 }
 
