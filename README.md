@@ -574,22 +574,22 @@ These adjustments did not apply to the external pages because the policys were c
 
 Personal breakpoints for Raza Noodles:
 
-| features / widths | 670px | 550px | 475px |
+| features / widths | 1414px | 670px | 550px | 475px |
 | -------------------- | --- | --- | --- |
-| Menu                 | Hidden | Hidden | Hidden |
-| Hamburger menu        | Shown | Shown | Shown |
-| logos                | Adjusted | n/a | n/a |
-| Landing page         | Adjusted | n/a | n/a |
+| Menu                 | n/a |Hidden | Hidden | Hidden |
+| Hamburger menu        | n/a | Shown | Shown | Shown |
+| logos                | n/a | Adjusted | n/a | n/a |
+| Landing page         | n/a | Adjusted | n/a | n/a |
 | Dropdown menu        | n/a | n/a | n/a |
-| Logo fade            | Adjusted | n/a | n/a |
-| Scroll icons         | Adjusted | Adjusted | n/a |
-| About section        | Adjusted | Adjusted | n/a |
-| Opening hours section | Adjusted | Adjusted | Adjusted |
-| Footer               | Adjusted | Adjusted | Adjusted |
+| Logo fade            | n/a | Adjusted | n/a | n/a |
+| Scroll icons         | n/a | Adjusted | Adjusted | n/a |
+| About section        | n/a | Adjusted | Adjusted | n/a |
+| Opening hours section | n/a | Adjusted | Adjusted | Adjusted |
+| Footer               | n/a | Adjusted | Adjusted | Adjusted |
 | External Links       | x | x | x |
-| Menu page            | n/a | n/a | n/a |
-| Gallery page         | n/a | n/a | n/a |
-| Contact page         | n/a | n/a | n/a |
+| Menu page            | Adjusted | n/a | n/a | n/a |
+| Gallery page         | n/a | n/a | n/a | n/a |
+| Contact page         | n/a | n/a | n/a | n/a |
 
 I experimented with many approaches for making the site responsive and discovered that using pixels was the most accurate and straightforward method for converting the various items on the pages to a suitable format for each screen size. Because the different portions of this website are all positioned 'absolute,' it made the most sense to use pixels to make it responsive. By doing it this way, I was able to save time. Because of this design, the screen's height is irrelevant.
 
@@ -603,7 +603,7 @@ It's just trying to keep the responsive design in mind, which is tricky with vie
 <details>
 <summary>HTML5</summary>
 <br>
-The HTML passed all official validation from W3C.
+The HTML in all internal pages passed all official validation from W3C.
 
 I modified items in the landing page section that would have made it impossible for screen readers to grasp the intent behind the divs. The spans displaying these objects now have suitable aria labels. I looked up the proper syntax for this and gave roles to the spans so that they could act as images.
 </details>
@@ -628,7 +628,8 @@ Css passed official W3C validation.
 | External Links       |      x       |           |
 | Menu page            |      x       |   |
 | Gallery page         |      x       |   |
-| Contact page         |      x       |   |
+| Contact page         |      x       | x         |
+| Thank you page       |              | x         |
 | README               |      x       |   |
 [Back to top](#table-of-contents)
 
@@ -692,7 +693,7 @@ The appetizers for the menu were sourced from [insanelygoodrecipes](https://insa
 
 The main dishes on the menu were sourced from [Jamie Oliver](https://www.jamieoliver.com/recipes/category/world/asian/).
 
-The special noodle dished were sourced from [bbc good food](https://www.bbcgoodfood.com/recipes/collection/noodle-recipes).
+The special noodle dishes on the menu were sourced from [bbc good food](https://www.bbcgoodfood.com/recipes/collection/noodle-recipes).
 <hr>
 
 ## Media
