@@ -569,16 +569,6 @@ span.bars {
     top: 150px;
 }
 
-/* space for footer at bottom */
-#menu-bottom-spacer {
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    bottom: 0;
-    background-color: #F79F24;
-    z-index: 3;
-}
-
 /* food menu section */
 
 #food-menu-section {
@@ -640,9 +630,9 @@ span.bars {
     height: 100%;
 }
 
-/* menu center split for resizing later */
+/* menu center and right of center split for resizing later */
 
-#top-half, #bottom-half {
+.top-half, .bottom-half {
     height: 50%;
     width: 100%;
     position: absolute;
@@ -652,15 +642,9 @@ span.bars {
     top: 50%;
 }
 
-/* beginning of food menu */
-#inside-menu-left {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    position: absolute;
-}
+/* food menu structure */
 
-#inside-menu-center {
+#inside-menu-left, #inside-menu-center, #inside-menu-right {
     width: 100%;
     height: 100%;
     text-align: center;
@@ -677,7 +661,6 @@ span.bars {
 
 .menu-heading {
     font-size: 2.5rem;
-    border-top: 2px solid #F79F24;
     position: absolute;
     left: 0;
     right: 0;
@@ -687,9 +670,10 @@ span.bars {
 
 .h-one {
     top: 330px;
+    border-top: 3px solid #F79F24;
 }
 
-.h-two {
+.h-two, .h-six {
     top: 1100px;
 }
 
@@ -697,8 +681,9 @@ span.bars {
     top: 330px;
 }
 
-.h-six {
-    top: 300px;
+.h-four {
+    top: 900px;
+    border-top: 3px solid #F79F24;
 }
 
 #inside-menu-left > a {
@@ -766,7 +751,7 @@ span.bars {
     height: 100%;
     position: absolute;
     line-height: 35px;
-    transform: translateY(100px);
+    transform: translateY(985px);
 }
 
 .food-prices-five {
@@ -808,6 +793,7 @@ span.bars {
     border: 3px solid #F79F24;
     border-style: inset;
     position: absolute;
+    transform: translateY(780px);
 }
 
 /* image animations */
@@ -821,6 +807,9 @@ span.bars {
 
 .slide-one {
     z-index: 2;
+
+    /* animation for image-slide one */
+
     animation: menu-images-fade-in-out;
     animation-timing-function: ease-in-out;
     animation-duration: 27s;
@@ -831,6 +820,9 @@ span.bars {
 
 .slide-three {
     z-index: 2;
+
+    /* animation for image-slide three */
+
     animation: menu-images-fade-in-out;
     animation-timing-function: ease-in-out;
     animation-duration: 27s;
@@ -864,7 +856,7 @@ span.bars {
     border: 2px solid #FFEDCF;
     border-style: inset;
     position: absolute;
-    top: 400px;
+    top: 1200px;
     left: 10px;
 }
 /* gallery page */
