@@ -1167,11 +1167,22 @@ form label {
     /* food and prices */
 
     .food-left {
-        text-indent: 5%;
+        text-indent: 10%;
     }
 
     .prices-right {
-        width: 8%;
+        width: 10%;
+    }
+}
+
+/* For medium screens 793px wide and down */
+
+@media  screen and (max-width: 793px) {
+    
+    /* menu page */
+
+    .menu-heading {
+        font-size: 2rem;
     }
 }
 
@@ -1253,6 +1264,98 @@ form label {
 
     #bottom-space {
         top: 2985px;
+    }
+}
+
+/* For small screens 695px wide and down */
+
+@media  screen and (max-width: 695px) {
+    
+    /* menu page */
+
+     /* food menu section */
+
+     #food-menu-section {
+        height: 5350px;
+    }
+
+    /* food menu sections split in three equal parts */
+
+    .line-one {
+        display: none;
+    }
+
+    #menu-left {
+        width: 100%;
+    }
+
+    #menu-center {
+        width: 100%;
+    }
+
+    #menu-right {
+        left: 0%;
+        width: 100%;
+    }
+
+    /* bring middle and right menu back underneath left menu */
+
+    #inside-menu-center > .top-half {
+        top: 0;
+        transform: translateY(1700px);
+    }
+
+    #inside-menu-center > .bottom-half {
+        left: 0%;
+        transform: translateY(0px);
+    }
+
+    #inside-menu-right > .top-half {
+        top: 0px;
+        transform: translateY(3550px);
+    }
+
+    #inside-menu-right > .bottom-half {
+        transform: translateY(1765px);
+    }
+
+    /* styling adjustments */
+
+    #img-container-1 {
+        width: 98%;
+        margin: 0 3px;
+    }
+    
+    #img-container-2 {
+        width: 98%;
+        margin: 0 3px;
+        background-attachment: scroll;
+    }
+    
+    #img-container-3 {
+        width: 98%;
+        margin: 0 3px;
+        transform: translateY(-100px);
+    }
+
+    #food-logo {
+        background-size: 90%;
+    }
+
+    #inside-menu-left > a {
+        top: 300px;
+    }
+
+    .menu-heading {
+        font-size: 2.5rem;
+    }
+
+    .food-left {
+        text-indent: 15%;
+    }
+
+    .prices-right {
+        width: 15%;
     }
 }
 
