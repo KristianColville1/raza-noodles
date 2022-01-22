@@ -81,6 +81,7 @@ span.bars {
 .one {
     transform: translateY(10px);
 }
+
 .two {
     transform: translateY(25px);
 }
@@ -561,6 +562,7 @@ span.bars {
     }
     
 }
+
 .menu-bg-title {
     color: black;
     font-size: 9rem;
@@ -763,6 +765,7 @@ span.bars {
 }
 
 /* food menu images */
+
 #img-container-1 {
     width: 100%;
     height: 300px;
@@ -797,6 +800,7 @@ span.bars {
 }
 
 /* image animations */
+
 .slide-one, .slide-two, .slide-three {
     width: 100%;
     height: 300px;
@@ -859,6 +863,7 @@ span.bars {
     top: 1200px;
     left: 10px;
 }
+
 /* gallery page */
 
 /* contact page */
@@ -999,7 +1004,9 @@ form label {
 /* For medium screens 768px wide and down */
 
 @media  screen and (max-width: 768px) {
+
     /* burger icon is shown at this max-width */
+
     #burger-icon{
         display: block;
         appearance: none;
@@ -1048,6 +1055,7 @@ form label {
     }
 
     /* about section */
+
     #about-section {
         height: 1100px;
     }
@@ -1057,6 +1065,7 @@ form label {
     }
 
     /* opening-hours-section */
+
     #opening-hours-section {
         top: 2085px;
     }
@@ -1076,6 +1085,7 @@ form label {
 /* For smaller screens 670px wide and down */
 
 @media screen and (max-width: 670px) {
+
     /* hero image with logo overlayed */
 
     #landing-logo {
@@ -1161,6 +1171,7 @@ form label {
     }
 
     /* bottom space for footer */
+
     #bottom-space {
         top: 4000px;
     }
@@ -1188,7 +1199,9 @@ form label {
 }
 
 /* For small screens 550px wide and down */
+
 @media screen and (max-width: 550px){
+
     #about-section {
         height: 1700px;
     }
@@ -1212,6 +1225,7 @@ form label {
 /* For small screens 475px wide and down */
 
 @media screen and (max-width: 475px){
+
     #about-section {
         height: 1500px;
     }
@@ -1227,6 +1241,7 @@ form label {
     }
 
     /* bottom space for footer */
+
     #bottom-space {
         top: 3700px;
     }
@@ -1235,6 +1250,7 @@ form label {
 /* For small screens 425px wide and down */
 
 @media  screen and (max-width: 425px) {
+
     /* hero image with logo overlayed */
 
     #landing-logo {
@@ -1258,6 +1274,7 @@ form label {
     }
 
     /* Address and phone number */
+
     #address-phone {
         top: 360px;
     }
@@ -1282,6 +1299,7 @@ form label {
     }
 
     /* bottom space for footer */
+
     #bottom-space {
         top: 3600px;
     }
@@ -1350,9 +1368,11 @@ form label {
     }
 
 }
+
 /* For small screens 320px wide and down */
 
 @media  screen and (max-width: 320px) {
+
     .center-text {
         font-size: 1.5rem;
     }
