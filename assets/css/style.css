@@ -1524,6 +1524,20 @@ form label {
     }
 }
 
+
+/* For small screens 443px wide and down */
+
+@media  screen and (max-width: 443px) {
+
+    /* menu page */
+
+    #img-container-1, #img-container-2, #img-container-3 {
+        width: 95%;
+        border: 0;
+        margin: 0 2.5vw;
+    }
+}
+
 /* For small screens 425px wide and down */
 
 @media  screen and (max-width: 425px) {
@@ -1604,6 +1618,28 @@ form label {
         margin: 0;
     }
 }
+
+/* For small screens 388px wide and down */
+
+@media screen and (max-width: 388px) {
+    .menu-heading {
+        font-size: 2rem;
+    }
+
+    .food-left {
+        text-indent: 5%;
+        font-size: .9rem;
+        font-weight: 300;
+    }
+    
+    .prices-right {
+        width: 10%;
+        font-size: .9rem;
+        font-weight: 300;
+    }
+}
+
+/* For small screens 375px wide and down */
 
 @media screen and (max-width: 375px){
 
