@@ -1137,6 +1137,44 @@ form label {
     }
 }
 
+/* For large to medium screens 933px wide and down */
+
+@media  screen and (max-width: 933px) {
+    
+    /* menu page */
+
+    /* food and prices */
+
+    .food-left {
+        text-indent: 10%;
+    }
+
+    .prices-right {
+        width: 10%;
+    }
+
+    #img-container-2 {
+        background-size: cover;
+    }
+}
+
+/* For medium screens 881px wide and down */
+
+@media  screen and (max-width: 881px) {
+    
+    /* menu page */
+
+    /* food and prices */
+
+    .food-left {
+        text-indent: 5%;
+    }
+
+    .prices-right {
+        width: 8%;
+    }
+}
+
 /* For medium screens 768px wide and down */
 
 @media  screen and (max-width: 768px) {
