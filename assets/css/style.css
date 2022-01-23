@@ -1007,7 +1007,7 @@ form label {
 #sign-in, #sign-up {
     padding: 0 35px;
     background-color: #1F0322;
-    transform: translateY(100px);
+    transform: translateY(60px);
 }
 
 /* 404 page */
@@ -1750,6 +1750,18 @@ form label {
     .menu-bg-title {
         font-size: 4.5rem;
         top: 100px;
+    }
+
+    /* sign up form */
+
+    #sign-in-section form {
+        margin: 15px auto;
+        width: 270px;
+    }
+    
+    #sign-in, #sign-up {
+        padding: 0 10px;
+        transform: translateY(100px);
     }
 
 }
