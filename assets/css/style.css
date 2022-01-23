@@ -447,14 +447,14 @@ span.bars {
     height: 100px;
     width: 100vw;
     text-align: center;
-    background-color: #F79F24;
+    background-color: #B388EB;
     position: fixed;
     bottom: 0;
     z-index: 4;
 }
 
 #footer-container a {
-    color: #FFEDCF;
+    color: black;
     text-decoration: none;
 }
 
@@ -481,7 +481,7 @@ span.bars {
 }
 
 #footer-container a:hover {
-    color: black;
+    color: #F79F24;
 }
 
 /* space on bottom for fixed footer */
@@ -782,7 +782,7 @@ span.bars {
     background: url('../images/background-two.webp') no-repeat center center;
     background-attachment: fixed;
     background-blend-mode: hard-light;
-    background-size: contain;
+    background-size: cover;
     background-color: #F79F24;
     border: 3px solid #F79F24;
     border-style: inset;
