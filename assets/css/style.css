@@ -11,7 +11,7 @@ body {
     font-family: 'Luxurious Roman', cursive;
     color: #FFEDCF;
     background-color: #1F0322;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -236,6 +236,10 @@ span.bars {
     font-size: 2.5rem;
     font-weight: 900;
     list-style-type: none;
+}
+
+.orange {
+    color: #F79F24;
 }
 
 .sc-one-outer{
