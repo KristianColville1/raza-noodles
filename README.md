@@ -20,6 +20,9 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
     * [Colors](#colors)
     * [Responsive Design](#responsive-design)
     * [Validator Testing](#validator-testing)
+        * [HTML5](#html5)
+        * [CSS3](#css3)
+        * [Lighthouse](#lighthouse)
     * [Tasks](#tasks)
 * [Version Control](#version-control)
 * [Deployment](#deployment)
@@ -555,6 +558,8 @@ Many features were not affected until certain widths were reached and those are 
 
 These adjustments did not apply to the external pages because the policys were created using a generator. External links to other websites were not included in the adjustments because I don't own those websites.
 
+Personal breakpoints for the website are also denoted with 'pbp'. The most work needs to be done on the Menu page, which was done on purpose because it is a key feature of the Raza Noodles website. The Menu page layout changes dramatically for different screen sizes. It was the most challenging to make responsive, but personal breakpoints made it incredibly adaptable.
+
 | features / widths | 1920px | 1440px | 1024px | 768px | 425px | 375px | 320px |
 | -------------------- | --- | --- | --- | --- | --- | --- | --- |
 | Menu                 | Shown | Shown | Shown | Hidden | Hidden | Hidden | Hidden |
@@ -568,28 +573,9 @@ These adjustments did not apply to the external pages because the policys were c
 | Opening hours section | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a | Adjusted |
 | Footer               | n/a | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a |
 | External Links       | x | x | x | x | x | x | x |
-| Menu page            | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Menu page            | pbp | pbp | pbp | pbp | pbp | pbp | pbp |
 | Gallery page         | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 | Contact page         | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-
-Personal breakpoints for Raza Noodles:
-
-| features / widths | 1414px | 670px | 550px | 475px |
-| -------------------- | --- | --- | --- |
-| Menu                 | n/a |Hidden | Hidden | Hidden |
-| Hamburger menu        | n/a | Shown | Shown | Shown |
-| logos                | n/a | Adjusted | n/a | n/a |
-| Landing page         | n/a | Adjusted | n/a | n/a |
-| Dropdown menu        | n/a | n/a | n/a |
-| Logo fade            | n/a | Adjusted | n/a | n/a |
-| Scroll icons         | n/a | Adjusted | Adjusted | n/a |
-| About section        | n/a | Adjusted | Adjusted | n/a |
-| Opening hours section | n/a | Adjusted | Adjusted | Adjusted |
-| Footer               | n/a | Adjusted | Adjusted | Adjusted |
-| External Links       | x | x | x |
-| Menu page            | Adjusted | n/a | n/a | n/a |
-| Gallery page         | n/a | n/a | n/a | n/a |
-| Contact page         | n/a | n/a | n/a | n/a |
 
 I experimented with many approaches for making the site responsive and discovered that using pixels was the most accurate and straightforward method for converting the various items on the pages to a suitable format for each screen size. Because the different portions of this website are all positioned 'absolute,' it made the most sense to use pixels to make it responsive. By doing it this way, I was able to save time. Because of this design, the screen's height is irrelevant.
 
@@ -599,17 +585,51 @@ It's just trying to keep the responsive design in mind, which is tricky with vie
 <hr>
 
 ## Validator Testing
-<hr>
-<details>
-<summary>HTML5</summary>
-<br>
-The HTML in all internal pages passed all official validation from W3C.
 
-I modified items in the landing page section that would have made it impossible for screen readers to grasp the intent behind the divs. The spans displaying these objects now have suitable aria labels. I looked up the proper syntax for this and gave roles to the spans so that they could act as images.
+<hr>
+
+### HTML5
+
+The home page, menu page, contact page, and thank you page all passed official [W3C Validator testing](https://validator.w3.org/nu/#textarea).
+
 </details>
 
-Css passed official W3C validation.
+### CSS3
 
+Css passed official [W3C Validator testing](https://validator.w3.org/nu/#textarea).
+
+
+### Lighthouse
+
+To improve these scores, I downsized graphics and changed the color of the footer. For most of the web pages, especially the menu page, the performance score was originally lower than I expected. As much as feasible, images were resized. I purposefully allowed wiggle area for the menu page because it has a lot more going on, and I'm happy with the results of all the pages after using [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) to configure them with [Lighthouse](https://developers.google.com/web/tools/lighthouse).
+
+<details>
+<summary>Home page</summary>
+<br>
+
+![Home page](/assets/images/home-page-score.png)
+</details>
+
+<details>
+<summary>Menu page</summary>
+<br>
+
+![Menu page](/assets/images/menu-score.png)
+</details>
+
+<details>
+<summary>Contact page</summary>
+<br>
+
+![Contact page](/assets/images/contact-score.png)
+</details>
+
+<details>
+<summary>Thank you page</summary>
+<br>
+
+![Thank you page](/assets/images/thank-you-score.png)
+</details>
 <hr>
 
 ## Tasks
