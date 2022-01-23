@@ -88,7 +88,7 @@ span.bars {
 
 #menu {
     width: 100%;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 100%;
 }
 
@@ -124,7 +124,7 @@ span.bars {
 .dropdown-button {
     font-family: inherit;
     font-size: inherit;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: inherit;
     color: #F79F24;
     background-color: #1F0322;
@@ -153,7 +153,7 @@ span.bars {
 
 .content:hover .download-content {
     background-color: #1F0322;
-    padding: 4px;
+    padding: 4px 10px;
     display: block;
 }
 
@@ -1231,34 +1231,6 @@ form label {
 /* For medium screens 881px wide and down */
 
 @media  screen and (max-width: 881px) {
-    
-    /* menu page */
-
-    /* food and prices */
-
-    .food-left {
-        text-indent: 10%;
-    }
-
-    .prices-right {
-        width: 10%;
-    }
-}
-
-/* For medium screens 793px wide and down */
-
-@media  screen and (max-width: 793px) {
-    
-    /* menu page */
-
-    .menu-heading {
-        font-size: 2rem;
-    }
-}
-
-/* For medium screens 768px wide and down */
-
-@media  screen and (max-width: 768px) {
 
     /* burger icon is shown at this max-width */
 
@@ -1296,6 +1268,35 @@ form label {
     #menu input:checked ~ span {
         background-color: #FFEDCF;
     }
+    /* menu page */
+
+    /* food and prices */
+
+    .food-left {
+        text-indent: 10%;
+    }
+
+    .prices-right {
+        width: 10%;
+    }
+}
+
+/* For medium screens 793px wide and down */
+
+@media  screen and (max-width: 793px) {
+    
+    /* menu page */
+
+    .menu-heading {
+        font-size: 2rem;
+    }
+}
+
+/* For medium screens 768px wide and down */
+
+@media  screen and (max-width: 768px) {
+
+
 
     #address-phone li {
         font-size: 2rem;
