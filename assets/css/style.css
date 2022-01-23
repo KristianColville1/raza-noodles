@@ -10,7 +10,7 @@ body {
     font-size: 1rem;
     font-family: 'Luxurious Roman', cursive;
     color: #FFEDCF;
-    background-color: black;
+    background-color: #1F0322;
 }
 
 h1, h2, h3 {
@@ -32,7 +32,7 @@ hr {
 #home-section {
     height: 80px;
     width: 100%;
-    background-color: black;
+    background-color: #1F0322;
     display: inline-block;
     position: relative;
     z-index: 3;
@@ -127,7 +127,7 @@ span.bars {
     text-transform: uppercase;
     letter-spacing: inherit;
     color: #F79F24;
-    background-color: black;
+    background-color: #1F0322;
     position: relative;
 }
 
@@ -152,7 +152,7 @@ span.bars {
 }
 
 .content:hover .download-content {
-    background-color: black;
+    background-color: #1F0322;
     padding: 4px;
     display: block;
 }
@@ -221,7 +221,7 @@ span.bars {
     height: 100px;
     width: 100%;
     text-align: center;
-    background-color: black;
+    background-color: #1F0322;
     position: absolute;
     top: 600px;
 }
@@ -263,7 +263,7 @@ span.bars {
 }
 
 .sc-one:hover {
-    background-color: #E1250A;
+    background-color: #E71D36;
 }
 
 .scroll-icon {
@@ -381,7 +381,7 @@ span.bars {
 }
 
 .sc-two:hover {
-    background-color: #E1250A;
+    background-color: #E71D36;
 }
 
 /* Opening hours section */
@@ -417,10 +417,10 @@ span.bars {
     opacity: 75%;
 }
 
-.red-text {
+.orange-text {
     font-weight: 900;
     font-size: 4.5rem;
-    color: #E20049;
+    color: #F79F24;
 }
 
 .black-text {
@@ -1217,7 +1217,7 @@ form label {
         display: none;
         margin: 0 2vh;
         top: 5px;
-        background-color: black;
+        background-color: #1F0322;
     }
 
     #menu input:checked ~ ul > li {
