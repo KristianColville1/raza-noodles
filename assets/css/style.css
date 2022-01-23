@@ -11,6 +11,7 @@ body {
     font-family: 'Luxurious Roman', cursive;
     color: #FFEDCF;
     background-color: #1F0322;
+    overflow: hidden;
 }
 
 h1, h2, h3 {
@@ -112,7 +113,6 @@ span.bars {
 
 #menu a:hover, .dropdown-button:hover {
     color: #FFEDCF;
-    border-bottom: 2px solid #FFEDCF;
 }
 
 .currently-active {
@@ -125,7 +125,6 @@ span.bars {
     font-family: inherit;
     font-size: inherit;
     text-transform: capitalize;
-    letter-spacing: inherit;
     color: #F79F24;
     background-color: #1F0322;
     position: relative;
@@ -145,8 +144,6 @@ span.bars {
 }
 
 .download-content a {
-    font-size: inherit;
-    padding: 5px;
     text-decoration: none;
     display: block;
 }
