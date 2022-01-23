@@ -153,7 +153,7 @@ span.bars {
 
 .content:hover .download-content {
     background-color: #1F0322;
-    padding: 4px 10px;
+    padding: 4px;
     display: block;
 }
 
