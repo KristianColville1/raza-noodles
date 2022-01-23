@@ -986,6 +986,7 @@ form label {
 }
 
 /* sign-in page */
+
 #sign-in-section {
     width: 100%;
     height: 850px;
@@ -1006,6 +1007,51 @@ form label {
     padding: 0 35px;
     background-color: #1F0322;
     transform: translateY(100px);
+}
+
+/* 404 page */
+
+#error-page {
+    width: 100%;
+    height: 850px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    background: url('../images/background-three.jpeg') no-repeat center center;
+    background-color: #FAC375;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#error-page h1 {
+    color: black;
+    font-size: 6rem;
+    font-family: 'Luxurious Roman', cursive;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+#error-page p {
+    font-size: 1.2rem;
+    color: black;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+#error-page a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+#error-page a:hover {
+    font-size: 1.5rem;
 }
 
 /* Responsive screen sizing */
