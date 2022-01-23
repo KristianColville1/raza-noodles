@@ -590,18 +590,24 @@ It's just trying to keep the responsive design in mind, which is tricky with vie
 
 ### HTML5
 
-The home page, menu page, contact page, and thank you page all passed official [W3C Validator testing](https://validator.w3.org/nu/#textarea).
+All internal pages passed official [W3C Validator testing](https://validator.w3.org/nu/#textarea). The policy pages are excluded as they are were generated. I tested my pages by putting the URL of each page into their HTML checker.
+
+I corrected all problems the html checker indicated. The html checker pointed out missing aria labels, incorrect id's classes and semantic issues. All were corrected thanks to this useful tool.
 
 </details>
 
 ### CSS3
 
 Css passed official [W3C Validator testing](https://validator.w3.org/nu/#textarea).
-
+I ran a direct input check on my CSS file and found no errors. There were no warnings or mistakes in my CSS code that I needed to fix. I was able to get everything fully correct.
 
 ### Lighthouse
 
 To improve these scores, I downsized graphics and changed the color of the footer. For most of the web pages, especially the menu page, the performance score was originally lower than I expected. As much as feasible, images were resized. I purposefully allowed wiggle area for the menu page because it has a lot more going on, and I'm happy with the results of all the pages after using [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) to configure them with [Lighthouse](https://developers.google.com/web/tools/lighthouse).
+
+The accessibility score is only let down by the way I have implemented a hamburger menu. I have provided an 'aria-roledescription' to hopefully counter act this features let down. It provides the screen reader with an opportunity to understand the role of the hamburger menu. 
+
+Although I can heavily rely on common sense for the hamburger menu's purpose, going forward that feature will be implemented very differently. This project is pure HTML5 and CSS3. I'm incredibly delighted with the results overall and what I achieved with those languages.
 
 <details>
 <summary>Home page</summary>
@@ -622,6 +628,20 @@ To improve these scores, I downsized graphics and changed the color of the foote
 <br>
 
 ![Contact page](/assets/images/contact-score.png)
+</details>
+
+<details>
+<summary>Sign in page</summary>
+<br>
+
+![Thank you page](/assets/images/sign-in-score.png)
+</details>
+
+<details>
+<summary>404 error page</summary>
+<br>
+
+![Thank you page](/assets/images/404-score.png)
 </details>
 
 <details>
