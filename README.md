@@ -46,7 +46,7 @@ The theme of this website is Asian Cuisine with a focus on noodles. There are ma
 - As a user I would like to be able to view a food menu.
 - As a user I want to know the opening hours.   
 - As a user I want to see the foods on offer.
-- As a user I need to able find Raza Noodles on other sites.
+- As a user I need to be able to find Raza Noodles on other sites.
 - As a user I would like different forms of contacting Raza Noodles.
 - As a user I would like to know more about Raza Noodles.
 
@@ -510,7 +510,20 @@ They mostly can't be implemented because they are outside the current time frame
 <details>
 <summary>Landing page</summary>
 <br>
-On the main home page is the logo and logo fade design. The user can see a contact number and address. The scroll icon one brings the user to the next section and it has an arrow to indicate the direction of navigation. The menu bar features in the top right corner, this is a mordern and intitiative design. The logo is also present in the top left corner and has a link to the home page. All sections, internal links and external links are either present on the landing page or can be indicated to.
+
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I need to easily find a contact number.   
+    - As a user it is important I can find an address.
+    - As a user I need to be able to find Raza Noodles on other sites.
+
+Testing results:
+
+    - On the landing page the user can see all options available to browse the website.
+    - The contact number is on the landing page and also on the menu page.
+    - The address is on both the home page and menu page, the food menu section also has google maps embedded.
+    - The footer is fixed and can be viewed always and is seen on all internal pages. If other Raza Noodle sites existed this would allow them to view additional Raza Noodle external web pages.
 
 ![Landing page](/assets/images/features/landing-page.png)
 <br>
@@ -519,19 +532,20 @@ On the main home page is the logo and logo fade design. The user can see a conta
 <details>
 <summary>Navigational Menu</summary>
 <br>
-Included on all internal pages at the top of the page. Allows access to internal links and the different sections on the home page.
+
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I would like to be able to view a food menu.
+    - As a user I would like to know more about Raza Noodles.
+
+Testing results:
+
+    - Placed at the top of the page is a navigational menu allowing the user to pick different options for browsing the website.
+    - There's two options for viewing the menu from the menu bar, included is an internal page to a food menu and in the right hand corner an option to download the food menu to view it.
+    - The menu features an option for 'About' which informs the user of the option to know more about Raza Noodles.
 
 ![Navigational Menu](/assets/images/features/nav-menu.png)
-
-Includes:
-
-    - Pages to internal links.
-        - Logo.
-        - Home page.
-        - Menu page.
-        - Gallery page.
-        - Contact page.
-    - Downloadable pdf documents.
 
 <br>
 </details>
@@ -539,26 +553,33 @@ Includes:
 <details>
 <summary>Hamburger Menu</summary>
 <br>
-This was a fun feature to make. I'm proud of the fact that it's all HTML5 and CSS3. Users with smaller screens (768px wide and below) can use a hamburger menu with this feature.
-When there are several menu selections, it helps the website maintain structural integrity.
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+
+Testing results:
+
+    - On smaller screens the menu turns into a hamburger menu, it allows the user to navigate the website while maintaining its structural integridy.
 
 ![Hamburger Menu](/assets/images/features/hamburger-one.png)
-![Hamburger Menu](/assets/images/features/hamburger-two.png)
+
 <br>
 </details>
 
 <details>
 <summary>Download dropdown Menu</summary>
 <br>
-This allows the user the option of downloading the menu and keeping it. The dropdown menu currently has two pdf files for download by the websites user.
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I would like to be able to view a food menu.
+
+Testing results:
+
+    - The user can browse through available download options on Raza Noodles website.
+    - When the user hovers over the menu option for 'downloads' they can download the food menu allowing them to view the food menu.
 
 ![Drop down Menu](/assets/images/features/drop-down.png)
-
-Includes:
-
-    - Downloadable pdf documents.
-        - Food Menu.
-        - Terms and conditions.
 
 <br>
 </details>
@@ -566,20 +587,16 @@ Includes:
 <details>
 <summary>Fixed footer</summary>
 <br>
-Allows the user to see available links to other Raza Noodle social media and the policy pages.
+
+User stories fufilled:
+
+    - As a user I need to be able to find Raza Noodles on other sites.
+
+Testing results:
+
+    - The footer is fixed to the bottom of the screen with options to view Raza Noodles social media sites.
 
 ![Fixed footer](/assets/images/features/fixed-footer.png)
-
-Includes:
-
-    - Links to external websites.
-        - Facebook.
-        - Twitter.
-        - Instagram.
-        - Linkedin.
-        - Terms of use.
-        - Privacy policy.
-        - Cookie policy.
 
 <br>
 </details>
@@ -587,8 +604,15 @@ Includes:
 <details>
 <summary>Scroll Icons</summary>
 <br>
-Allows the user to scroll down to the relavent sections on all internal pages.
-The icons contain links that bring the user to the next section.
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I want to know the opening hours.
+
+Testing results:
+
+    - Placed centrally on the screen is scroll icon one, it features on the home page and menu page allowing the user to go to the next section instantly.
+    - On the home page there are two scroll icons, the second one brings the user to the opening hours section so they can view opening hours.
 
 ![Scroll icons](/assets/images/features/scroll-icon-one.png)
 
@@ -603,11 +627,6 @@ The icons contain links that bring the user to the next section.
 Gives us some information about Raza Noodles and the food.
 
 ![About section](/assets/images/features/about-section.png)
-
-Includes:
-
-    - Description of Raza Noodles.
-    - Photos of noodle dishes.
 
 <br>
 </details>
