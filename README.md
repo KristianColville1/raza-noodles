@@ -199,6 +199,7 @@ Background:
     - Dark Purpel.
 
 Footer: 
+
     - Black link icons for accessibility reasons and 
     - Lavender Floral background.
     - Orange Peel when hovered over.
@@ -211,6 +212,17 @@ Text:
 
     - Baby Powder.
 
+#### Fonts
+
+The fonts chosen were [Luxurious Roman](https://fonts.google.com/specimen/Luxurious+Roman#glyphs) and [Rock Salt](https://fonts.google.com/specimen/Rock+Salt). Both sourced from [Google fonts](https://fonts.google.com/).
+
+The logo, headings and titles:
+
+    - Rock salt
+
+The text:
+
+    - luxurious Roman
 
 <br>
 </details>
@@ -473,7 +485,9 @@ Raza Noodles' address and phone number can be found on the landing page and menu
 
 ## Features left to implement
 <hr>
-Currently this website is static. All code for the website is in HTML5 and CSS3. The following aspirations are currently beyond the scope of this project. I currently do not possess the skills to implement these features.
+This website is currently static. HTML5 and CSS3 are used across the website. The following goals are currently beyond the scope for this project. I either currently lack the abilities necessary to implement these functionalities or have not found resources to implement them.
+
+They mostly can't be implemented because they are outside the current time frame and are beyond the minimul viable product release.
 
 ### Aspirations for this website
 
@@ -483,6 +497,8 @@ Currently this website is static. All code for the website is in HTML5 and CSS3.
     - Cookie pop up banner.
     - Covid pop up banner.
     - Advertising.
+    - Web servers.
+    - User data management.
 
 [Back to top](#table-of-contents)
 <hr>
@@ -697,7 +713,7 @@ The third animation is on the food menu. It features two image containers that s
 
 Users can log in or create an account on the website. The user must fill up their information, and the page instructs them on how to do so. There are two forms for the various sign-in options. The user is directed to our 404 error page after completing the form. Raza Noodles currently does not have any servers available to handle user data. More information about this may be found in the website's aspirations and features that still need to be implemented. [Features left to implement](#features-left-to-implement).
 
-![Sign in page](/assets/images/features/sign-in.png)
+![Sign in page](/assets/images/features/sign-in-page.png)
 
 <br>
 </details>
@@ -715,7 +731,7 @@ As mentioned previously for the sign in page the 404 error page is displayed whe
 <summary>Downloadable content, Address and phone number</summary>
 <br>
 
-The website features 3 ways the user can view the menu; The drop down menu option for download, the food menu page, & the option for download in the food menu. All providing the user a content rich menu to explore.
+The user can view the menu in three different ways on the website: the drop-down menu option for downloading, the food menu page, and the option for downloading in the food menu. All of this provides a content-rich menu for the user to explore.
 
 ![Download option](/assets/images/features/download-option-one.png)
 ![Download option](/assets/images/features/download-option-two.png)
