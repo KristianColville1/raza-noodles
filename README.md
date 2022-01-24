@@ -83,7 +83,7 @@ Raza Noodles goal is to serve tasty noodle dishes. They want to be a part of the
 <summary>Strategy</summary>
 <br>
 
-### Strategy
+## Strategy
 It is not possible to compete for business solely on a local level. Companies have a plethora of resources at their disposal in this day and age. One of them is to compete online by having a website that can help a business stand out in the overcrowded world of fine dining.
 
 - Build Raza Noodles a website to connect them with customers so they can experience their Asian cuisine.
@@ -116,7 +116,7 @@ The strategy:
 <summary>Scope</summary>
 <br>
 
-### Scope
+## Scope
 It is difficult for a developer to balance reality and content. This table ranks the design of elements 1 through 6 in order of importance. The most important is one, and the least important is six.
 My potential design elements are important, but categorizing them is a useful way of completing them for the website's user.
 
@@ -183,7 +183,34 @@ Wireframes.
 <br>
 
 ### Surface
-Look and feel.
+<hr>
+
+#### Colors
+Here are the colors chosen for Raza Noodles. The color black was also used.
+
+![Colors](/assets/images/ux-design/colors.png)
+
+Logo, menu items & icons: 
+
+    - Orange Peel.
+
+Background:
+
+    - Dark Purpel.
+
+Footer: 
+    - Black link icons for accessibility reasons and 
+    - Lavender Floral background.
+    - Orange Peel when hovered over.
+
+Scroll icons on hover:
+
+    - Rose Madder.
+
+Text:
+
+    - Baby Powder.
+
 
 <br>
 </details>
