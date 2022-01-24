@@ -867,6 +867,17 @@ span.bars {
 
 /* gallery page */
 
+#gallery-page {
+    column-count: 4;
+    column-gap: 0;
+    clear: both;
+    line-height: 0;
+}
+
+#gallery-page > img {
+    width: 100%;
+}
+
 /* contact page */
 
 #contact-section {
@@ -1337,6 +1348,11 @@ form label {
     #bottom-space {
         top: 2985px;
     }
+
+    /* gallery page */
+    #gallery-page {
+        column-count: 3;
+    }
 }
 
 /* For small screens 695px wide and down */
@@ -1568,6 +1584,11 @@ form label {
     /* bottom space for footer */
     #bottom-space {
         top: 3900px;
+    }
+
+    /* gallery page */
+    #gallery-page {
+        column-count: 2;
     }
 }
 
