@@ -27,6 +27,7 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
 * [Version Control](#version-control)
 * [Deployment](#deployment)
 * [Credits](#credits)
+* [Acknowledgments](#acknowledgments)
 
 <hr>
 
@@ -942,17 +943,21 @@ I used a generator to build my policies from [TermsFeed](https://www.termsfeed.c
 
 ### Food menu items
 
-The soups for my food menu were sourced from [bonappetit](https://www.bonappetit.com/recipes/slideshow/noodle-soup)
+   * The soups for my food menu were sourced from [bonappetit](https://www.bonappetit.com/recipes/slideshow/noodle-soup)
 
-The appetizers for the menu were sourced from [insanelygoodrecipes](https://insanelygoodrecipes.com/asian-appetizers/).
+   * The appetizers for the menu were sourced from [insanelygoodrecipes](https://insanelygoodrecipes.com/asian-appetizers/).
 
-The main dishes on the menu were sourced from [Jamie Oliver](https://www.jamieoliver.com/recipes/category/world/asian/).
+   * The main dishes on the menu were sourced from [Jamie Oliver](https://www.jamieoliver.com/recipes/category/world/asian/).
 
-The special noodle dishes on the menu were sourced from [bbc good food](https://www.bbcgoodfood.com/recipes/collection/noodle-recipes).
+   * The special noodle dishes on the menu were sourced from [bbc good food](https://www.bbcgoodfood.com/recipes/collection/noodle-recipes).
 <hr>
 
 ## Media
 
 <hr>
+
+# Acknowledgments
+
+I would like to express my gratitude to my mentor [Spencer Barriball](https://github.com/5pence) for his guidance with this project. Always willing to provide valuable industry knowledge. He gave me valuable advice and was extremely helpful in his critic of the website. He pushed me to put in the extra mile for this project and I'm grateful for all the feedback I have recieved from Spencer.
 
 [Back to top](#table-of-contents)
