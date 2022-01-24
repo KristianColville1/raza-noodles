@@ -194,6 +194,7 @@ Look and feel.
 
 ## Existing Features
 <hr>
+
 <details>
 <summary>Landing page</summary>
 <br>
@@ -311,12 +312,122 @@ This section allows the user of the website to see opening hours for Raza Noodle
 <details>
 <summary>Menu Page</summary>
 <br>
+The second internal page after the home page is the menu page. It features some of the information from the home page such as the address and phone number. It has one of my scroll icons to go further down the page. 
+
+The background effect consists of an animation written in css that comes forwards. The background has a color effect. This was done with a background blend mode.
+
+![Menu-page](/assets/images/features/menu-page.png)
+
+
 <br>
 </details>
 
 <details>
-<summary>Contact Page</summary>
+<summary>Food Menu</summary>
 <br>
+On the menu page we also have the actual food menu. This allows the user to see what options are available to them and fufills design requirements by Raza Noodles for a competitive design.
+The food menu has multiple images, relevant content.
+
+At the beginning of the food menu theres a second option for downloading the food menu.
+
+![Download option](/assets/images/features/download-option-two.png)
+
+The menu presents the illusion that it is a three-piece fold out menu on larger screens. 
+
+![Food-menu](/assets/images/features/three-piece-menu.png)
+
+On medium screens its a two-piece fold out menu and having the inset border in between each section creates these classic menu looks whilst adding abit of creativity.
+
+![Food-menu](/assets/images/features/two-piece-menu.png)
+
+For small screens the menu becomes a single column and shows how adaptible this food menu is. The food menu section has 3 major shift changes overall.
+
+![Food-menu](/assets/images/features/one-piece-menu.png)
+
+
+<br>
+</details>
+
+<details>
+<summary>Contact page</summary>
+<br>
+
+This feature allows users to send Raza Noodles a message and is another way to reach them. It allows the user to share their experience while also allowing Raza Noodles to receive feedback.
+
+It has a form for the user to enter details and only submits when the user enters all the information correctly.
+
+![contact page](/assets/images/features/contact-page.png)
+
+
+<br>
+</details>
+
+<details>
+<summary>Thank you page</summary>
+<br>
+
+After the user submits their message to Raza Noodles on the contact page a new internal page opens presenting the illusion that the user is still on the same page. It gives the user a response telling them to check their emails and also to say thank you. It has a second option to return to the home page right below the thank you message.
+
+![Thank you page](/assets/images/features/thank-you-page.png)
+
+
+<br>
+</details>
+
+<details>
+<summary>Animations</summary>
+<br>
+
+The Raza Noodle logo has an animation on the home screen. For the user, this animation adds some elegance to the landing page. For the logo, it gradually fades to full opacity.
+
+![Logo animation](/assets/images/features/animation-one.png)
+
+The second animation is on the menu landing page. The backgroud has a color effect done with background blend mode in css. It shows the background scale up when the user goes to this page.
+
+![Logo animation](/assets/images/features/menu-page.png)
+
+The third animation is on the food menu. It features two image containers that switch between images every 9 seconds, there is also a delay added so the user will get to see multiple images after going to this section. 
+
+![Logo animation](/assets/images/features/animation-two.png)
+![Logo animation](/assets/images/features/animation-three.png)
+
+
+<br>
+</details>
+
+<details>
+<summary>Sign in page</summary>
+<br>
+
+Users can log in or create an account on the website. The user must fill up their information, and the page instructs them on how to do so. There are two forms for the various sign-in options. The user is directed to our 404 error page after completing the form. Raza Noodles currently does not have any servers available to handle user data. More information about this may be found in the website's aspirations and features that still need to be implemented. [Features left to implement](#features-left-to-implement).
+
+![Sign in page](/assets/images/features/sign-in.png)
+
+<br>
+</details>
+<details>
+<summary>404 error page</summary>
+<br>
+
+As mentioned previously for the sign in page the 404 error page is displayed when the user completes a sign in option. Its mostly decorative with the intent of being a message Raza Noodle can choose to display. I chose to alert the user that currently the server is down and to check back again later. It also provides the user with away back to the home page after an error occurs.
+
+![404 error page](/assets/images/features/error-page.png)
+
+<br>
+</details>
+<details>
+<summary>Downloadable content, Address and phone number</summary>
+<br>
+
+The website features 3 ways the user can view the menu; The drop down menu option for download, the food menu page, & the option for download in the food menu. All providing the user a content rich menu to explore.
+
+![Download option](/assets/images/features/download-option-one.png)
+![Download option](/assets/images/features/download-option-two.png)
+
+Raza Noodles' address and phone number can be found on the landing page and menu page. I've included a function that allows the user to dial the phone number just by pressing it. Raza Noodles needs the ability for users to call them when they visit the website. The user will be asked if they wish to call the number by just tapping the number. I've indicated this by placing a calling icon next to the phone number. To help the user understand that this is a calling feature, it is the same color as the menu options.
+
+![Address phone](/assets/images/features/address-phone.png)
+
 <br>
 </details>
 
@@ -469,18 +580,122 @@ This section allows the user of the website to see opening hours for Raza Noodle
 <details>
 <summary>Menu Page</summary>
 <br>
+The second internal page after the home page is the menu page. It features some of the information from the home page such as the address and phone number. It has one of my scroll icons to go further down the page. 
+
+The background effect consists of an animation written in css that comes forwards. The background has a color effect. This was done with a background blend mode.
+
+![Menu-page](/assets/images/features/menu-page.png)
+
+
 <br>
 </details>
 
 <details>
-<summary>Contact Page</summary>
+<summary>Food Menu</summary>
 <br>
+On the menu page we also have the actual food menu. This allows the user to see what options are available to them and fufills design requirements by Raza Noodles for a competitive design.
+The food menu has multiple images, relevant content.
+
+At the beginning of the food menu theres a second option for downloading the food menu.
+
+![Download option](/assets/images/features/download-option-two.png)
+
+The menu presents the illusion that it is a three-piece fold out menu on larger screens. 
+
+![Food-menu](/assets/images/features/three-piece-menu.png)
+
+On medium screens its a two-piece fold out menu and having the inset border in between each section creates these classic menu looks whilst adding abit of creativity.
+
+![Food-menu](/assets/images/features/two-piece-menu.png)
+
+For small screens the menu becomes a single column and shows how adaptible this food menu is. The food menu section has 3 major shift changes overall.
+
+![Food-menu](/assets/images/features/one-piece-menu.png)
+
+
 <br>
 </details>
 
 <details>
-<summary>Gallery Page</summary>
+<summary>Contact page</summary>
 <br>
+
+This feature allows users to send Raza Noodles a message and is another way to reach them. It allows the user to share their experience while also allowing Raza Noodles to receive feedback.
+
+It has a form for the user to enter details and only submits when the user enters all the information correctly.
+
+![contact page](/assets/images/features/contact-page.png)
+
+
+<br>
+</details>
+
+<details>
+<summary>Thank you page</summary>
+<br>
+
+After the user submits their message to Raza Noodles on the contact page a new internal page opens presenting the illusion that the user is still on the same page. It gives the user a response telling them to check their emails and also to say thank you. It has a second option to return to the home page right below the thank you message.
+
+![Thank you page](/assets/images/features/thank-you-page.png)
+
+
+<br>
+</details>
+
+<details>
+<summary>Animations</summary>
+<br>
+
+The Raza Noodle logo has an animation on the home screen. For the user, this animation adds some elegance to the landing page. For the logo, it gradually fades to full opacity.
+
+![Logo animation](/assets/images/features/animation-one.png)
+
+The second animation is on the menu landing page. The backgroud has a color effect done with background blend mode in css. It shows the background scale up when the user goes to this page.
+
+![Logo animation](/assets/images/features/menu-page.png)
+
+The third animation is on the food menu. It features two image containers that switch between images every 9 seconds, there is also a delay added so the user will get to see multiple images after going to this section. 
+
+![Logo animation](/assets/images/features/animation-two.png)
+![Logo animation](/assets/images/features/animation-three.png)
+
+
+<br>
+</details>
+
+<details>
+<summary>Sign in page</summary>
+<br>
+
+Users can log in or create an account on the website. The user must fill up their information, and the page instructs them on how to do so. There are two forms for the various sign-in options. The user is directed to our 404 error page after completing the form. Raza Noodles currently does not have any servers available to handle user data. More information about this may be found in the website's aspirations and features that still need to be implemented. [Features left to implement](#features-left-to-implement).
+
+![Sign in page](/assets/images/features/sign-in.png)
+
+<br>
+</details>
+<details>
+<summary>404 error page</summary>
+<br>
+
+As mentioned previously for the sign in page the 404 error page is displayed when the user completes a sign in option. Its mostly decorative with the intent of being a message Raza Noodle can choose to display. I chose to alert the user that currently the server is down and to check back again later. It also provides the user with away back to the home page after an error occurs.
+
+![404 error page](/assets/images/features/error-page.png)
+
+<br>
+</details>
+<details>
+<summary>Downloadable content, Address and phone number</summary>
+<br>
+
+The website features 3 ways the user can view the menu; The drop down menu option for download, the food menu page, & the option for download in the food menu. All providing the user a content rich menu to explore.
+
+![Download option](/assets/images/features/download-option-one.png)
+![Download option](/assets/images/features/download-option-two.png)
+
+Raza Noodles' address and phone number can be found on the landing page and menu page. I've included a function that allows the user to dial the phone number just by pressing it. Raza Noodles needs the ability for users to call them when they visit the website. The user will be asked if they wish to call the number by just tapping the number. I've indicated this by placing a calling icon next to the phone number. To help the user understand that this is a calling feature, it is the same color as the menu options.
+
+![Address phone](/assets/images/features/address-phone.png)
+
 <br>
 </details>
 
