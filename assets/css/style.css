@@ -1752,6 +1752,11 @@ form label {
         top: 100px;
     }
 
+    .prices-right {
+        width: 10%;
+        text-indent: -55%;
+    }
+
     /* sign in/up forms */
 
     #sign-in-section form {
