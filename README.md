@@ -1083,8 +1083,8 @@ Please do not hesitate to contact Kristian if you require any additional informa
 
 - [LinkedIn](https://www.linkedin.com/in/kristian-colville-711727133/)
 - [GitHub](https://github.com/KristianColville1)
-- Phone: <a href="tel:083-393-7493" target="_blank" aria-label="Click here to call Kristian Colville">+35383-393-7493</a>
-- Email: <a href="mailto:kristiancolville1@gmail.com" target="_blank" aria-label="Click here to email Kristian Colville">kristiancolville1@gmail.com</a>
+- Phone: [+35383-393-7493](+35383-393-7493)
+- Email: [kristiancolville1@gmail.com](kristiancolville1@gmail.com)
 
 # Acknowledgments
 <hr>
