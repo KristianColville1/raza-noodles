@@ -259,15 +259,15 @@ The text:
 <br>
 On the main home page is the logo and logo fade design. 
 
-    The user can see a contact number and address. 
+- The user can see a contact number and address. 
 
-    The scroll icon one brings the user to the next section and it has an arrow to indicate the direction of navigation and is helped with the use of a CSS animation I implemented. 
+- The scroll icon one brings the user to the next section and it has an arrow to indicate the direction of navigation and is helped with the use of a CSS animation I implemented. 
 
 The menu bar features in the top right corner, this is a mordern and intuitive design. 
 
-    The logo is also present in the top left corner and has a link to the home page. 
+- The logo is also present in the top left corner and has a link to the home page. 
 
-    All sections, internal links and external links are either present on the landing page or can be indicated to.
+- All sections, internal links and external links are either present on the landing page or can be indicated to.
 
 ![Landing page](/assets/images/features/landing-page.png)
 <br>
@@ -303,7 +303,7 @@ I'm proud of the fact that it's all HTML5 and CSS3. I could have used a script f
 
 Users with smaller screens (881px wide and below) can use a hamburger menu with this feature.
 
-    When there are several menu selections, it helps the website maintain structural integrity. I have multiple menu options available to the user. It was needed if I wanted to be able attempt to make it responsive. 
+- When there are several menu selections, it helps the website maintain structural integrity. I have multiple menu options available to the user. It was needed if I wanted to be able attempt to make it responsive. 
 
 ![Hamburger Menu](/assets/images/features/hamburger-one.png)
 ![Hamburger Menu](/assets/images/features/hamburger-two.png)
@@ -380,7 +380,7 @@ Includes:
 <br>
 This section allows the user of the website to see opening hours for Raza Noodles. 
 
-    It features a fixed background and the text is wrapped in another background to make it visually easier to read for the user.
+- It features a fixed background and the text is wrapped in another background to make it visually easier to read for the user.
 
 ![Opening-hours section](/assets/images/features/opening-hours-section.png)
 <br>
@@ -405,19 +405,19 @@ The background effect consists of an animation written in css that comes forward
 On the menu page we also have the actual food menu. This allows the user to see what options are available to them and fufills design requirements by Raza Noodles for a competitive design.
 The food menu has multiple images, relevant content.
 
-    At the beginning of the food menu theres a second option for downloading the food menu.
+- At the beginning of the food menu theres a second option for downloading the food menu.
 
 ![Download option](/assets/images/features/download-option-two.png)
 
-    The menu presents the illusion that it is a three-piece fold out menu on larger screens. 
+- The menu presents the illusion that it is a three-piece fold out menu on larger screens. 
 
 ![Food-menu](/assets/images/features/three-piece-menu.png)
 
-    On medium screens its a two-piece fold out menu and having the inset border in between each section creates these classic menu looks whilst adding abit of creativity.
+- On medium screens its a two-piece fold out menu and having the inset border in between each section creates these classic menu looks whilst adding abit of creativity.
 
 ![Food-menu](/assets/images/features/two-piece-menu.png)
 
-    For small screens the menu becomes a single column and shows how adaptible this food menu is. The food menu section has 3 major shift changes overall.
+- For small screens the menu becomes a single column and shows how adaptible this food menu is. The food menu section has 3 major shift changes overall.
 
 ![Food-menu](/assets/images/features/one-piece-menu.png)
 
@@ -431,9 +431,9 @@ The food menu has multiple images, relevant content.
 
 This feature allows users to send Raza Noodles a message and is another way to reach them. 
 
-    Within this page is a dummy form that allows the user to share their experience while also allowing Raza Noodles to possibly receive feedback. 
+Within this page is a dummy form that allows the user to share their experience while also allowing Raza Noodles to possibly receive feedback. 
 
-    The form currently does not send an email to the user's address but in up comming projects I intend to implement this feature fully.
+The form currently does not send an email to the user's address but in up comming projects I intend to implement this feature fully.
 
 ![contact page](/assets/images/features/contact-page.png)
 
@@ -447,7 +447,7 @@ This feature allows users to send Raza Noodles a message and is another way to r
 
 After the user submits a message through the dummy form to Raza Noodles on the contact page a new internal page opens presenting the illusion that the user is still on the same page. It gives the user a response telling them to check their emails and also to say thank you. It has a second option to return to the home page right below the thank you message.
 
-    The message on the thank you page is misleading, according to my sources, because it does not send a message to the user's email address. I'd want to stress out that this isn't a genuine restaurant, and the feature isn't entirely functional without the assistance of a robot or a server. If I had more time to finish it, I might have tried to figure out how to make this feature function. This project's scope does not include it.
+The message on the thank you page is misleading, according to my sources, because it does not send a message to the user's email address. I'd want to stress out that this isn't a genuine restaurant, and the feature isn't entirely functional without the assistance of perhaps a robot or a server. If I had more time to finish it, I might have tried to figure out how to make this feature function. This project's scope does not include it.
 
 It is, at the very least, a pleasant feature that is just cosmetic but gives the site a more legitimate appearance.
 
@@ -484,7 +484,7 @@ The third animation is on the food menu. It features two image containers that s
 
 Users can log in or create an account on the website. 
 
-    The user must fill up their information, and the page instructs them on how to do so. There are two forms for the various sign-in options.
+The user must fill up their information, and the page instructs them on how to do so. There are two forms for the various sign-in options.
 
 The user is directed to our 404 error page after completing the form. Raza Noodles currently does not have any servers available to handle user data. 
 
@@ -500,11 +500,11 @@ More information about this may be found in the features that still need to be i
 
 As mentioned previously for the sign in page the 404 error page is displayed when the user completes a sign in option.
 
-    Its mostly decorative with the intent of being a message Raza Noodle can choose to display. 
+Its mostly decorative with the intent of being a message Raza Noodle can choose to display. 
 
-    I chose to alert the user that currently the server is down and to check back again later. 
+I chose to alert the user that currently the server is down and to check back again later. 
 
-    It also provides the user with away back to the home page after an error occurs.
+It also provides the user with away back to the home page after an error occurs.
 
 ![404 error page](/assets/images/features/error-page.png)
 
@@ -519,13 +519,13 @@ The website features 3 ways the user can view the menu; The drop down menu optio
 ![Download option](/assets/images/features/download-option-one.png)
 ![Download option](/assets/images/features/download-option-two.png)
 
-    Raza Noodles' address and phone number can be found on the landing page and menu page. 
+Raza Noodles' address and phone number can be found on the landing page and menu page. 
 
 I've included a html code that allows the user to dial the phone number just by pressing it.
 
-    Raza Noodles needs the ability for users to call them when they visit the website. 
+Raza Noodles needs the ability for users to call them when they visit the website. 
 
-    The user will be asked if they wish to call the number by just tapping the number. I've indicated this by placing a calling icon next to the phone number. To help the user understand that this is a calling feature, it is the same color as the menu options.
+The user will be asked if they wish to call the number by just tapping the number. I've indicated this by placing a calling icon next to the phone number. To help the user understand that this is a calling feature, it is the same color as the menu options.
 
 ![Address phone](/assets/images/features/address-phone.png)
 
