@@ -548,15 +548,15 @@ The user will be asked if they wish to call the number by just tapping the numbe
 <hr>
 The present state of this website is that it is static.
 
-    The website makes extensive use of just HTML5 and CSS3. 
+- The website makes extensive use of just HTML5 and CSS3. 
 
 The aspirations listed below are currently outside the scope of this project. 
 
-    I either don't have the skills to integrate these features or haven't been able to find the resources to do so.
+- I either don't have the skills to integrate these features or haven't been able to find the resources to do so.
 
 They can't be executed in most cases since they are outside of my present time frame and demand me to learn new abilities that I don't have time on hand to learn.
 
-    When starting from scratch, building and launching a smartphone application, for example, could take weeks. These would take time to build, but with careful planning and the acquisition of the necessary skills, they could be done.
+- When starting from scratch, building and launching a smartphone application, for example, could take weeks. These would take time to build, but with careful planning and the acquisition of the necessary skills, they could be done.
 
 ### Aspirations for this website
 
@@ -600,8 +600,11 @@ User stories fufilled:
 Testing results:
 
     - On the landing page the user can see all options available to browse the website.
+
     - The contact number is on the landing page and also on the menu page.
+    
     - The address is on both the home page and menu page, the food menu section also has google maps embedded.
+
     - The footer is fixed and can be viewed always and is seen on all internal pages. If other Raza Noodle sites existed this would allow them to view additional Raza Noodle external web pages.
 
 ![Landing page](/assets/images/features/landing-page.png)
@@ -620,9 +623,11 @@ User stories fufilled:
 
 Testing results:
 
-    - Placed at the top of the page is a navigational menu allowing the user to pick different options for browsing the website.
-    - There's two options for viewing the menu from the menu bar, included is an internal page to a food menu and in the right hand corner an option to download the food menu to view it.
-    - The menu features an option for 'About' which informs the user of the option to know more about Raza Noodles.
+- Placed at the top of the page is a navigational menu allowing the user to pick different options for browsing the website.
+
+- There's two options for viewing the menu from the menu bar, included is an internal page to a food menu and in the right hand corner an option to download the food menu to view it.
+
+- The menu features an option for 'About' which informs the user of the option to know more about Raza Noodles.
 
 ![Navigational Menu](/assets/images/features/nav-menu.png)
 
@@ -638,7 +643,7 @@ User stories fufilled:
 
 Testing results:
 
-    - On smaller screens the menu turns into a hamburger menu, it allows the user to navigate the website while maintaining its structural integridy.
+- On smaller screens the menu turns into a hamburger menu, it allows the user to navigate the website while maintaining its structural integridy.
 
 ![Hamburger Menu](/assets/images/features/hamburger-one.png)
 
@@ -655,8 +660,9 @@ User stories fufilled:
 
 Testing results:
 
-    - The user can browse through available download options on Raza Noodles website.
-    - When the user hovers over the menu option for 'downloads' they can download the food menu allowing them to view the food menu.
+- The user can browse through available download options on Raza Noodles website.
+
+- When the user hovers over the menu option for 'downloads' they can download the food menu allowing them to view the food menu.
 
 ![Drop down Menu](/assets/images/features/drop-down.png)
 
@@ -673,7 +679,7 @@ User stories fufilled:
 
 Testing results:
 
-    - The footer is fixed to the bottom of the screen with options to view Raza Noodles social media sites.
+- The footer is fixed to the bottom of the screen with options to view Raza Noodles social media sites.
 
 ![Fixed footer](/assets/images/features/fixed-footer.png)
 
@@ -690,8 +696,9 @@ User stories fufilled:
 
 Testing results:
 
-    - Placed centrally on the screen is scroll icon one, it features on the home page and menu page allowing the user to go to the next section instantly.
-    - On the home page there are two scroll icons, the second one brings the user to the opening hours section so they can view opening hours.
+- Placed centrally on the screen is scroll icon one, it features on the home page and menu page allowing the user to go to the next section instantly.
+
+- On the home page there are two scroll icons, the second one brings the user to the opening hours section so they can view opening hours.
 
 ![Scroll icons](/assets/images/features/scroll-icon-one.png)
 
@@ -709,9 +716,11 @@ User stories fufilled:
 
 Testing results:
 
-    - The user can browse to the about section from the menu bar and get there by either scrolling manually or with the scroll icon that is implemented.
-    - This section also features 3 images which show tasty noodle dishes allowing the user to view some of Raza Noodles freshly prepared dishes.
-    - The about section has some information about who Raza Noodles are, what their all about and what they guarantee in terms of quality.
+- The user can browse to the about section from the menu bar and get there by either scrolling manually or with the scroll icon that is implemented.
+
+- This section also features 3 images which show tasty noodle dishes allowing the user to view some of Raza Noodles freshly prepared dishes.
+
+- The about section has some information about who Raza Noodles are, what their all about and what they guarantee in terms of quality.
 
 ![About section](/assets/images/features/about-section.png)
 
@@ -728,8 +737,9 @@ User stories fufilled:
 
 Testing results:
 
-    - Leading on from the about section is another scroll icon that will bring the user to opening hours section allowing the user to browse the website.
-    - A user can view the opening hours for Raza Noodles on the home page in the last section.
+- Leading on from the about section is another scroll icon that will bring the user to opening hours section allowing the user to browse the website.
+
+- A user can view the opening hours for Raza Noodles on the home page in the last section.
 
 ![Opening-hours section](/assets/images/features/opening-hours-section.png)
 <br>
@@ -747,10 +757,12 @@ User stories fufilled:
 
 Testing results:
 
-    - The second internal page is the menu page and can be indicated to from the home page. The user of this site can navigate to this area thus allowing them to browse the website.
-    - Placed under the main image on this page the address and phone number are both visable for the user.
-    - The menu page has a food menu section allowing the user to see what Raza Noodles has to offer.
-    
+- The second internal page is the menu page and can be indicated to from the home page. The user of this site can navigate to this area thus allowing them to browse the website.
+
+- Placed under the main image on this page the address and phone number are both visable for the user.
+
+- The menu page has a food menu section allowing the user to see what Raza Noodles has to offer.
+
 
 ![Menu-page](/assets/images/features/menu-page.png)
 
@@ -769,8 +781,9 @@ User stories fufilled:
 
 Testing results:
 
-    - On the menu page is a section for the food menu. The user of this site can navigate to this area thus allowing them to browse the website.
-    - The user has multiple options to view a food menu, the downloadable link in the menu bar, the downloadable link in the food menu and the actual food menu on the menu page.
+- On the menu page is a section for the food menu. The user of this site can navigate to this area thus allowing them to browse the website.
+
+- The user has multiple options to view a food menu, the downloadable link in the menu bar, the downloadable link in the food menu and the actual food menu on the menu page.
    
 ![Food-menu](/assets/images/features/three-piece-menu.png)
 
