@@ -1021,7 +1021,8 @@ There's abit of extra color brought in with these images. I spent along time try
 
 All text on the homepage was wrote by myself.
 
-The menu page food item text was sourced from online. (finish this)
+The menu page food item text was sourced from online. Please navigate to the [Credits](#credits) section to view where I sourced these.
+
 <br>
 </details>
 
@@ -1068,7 +1069,7 @@ It's just trying to keep the responsive design in mind, which is tricky with vie
 
 All internal pages passed official [W3C Validator testing](https://validator.w3.org/nu/#textarea). The policy pages are excluded as they are were generated. I tested my pages by putting the URL of each page into their HTML checker.
 
-I corrected all problems the html checker indicated. The html checker pointed out missing aria labels, incorrect id's classes and semantic issues. All were corrected thanks to this useful tool.
+I corrected all problems the html checker indicated. The html checker pointed out missing aria labels, incorrect id's, classes and semantic issues. All were corrected thanks to this useful tool.
 
 </details>
 
@@ -1255,9 +1256,9 @@ The images on the website all came from [Pexels](https://www.pexels.com/).
 
 # Contact
 
-[Kristian Colville](https://github.com/KristianColville1) is a full-stack software developer student at [Code Institute](https://codeinstitute.net/ie/), where he is pursuing a QQI Level 6 Diploma in Full Stack Software Development.
+My name is [Kristian Colville](https://github.com/KristianColville1) i am a full-stack software developer student at [Code Institute](https://codeinstitute.net/ie/), where I am pursuing a QQI Level 6 Diploma in Full Stack Software Development.
 
-Please do not hesitate to contact Kristian if you require any additional information about this project or wish to discuss work/collaboration opportunities.
+Please do not hesitate to contact me if you require any additional information about this project or wish to discuss work/collaboration opportunities.
 
 - [LinkedIn](https://www.linkedin.com/in/kristian-colville-711727133/)
 - [GitHub](https://github.com/KristianColville1)
@@ -1268,7 +1269,7 @@ Please do not hesitate to contact Kristian if you require any additional informa
 
 # Acknowledgments
 
-A big shout out to [Code Institute](https://codeinstitute.net/ie/) for providing me with the learning resources to create this project.
+A big shout out to [Code Institute](https://codeinstitute.net/ie/) for providing me with the opportunity to create this project.
 
 I'd like to thank my mentor [Spencer Barriball](https://github.com/5pence) for his invaluable guidance and for reviewing my website.
 
