@@ -736,18 +736,29 @@ User stories fufilled:
 <details>
 <summary>Scroll Icons</summary>
 <br>
-User stories fufilled:
 
-    - As a user I would like to browse the website.
-    - As a user I want to know the opening hours.
+![Scroll icons](/assets/images/features/scroll-icon-one.png)
+Testing for: 
+    - Scrolling abilites.
+    - Navigation.
+    - Purpose.
 
 Testing results:
 
 - Placed centrally on the screen is scroll icon one, it features on the home page and menu page allowing the user to go to the next section instantly.
 
+- The pages implemented with this feature are the home page & menu page.
+
+- To help indicate it's purpose an animation was added that 'blinks' every second or so to alert the user of a quick navigational option
+where pages are longer.
+
 - On the home page there are two scroll icons, the second one brings the user to the opening hours section so they can view opening hours.
 
-![Scroll icons](/assets/images/features/scroll-icon-one.png)
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I want to know the opening hours.
+
 
 <br>
 </details>
@@ -755,11 +766,14 @@ Testing results:
 <details>
 <summary>About Section</summary>
 <br>
-User stories fufilled:
 
-    - As a user I would like to browse the website.
-    - As a user I want to see the foods on offer.
-    - As a user I would like to know more about Raza Noodles.
+![About section](/assets/images/features/about-section.png)
+
+Testing for: 
+
+    - Navigation.
+    - Purpose.
+    - Relevant content.
 
 Testing results:
 
@@ -767,9 +781,13 @@ Testing results:
 
 - This section also features 3 images which show tasty noodle dishes allowing the user to view some of Raza Noodles freshly prepared dishes.
 
-- The about section has some information about who Raza Noodles are, what their all about and what they guarantee in terms of quality.
+- i have included information about who Raza Noodles are, what their all about and what they guarantee in terms of quality.
 
-![About section](/assets/images/features/about-section.png)
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I want to see the foods on offer.
+    - As a user I would like to know more about Raza Noodles.
 
 <br>
 </details>
@@ -777,24 +795,51 @@ Testing results:
 <details>
 <summary>Opening Hours section</summary>
 <br>
-User stories fufilled:
 
-    - As a user I would like to browse the website.
-    - As a user I want to know the opening hours. 
+![Opening-hours section](/assets/images/features/opening-hours-section.png)
+
+Testing for: 
+    - Navigation.
+    - Location.
+    - Relevance.
 
 Testing results:
 
 - Leading on from the about section is another scroll icon that will bring the user to opening hours section allowing the user to browse the website.
 
-- A user can view the opening hours for Raza Noodles on the home page in the last section.
+- A user can view the opening hours for Raza Noodles on the home page in the last section of the page.
 
-![Opening-hours section](/assets/images/features/opening-hours-section.png)
+- Users are able to find it by briefly searching the home page.
+
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I want to know the opening hours. 
+
 <br>
 </details>
 
 <details>
 <summary>Menu Page</summary>
 <br>
+
+![Menu-page](/assets/images/features/menu-page.png)
+
+Testing for:
+    
+    - Navigation abilites.
+    - Relevance.
+    - Purpose.
+
+Testing results:
+
+- The second internal page is the menu page and can be indicated to from the home page. The user of this site can navigate to this area thus allowing them to browse the website.
+
+- The menu links work correctly, bringing the user to the internal menu page which has the food menu section.
+
+- Placed under the main image on this page the address and phone number are both visable for the user.
+
+
 User stories fufilled:
 
     - As a user I would like to browse the website.
@@ -802,38 +847,38 @@ User stories fufilled:
     - As a user it is important I can find an address.
     - As a user I would like to be able to view a food menu.
 
-Testing results:
-
-- The second internal page is the menu page and can be indicated to from the home page. The user of this site can navigate to this area thus allowing them to browse the website.
-
-- Placed under the main image on this page the address and phone number are both visable for the user.
-
-- The menu page has a food menu section allowing the user to see what Raza Noodles has to offer.
-
-
-![Menu-page](/assets/images/features/menu-page.png)
-
-
 <br>
 </details>
 
 <details>
 <summary>Food Menu</summary>
 <br>
-User stories fufilled:
 
-    - As a user I would like to browse the website.
-    - As a user I would like to be able to view a food menu.
-    - As a user I want to see the foods on offer.
+![Food-menu](/assets/images/features/three-piece-menu.png)
+
+Testing for: 
+
+    - Navigation.
+    - Relevance.
+    - Function.
 
 Testing results:
 
 - On the menu page is a section for the food menu. The user of this site can navigate to this area thus allowing them to browse the website.
 
 - The user has multiple options to view a food menu, the downloadable link in the menu bar, the downloadable link in the food menu and the actual food menu on the menu page.
-   
-![Food-menu](/assets/images/features/three-piece-menu.png)
 
+- Animations showing different dishes Raza Noodles offers allows the user to see meals offered.
+
+- The menu layout is your standard menu, it has soups, appetizers, mains, favourite dishes, and special dishes.
+
+- Users can browse through all the meals and see their prices.
+
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I would like to be able to view a food menu.
+    - As a user I want to see the foods on offer.
 
 <br>
 </details>
@@ -842,11 +887,27 @@ Testing results:
 <summary>Contact page</summary>
 <br>
 
-
-
-
 ![contact page](/assets/images/features/contact-page.png)
 
+Testing for: 
+
+    - Relevance.
+    - Function.
+
+Testing results:
+
+- On the contact page is a dummy form as previously mentioned in the feature section. It allows the user to send a message to Raza Noodles to inform them of how they are doing.
+
+- The website won't progress further though unless the user enters the correct details such as a valid email address.
+
+- On completion the user is taken to our thank you page.
+
+- The user is able to browse to the contact page through the menu bar and is easily navigated to.
+
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I would like different forms of contacting Raza Noodles.
 
 <br>
 </details>
@@ -855,11 +916,23 @@ Testing results:
 <summary>Thank you page</summary>
 <br>
 
-
-
 ![Thank you page](/assets/images/features/thank-you-page.png)
 
+Testing for: 
 
+    - Navigation.
+    - Functional abilty.
+
+Testing results:
+
+- On completion of the contact form the user is taken to our thank you page.
+
+- The user can navigate back to the home page quickly by pressing the 
+
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I would like different forms of contacting Raza Noodles.
 <br>
 </details>
 
