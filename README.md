@@ -194,6 +194,8 @@ Targets:
 Wireframes were created using [Balsamiq](https://balsamiq.com/).
 Here is the PDF that I made for this UX plane: [KC Wireframes](/assets/media-files/raza-noodle-wireframes.pdf)
 
+I created this website as a desktop first website and worked backwards to create it on smaller screens. You can see what I did to do this in the * [Responsive Design](#responsive-design) section.
+
 <br>
 </details>
 
@@ -799,6 +801,7 @@ User stories fufilled:
 ![Opening-hours section](/assets/images/features/opening-hours-section.png)
 
 Testing for: 
+
     - Navigation.
     - Location.
     - Relevance.
@@ -940,19 +943,30 @@ User stories fufilled:
 <summary>Animations</summary>
 <br>
 
-The Raza Noodle logo has an animation on the home screen. For the user, this animation adds some elegance to the landing page. For the logo, it gradually fades to full opacity.
-
 ![Logo animation](/assets/images/features/animation-one.png)
-
-The second animation is on the menu landing page. The backgroud has a color effect done with background blend mode in css. It shows the background scale up when the user goes to this page.
 
 ![Logo animation](/assets/images/features/menu-page.png)
 
-The third animation is on the food menu. It features two image containers that switch between images every 9 seconds, there is also a delay added so the user will get to see multiple images after going to this section. 
-
 ![Logo animation](/assets/images/features/animation-two.png)
-![Logo animation](/assets/images/features/animation-three.png)
 
+Testing for: 
+
+    - Functional abilty.
+
+Testing results:
+
+- The logo on the home page increases in opacity as expected upon entering the website.
+
+- The user can navigate to these sections containing the animations.
+
+- The user can see this on entering the Raza Noodle website.
+
+- During a viewing of the food menu the user will notice images change on the website so they can see different dishes.
+
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I want to see the foods on offer.
 
 <br>
 </details>
