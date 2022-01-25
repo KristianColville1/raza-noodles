@@ -155,6 +155,7 @@ Targets:
             - Map for location.
             - Reservations.
         - Gallery page showcasing food.
+        - Sign in/up page.
         - Policy pages for terms, privacy and cookies.
     - Relevant sections
         - Address and location.
@@ -616,15 +617,23 @@ Testing results:
 
 ![Scroll icons](/assets/images/features/scroll-icon-one.png)
 
-![Scroll icons](/assets/images/features/scroll-icon-two.png)
-
 <br>
 </details>
 
 <details>
 <summary>About Section</summary>
 <br>
-Gives us some information about Raza Noodles and the food.
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I want to see the foods on offer.
+    - As a user I would like to know more about Raza Noodles.
+
+Testing results:
+
+    - The user can browse to the about section from the menu bar and get there by either scrolling manually or with the scroll icon that is implemented.
+    - This section also features 3 images which show tasty noodle dishes allowing the user to view some of Raza Noodles freshly prepared dishes.
+    - The about section has some information about who Raza Noodles are, what their all about and what they guarantee in terms of quality.
 
 ![About section](/assets/images/features/about-section.png)
 
@@ -634,7 +643,15 @@ Gives us some information about Raza Noodles and the food.
 <details>
 <summary>Opening Hours section</summary>
 <br>
-This section allows the user of the website to see opening hours for Raza Noodles. It features a fixed background and the text is wrapped in another background to make it visually easier to read for the user.
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I want to know the opening hours. 
+
+Testing results:
+
+    - Leading on from the about section is another scroll icon that will bring the user to opening hours section allowing the user to browse the website.
+    - A user can view the opening hours for Raza Noodles on the home page in the last section.
 
 ![Opening-hours section](/assets/images/features/opening-hours-section.png)
 <br>
@@ -643,9 +660,19 @@ This section allows the user of the website to see opening hours for Raza Noodle
 <details>
 <summary>Menu Page</summary>
 <br>
-The second internal page after the home page is the menu page. It features some of the information from the home page such as the address and phone number. It has one of my scroll icons to go further down the page. 
+User stories fufilled:
 
-The background effect consists of an animation written in css that comes forwards. The background has a color effect. This was done with a background blend mode.
+    - As a user I would like to browse the website.
+    - As a user I need to easily find a contact number. 
+    - As a user it is important I can find an address.
+    - As a user I would like to be able to view a food menu.
+
+Testing results:
+
+    - The second internal page is the menu page and can be indicated to from the home page. The user of this site can navigate to this area thus allowing them to browse the website.
+    - Placed under the main image on this page the address and phone number are both visable for the user.
+    - The menu page has a food menu section allowing the user to see what Raza Noodles has to offer.
+    
 
 ![Menu-page](/assets/images/features/menu-page.png)
 
@@ -656,24 +683,18 @@ The background effect consists of an animation written in css that comes forward
 <details>
 <summary>Food Menu</summary>
 <br>
-On the menu page we also have the actual food menu. This allows the user to see what options are available to them and fufills design requirements by Raza Noodles for a competitive design.
-The food menu has multiple images, relevant content.
+User stories fufilled:
 
-At the beginning of the food menu theres a second option for downloading the food menu.
+    - As a user I would like to browse the website.
+    - As a user I would like to be able to view a food menu.
+    - As a user I want to see the foods on offer.
 
-![Download option](/assets/images/features/download-option-two.png)
+Testing results:
 
-The menu presents the illusion that it is a three-piece fold out menu on larger screens. 
-
+    - On the menu page is a section for the food menu. The user of this site can navigate to this area thus allowing them to browse the website.
+    - The user has multiple options to view a food menu, the downloadable link in the menu bar, the downloadable link in the food menu and the actual food menu on the menu page.
+   
 ![Food-menu](/assets/images/features/three-piece-menu.png)
-
-On medium screens its a two-piece fold out menu and having the inset border in between each section creates these classic menu looks whilst adding abit of creativity.
-
-![Food-menu](/assets/images/features/two-piece-menu.png)
-
-For small screens the menu becomes a single column and shows how adaptible this food menu is. The food menu section has 3 major shift changes overall.
-
-![Food-menu](/assets/images/features/one-piece-menu.png)
 
 
 <br>
