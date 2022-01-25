@@ -18,6 +18,7 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
 * [Features](#features)
     * [Existing Features](#existing-features)
     * [Features left to implement](#features-left-to-implement)
+* [Technologies used](#technologies-used)
 * [Testing](#testing)
     * [Testing the Features](#testing-the-features)
     * [Colors](#colors)
@@ -496,22 +497,46 @@ Raza Noodles' address and phone number can be found on the landing page and menu
 <hr>
 This website is currently static. HTML5 and CSS3 are used across the website. The following goals are currently beyond the scope for this project. I either currently lack the abilities necessary to implement these functionalities or have not found resources to implement them.
 
-They mostly can't be implemented because they are outside the current time frame and are beyond the minimul viable product release.
+They mostly can't be implemented because they are outside the current time frame and are beyond the minimul viable product release I have built.
 
 ### Aspirations for this website
 
-    - A mobile app.
-    - Online Delivery service.
-    - Payment system.
-    - Cookie pop up banner.
-    - Covid pop up banner.
-    - Advertising.
-    - Web servers.
-    - User data management.
+- A smartphone application.
+    - To compete with other businesses.
+- An online delivery service is available.
+    - Allowing the user to place an order via the internet.
+- A system for making payments.
+    - Reservations, bookings, and online orders.
+- A cookie-themed pop-up banner.
+    - Request permission to use cookies.
+- A pop-up banner from Covid.
+    - Inform the user of any current health policies, alternative opening hours, or guidelines.
+- Advertising.
+    - Increase revenue by showing advertisements to users.
+- Web-based servers
+    - Take care of traffic and data management.
+- Analysis of user data
+    - Recognize patterns and forecast future events.
 
 [Back to top](#table-of-contents)
 <hr>
 
+# Technologies used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) for the contents and structure of the website.
+- [CSS3](https://en.wikipedia.org/wiki/CSS) for the styling and animations.
+- [Balsamiq](https://balsamiq.com/) for wireframing.
+- [GitPod](https://gitpod.io/) as a local IDE & repository.
+- [GitHub](https://github.com/) as a remote repository.
+- [GitHub Pages](https://pages.github.com/) to deploy the website.
+- [Chrome](https://www.google.com/intl/en_ie/chrome/), [Fire fox](https://www.mozilla.org/en-US/firefox/new/), [Edge](https://www.microsoft.com/en-us/edge) and [Opera](https://www.opera.com/?utm_campaign=%2300%20-%20WW%20-%20Search%20-%20EN%20-%20Branded&gclid=CjwKCAiA3L6PBhBvEiwAINlJ9N99KoEo-3uTFKvHKizeKfFlvMpgMJo-JwFBIPSYZUm_LixSy4s3NxoCc5cQAvD_BwE) for browser testing the responsiveness.
+- [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) for testing screen sizes and using [Lighthouse](https://developers.google.com/web/tools/lighthouse).
+- [TermsFeed](https://www.termsfeed.com/) to build my policy pages.
+- [Favicon.io](https://favicon.io/favicon-generator/) to create a flavicon for Raza Noodles.
+- [Grammerly](https://app.grammarly.com/) for checking my content and writing.
+- [Quillbot](https://quillbot.com/) for paraphrasing my writing.
+
+[Back to top](#table-of-contents)
 # Testing
 
 ## Testing the Features
