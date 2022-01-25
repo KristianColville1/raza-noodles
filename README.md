@@ -951,13 +951,16 @@ User stories fufilled:
 
 Testing for: 
 
-    - Functional abilty.
+    - Navigation of the website.
+    - Functional ability.
 
 Testing results:
 
 - The logo on the home page increases in opacity as expected upon entering the website.
 
 - The user can navigate to these sections containing the animations.
+
+- As mentioned previously the scroll icon animation behave as expected, blinking every second or so pointing in the direction of navigation.
 
 - The user can see this on entering the Raza Noodle website.
 
@@ -975,9 +978,27 @@ User stories fufilled:
 <summary>Sign in page</summary>
 <br>
 
-Users can log in or create an account on the website. The user must fill up their information, and the page instructs them on how to do so. There are two forms for the various sign-in options. The user is directed to our 404 error page after completing the form. Raza Noodles currently does not have any servers available to handle user data. More information about this may be found in the website's aspirations and features that still need to be implemented. [Features left to implement](#features-left-to-implement).
-
 ![Sign in page](/assets/images/features/sign-in-page.png)
+
+Testing for: 
+
+    - Navigation of the website.
+    - Functional ability.
+
+Testing results:
+
+- Feature not fully implemented as mentioned in [Features left to implement](#features-left-to-implement).
+
+- Behaves as expected and brings the user to our 404 error page.
+
+- Alerts the user that a server is down and they are unable to create an account or log in.
+
+- Users can easily navigate to this section.
+
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I want to see the foods on offer.
 
 <br>
 </details>
@@ -985,9 +1006,9 @@ Users can log in or create an account on the website. The user must fill up thei
 <summary>404 error page</summary>
 <br>
 
-As mentioned previously for the sign in page the 404 error page is displayed when the user completes a sign in option. Its mostly decorative with the intent of being a message Raza Noodle can choose to display. I chose to alert the user that currently the server is down and to check back again later. It also provides the user with away back to the home page after an error occurs.
-
 ![404 error page](/assets/images/features/error-page.png)
+
+
 
 <br>
 </details>
@@ -995,13 +1016,8 @@ As mentioned previously for the sign in page the 404 error page is displayed whe
 <summary>Downloadable content, Address and phone number</summary>
 <br>
 
-The user can view the menu in three different ways on the website: the drop-down menu option for downloading, the food menu page, and the option for downloading in the food menu. All of this provides a content-rich menu for the user to explore.
-
 ![Download option](/assets/images/features/download-option-one.png)
 ![Download option](/assets/images/features/download-option-two.png)
-
-Raza Noodles' address and phone number can be found on the landing page and menu page. I've included a function that allows the user to dial the phone number just by pressing it. Raza Noodles needs the ability for users to call them when they visit the website. The user will be asked if they wish to call the number by just tapping the number. I've indicated this by placing a calling icon next to the phone number. To help the user understand that this is a calling feature, it is the same color as the menu options.
-
 ![Address phone](/assets/images/features/address-phone.png)
 
 <br>
