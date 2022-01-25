@@ -1,13 +1,7 @@
+<a href="https://kristiancolville1.github.io/raza-noodles/" rel="noopener" alt="Raza Noodles logo, click to open a link to the website"><img src="assets/images/logo/logo_transparent.png" alt="Raza Noodle logo" height="512px" width="512px"></a>
 
-<img src="assets/images/logo/logo_transparent.png" alt="Raza Noodle logo" height="512px" width="512px">
 
-# Raza Noodles
-Raza Noodles is a noodle restaurant located in county Dublin, which serves delicious Asian cuisine with a noodle focus. We have talented chefs from all over the world whose goal is to provide an exceptional flavorful experience. We take pride in serving the Irish customer with an experience unlike any other.
-
-Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/).
-
-<details>
-<summary>Table of Contents</summary>
+# Table of Contents
 
 * [UX](#ux)
     * [User Stories](#user-stories)
@@ -34,9 +28,16 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
 * [Credits](#credits)
 * [Contact](#contact)
 * [Acknowledgments](#acknowledgments)
-</details>
-
 <hr>
+<hr>
+
+# Raza Noodles
+Raza Noodles is a noodle restaurant located in county Dublin, which serves delicious Asian cuisine with a noodle focus. 
+
+We have talented chefs from all over the world whose goal is to provide an exceptional flavourful experience. We take pride in serving the Irish customer with an experience unlike any other.
+
+Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/).
+
 
 # UX
 The theme of this website is Asian Cuisine with a focus on noodles. There are many types of users this may appeal to:
@@ -259,8 +260,6 @@ The text:
 # Features
 
 ## Existing Features
-<hr>
-
 <details>
 <summary>Landing page</summary>
 <br>
@@ -268,7 +267,7 @@ On the main home page is the logo and logo fade design.
 
 - The user can see a contact number and address. 
 
-- The scroll icon one brings the user to the next section and it has an arrow to indicate the direction of navigation and is helped with the use of a CSS animation I implemented. 
+- A scroll icon brings the user to the next section and it has an arrow to indicate the direction of navigation and is helped with the use of a CSS animation I implemented. 
 
 The menu bar features in the top right corner, this is a mordern and intuitive design. 
 
@@ -310,7 +309,7 @@ I'm proud of the fact that it's all HTML5 and CSS3. I could have used a script f
 
 Users with smaller screens (881px wide and below) can use a hamburger menu with this feature.
 
-- When there are several menu selections, it helps the website maintain structural integrity. I have multiple menu options available to the user. It was needed if I wanted to be able attempt to make it responsive. 
+- When there are several menu selections, it helps the website maintain structural integrity. I have multiple menu options available to the user. It was needed if I wanted to be able attempt to make it responsive and cosmetically appealing. 
 
 ![Hamburger Menu](/assets/images/features/hamburger-one.png)
 ![Hamburger Menu](/assets/images/features/hamburger-two.png)
@@ -545,23 +544,17 @@ The user will be asked if they wish to call the number by just tapping the numbe
 <br>
 </details>
 
-<details>
-<summary></summary>
-<br>
-<br>
-</details>
-
 ## Features left to implement
 <hr>
-The present state of this website is that it is static.
+This is a static website.
 
 - The website makes extensive use of just HTML5 and CSS3. 
 
 The aspirations listed below are currently outside the scope of this project. 
 
-- I either don't have the skills to integrate these features or haven't been able to find the resources to do so.
+- I either don't have the skills to integrate these features or haven't been able to find the resources on time.
 
-They can't be executed in most cases since they are outside of my present time frame and demand me to learn new abilities that I don't have time on hand to learn.
+They can't be executed in most cases since they are outside of my present time frame and demand me to learn new abilities that I don't have time on hand to learn at the moment.
 
 - When starting from scratch, building and launching a smartphone application, for example, could take weeks. These would take time to build, but with careful planning and the acquisition of the necessary skills, they could be done.
 
@@ -592,10 +585,26 @@ They can't be executed in most cases since they are outside of my present time f
 # Testing
 
 ## Testing the Features
-<hr>
+
 <details>
 <summary>Landing page</summary>
 <br>
+
+![Landing page](/assets/images/features/landing-page.png)
+
+Testing for:
+
+    - Navigation abilites of the home page.
+    - Placement of contact details.
+    - Placement of Raza Noodles address.
+
+Testing results:
+
+- On the landing page the user can see all options available to browse the website.
+
+- The contact number is on the landing page.
+
+- The address is on the landing page.
 
 User stories fufilled:
 
@@ -604,17 +613,6 @@ User stories fufilled:
     - As a user it is important I can find an address.
     - As a user I need to be able to find Raza Noodles on other sites.
 
-Testing results:
-
-- On the landing page the user can see all options available to browse the website.
-
-- The contact number is on the landing page and also on the menu page.
-
-- The address is on both the home page and menu page, the food menu section also has google maps embedded.
-
-- The footer is fixed and can be viewed always and is seen on all internal pages. If other Raza Noodle sites existed this would allow them to view additional Raza Noodle external web pages.
-
-![Landing page](/assets/images/features/landing-page.png)
 <br>
 </details>
 
@@ -622,21 +620,33 @@ Testing results:
 <summary>Navigational Menu</summary>
 <br>
 
-User stories fufilled:
+![Navigational Menu](/assets/images/features/nav-menu.png)
 
-    - As a user I would like to browse the website.
-    - As a user I would like to be able to view a food menu.
-    - As a user I would like to know more about Raza Noodles.
+Testing for:
+
+    - Navigation abilites of the Menu bar.
+    - Menu options.
+    - Access to the food menu and relevant sections.
 
 Testing results:
 
-- Placed at the top of the page is a navigational menu allowing the user to pick different options for browsing the website.
+- Placed at the top of every page is a navigational menu allowing the user to pick different options for browsing the website.
+
+- Home, About, Menu, Gallery, Contact, Sign in, and download options.
 
 - There's two options for viewing the menu from the menu bar, included is an internal page to a food menu and in the right hand corner an option to download the food menu to view it.
 
 - The menu features an option for 'About' which informs the user of the option to know more about Raza Noodles.
 
-![Navigational Menu](/assets/images/features/nav-menu.png)
+- When hovered over the menu options change color indicating where the user has either clicked or has their mouse pointer.
+
+- The links also maintain a line underneath to indicate the users relative position within the website.
+
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I would like to be able to view a food menu.
+    - As a user I would like to know more about Raza Noodles.
 
 <br>
 </details>
@@ -644,15 +654,27 @@ Testing results:
 <details>
 <summary>Hamburger Menu</summary>
 <br>
-User stories fufilled:
 
-    - As a user I would like to browse the website.
+![Hamburger Menu](/assets/images/features/hamburger-one.png)
+
+Testing for:
+
+    - Navigation abilites of the website.
+    - Functional abilites.
 
 Testing results:
 
-- On smaller screens the menu turns into a hamburger menu, it allows the user to navigate the website while maintaining its structural integridy.
+- On smaller screens 881 pixels wide and lower the menu turns into a hamburger menu, it allows the user to navigate the website while maintaining its structural integridy.
 
-![Hamburger Menu](/assets/images/features/hamburger-one.png)
+- The user can press this button to display available options to browse the website.
+
+- The hamburger menu is styled deliberately as three lines as this is a common design for this type of menu.
+    - Ensuring the user understands its purpose.
+    - Following user design priciples.
+
+User stories fufilled:
+
+    - As a user I would like to browse the website.
 
 <br>
 </details>
@@ -660,18 +682,23 @@ Testing results:
 <details>
 <summary>Download dropdown Menu</summary>
 <br>
-User stories fufilled:
 
-    - As a user I would like to browse the website.
-    - As a user I would like to be able to view a food menu.
+![Drop down Menu](/assets/images/features/drop-down.png)
+
+Testing for: 
+
+    - Navigational abilities of the menu bar.
 
 Testing results:
 
 - The user can browse through available download options on Raza Noodles website.
 
-- When the user hovers over the menu option for 'downloads' they can download the food menu allowing them to view the food menu.
+- When the user hovers over the menu option for 'downloads' they can download the food menu allowing them to keep and view the food menu.
 
-![Drop down Menu](/assets/images/features/drop-down.png)
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I would like to be able to view a food menu.
 
 <br>
 </details>
@@ -680,15 +707,28 @@ Testing results:
 <summary>Fixed footer</summary>
 <br>
 
-User stories fufilled:
+![Fixed footer](/assets/images/features/fixed-footer.png)
 
-    - As a user I need to be able to find Raza Noodles on other sites.
+Testing for: 
+
+    - Navigational abilites.
+    - Placement of links.
+    - Functional abilites.
 
 Testing results:
 
-- The footer is fixed to the bottom of the screen with options to view Raza Noodles social media sites.
+- The footer is fixed and can be viewed always and is seen on all internal pages.
 
-![Fixed footer](/assets/images/features/fixed-footer.png)
+- The user can click on all available options, all are working correctly and opening external pages.
+
+- If other Raza Noodle sites existed this would allow them to view additional Raza Noodle external web pages.
+
+- When hovered over the links change color indicating where the user has either clicked or has their mouse pointer.
+
+User stories fufilled:
+
+    - As a user I need to be able to find Raza Noodles on other sites.
+    - As a user I would like to browse the website.
 
 <br>
 </details>
