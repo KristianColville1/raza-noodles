@@ -18,7 +18,6 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
 * [Features](#features)
     * [Existing Features](#existing-features)
     * [Features left to implement](#features-left-to-implement)
-* [Technologies used](#technologies-used)
 * [Testing](#testing)
     * [Testing the Features](#testing-the-features)
     * [Colors](#colors)
@@ -30,6 +29,7 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
     * [Tasks](#tasks)
 * [Version Control](#version-control)
 * [Deployment](#deployment)
+* [Technologies used](#technologies-used)
 * [Credits](#credits)
 * [Contact](#contact)
 * [Acknowledgments](#acknowledgments)
@@ -59,31 +59,30 @@ The theme of this website is Asian Cuisine with a focus on noodles. There are ma
 <hr>
 
 ## External user's goal
-<hr>
-Users of the site are interested in Asian cuisine. They are hungry and crave the delicious noodles Raza Noodles can provide. The potential customer wants to know who Raza Noodles are, what dishes they offer, how to contact them and where they are based. 
+
+    Users of the site are interested in Asian cuisine. They are hungry and crave the delicious noodles Raza Noodles can provide. The potential customer wants to know who Raza Noodles are, what dishes they offer, how to contact them and where they are based. 
 
 <hr>
 
 ## Site owner's goal
-<hr>
-Raza Noodles goal is to serve tasty noodle dishes. They want to be a part of the online community to acquire more customers. The site's owner wants people to see what Raza Noodles is all about, easily access the food menu, and have a way to contact them and know where they are based.
+
+    Raza Noodles goal is to serve tasty noodle dishes. They want to be a part of the online community to acquire more customers. The site's owner wants people to see what Raza Noodles is all about, easily access the food menu, and have a way to contact them and know where they are based.
 
 <hr>
 
 ## Potential features to include
-<hr>
 
-- Responsivity for all device users
-- Navigation bar
-- Landing page image/logo
-- Details in the design
-    - Responsive to users
-    - A food menu and downloadable food menu
-    - Competitive design to compete with the crowded market
-    - Several ways of communicating with customers
-    - Clear details of the opening hours
-    - A showcase of actual noodle dishes
-    - Links to other sites owned by Raza Noodles
+    - Responsivity for all device users
+    - Navigation bar
+    - Landing page image/logo
+    - Details in the design
+        - Responsive to users
+        - A food menu and downloadable food menu
+        - Competitive design to compete with the crowded market
+        - Several ways of communicating with customers
+        - Clear details of the opening hours
+        - A showcase of actual noodle dishes
+        - Links to other sites owned by Raza Noodles
 
 ## Using the five planes of UX design
 <hr>
@@ -247,7 +246,17 @@ The text:
 <details>
 <summary>Landing page</summary>
 <br>
-On the main home page is the logo and logo fade design. The user can see a contact number and address. The scroll icon one brings the user to the next section and it has an arrow to indicate the direction of navigation. The menu bar features in the top right corner, this is a mordern and intuitive design. The logo is also present in the top left corner and has a link to the home page. All sections, internal links and external links are either present on the landing page or can be indicated to.
+On the main home page is the logo and logo fade design. 
+
+    The user can see a contact number and address. 
+
+    The scroll icon one brings the user to the next section and it has an arrow to indicate the direction of navigation and is helped with the use of a CSS animation I implemented. 
+
+The menu bar features in the top right corner, this is a mordern and intuitive design. 
+
+    The logo is also present in the top left corner and has a link to the home page. 
+
+    All sections, internal links and external links are either present on the landing page or can be indicated to.
 
 ![Landing page](/assets/images/features/landing-page.png)
 <br>
@@ -277,8 +286,13 @@ Includes:
 <details>
 <summary>Hamburger Menu</summary>
 <br>
-This was a fun feature to make. I'm proud of the fact that it's all HTML5 and CSS3. Users with smaller screens (768px wide and below) can use a hamburger menu with this feature.
-When there are several menu selections, it helps the website maintain structural integrity.
+This was a fun feature to create. 
+
+I'm proud of the fact that it's all HTML5 and CSS3. I could have used a script for this with bootstrap but I felt the purpose of this project for myself as the developer was to stretch my coding muscles in HTML5 and CSS3.
+
+Users with smaller screens (881px wide and below) can use a hamburger menu with this feature.
+
+    When there are several menu selections, it helps the website maintain structural integrity. I have multiple menu options available to the user. It was needed if I wanted to be able attempt to make it responsive. 
 
 ![Hamburger Menu](/assets/images/features/hamburger-one.png)
 ![Hamburger Menu](/assets/images/features/hamburger-two.png)
@@ -304,7 +318,7 @@ Includes:
 <details>
 <summary>Fixed footer</summary>
 <br>
-Allows the user to see available links to other Raza Noodle social media and the policy pages.
+Allows the user to see available links to other Raza Noodle social media and the generated policy pages.
 
 ![Fixed footer](/assets/images/features/fixed-footer.png)
 
@@ -353,7 +367,9 @@ Includes:
 <details>
 <summary>Opening Hours section</summary>
 <br>
-This section allows the user of the website to see opening hours for Raza Noodles. It features a fixed background and the text is wrapped in another background to make it visually easier to read for the user.
+This section allows the user of the website to see opening hours for Raza Noodles. 
+
+    It features a fixed background and the text is wrapped in another background to make it visually easier to read for the user.
 
 ![Opening-hours section](/assets/images/features/opening-hours-section.png)
 <br>
@@ -364,7 +380,7 @@ This section allows the user of the website to see opening hours for Raza Noodle
 <br>
 The second internal page after the home page is the menu page. It features some of the information from the home page such as the address and phone number. It has one of my scroll icons to go further down the page. 
 
-The background effect consists of an animation written in css that comes forwards. The background has a color effect. This was done with a background blend mode.
+The background effect consists of an animation written in css that comes forwards. The background has an orange color effect. This was done with a background blend mode style property I found in [CSS documentaion](https://devdocs.io/css/).
 
 ![Menu-page](/assets/images/features/menu-page.png)
 
@@ -378,19 +394,19 @@ The background effect consists of an animation written in css that comes forward
 On the menu page we also have the actual food menu. This allows the user to see what options are available to them and fufills design requirements by Raza Noodles for a competitive design.
 The food menu has multiple images, relevant content.
 
-At the beginning of the food menu theres a second option for downloading the food menu.
+    At the beginning of the food menu theres a second option for downloading the food menu.
 
 ![Download option](/assets/images/features/download-option-two.png)
 
-The menu presents the illusion that it is a three-piece fold out menu on larger screens. 
+    The menu presents the illusion that it is a three-piece fold out menu on larger screens. 
 
 ![Food-menu](/assets/images/features/three-piece-menu.png)
 
-On medium screens its a two-piece fold out menu and having the inset border in between each section creates these classic menu looks whilst adding abit of creativity.
+    On medium screens its a two-piece fold out menu and having the inset border in between each section creates these classic menu looks whilst adding abit of creativity.
 
 ![Food-menu](/assets/images/features/two-piece-menu.png)
 
-For small screens the menu becomes a single column and shows how adaptible this food menu is. The food menu section has 3 major shift changes overall.
+    For small screens the menu becomes a single column and shows how adaptible this food menu is. The food menu section has 3 major shift changes overall.
 
 ![Food-menu](/assets/images/features/one-piece-menu.png)
 
@@ -404,9 +420,9 @@ For small screens the menu becomes a single column and shows how adaptible this 
 
 This feature allows users to send Raza Noodles a message and is another way to reach them. 
 
-Within this page is a dummy form that allows the user to share their experience while also allowing Raza Noodles to possibly receive feedback. 
+    Within this page is a dummy form that allows the user to share their experience while also allowing Raza Noodles to possibly receive feedback. 
 
-The form currently does not send an email to the user's address but in up comming projects I intend to implement this feature fully.
+    The form currently does not send an email to the user's address but in up comming projects I intend to implement this feature fully.
 
 ![contact page](/assets/images/features/contact-page.png)
 
@@ -420,7 +436,7 @@ The form currently does not send an email to the user's address but in up commin
 
 After the user submits a message through the dummy form to Raza Noodles on the contact page a new internal page opens presenting the illusion that the user is still on the same page. It gives the user a response telling them to check their emails and also to say thank you. It has a second option to return to the home page right below the thank you message.
 
-The message on the thank you page is misleading, according to my sources, because it does not send a message to the user's email address. I'd want to stress out that this isn't a genuine restaurant, and the feature isn't entirely functional without the assistance of a robot or a server. If I had more time to finish it, I might have tried to figure out how to make this feature function. This project's scope does not include it.
+    The message on the thank you page is misleading, according to my sources, because it does not send a message to the user's email address. I'd want to stress out that this isn't a genuine restaurant, and the feature isn't entirely functional without the assistance of a robot or a server. If I had more time to finish it, I might have tried to figure out how to make this feature function. This project's scope does not include it.
 
 It is, at the very least, a pleasant feature that is just cosmetic but gives the site a more legitimate appearance.
 
@@ -455,9 +471,15 @@ The third animation is on the food menu. It features two image containers that s
 <summary>Sign in page</summary>
 <br>
 
-Users can log in or create an account on the website. The user must fill up their information, and the page instructs them on how to do so. There are two forms for the various sign-in options. The user is directed to our 404 error page after completing the form. Raza Noodles currently does not have any servers available to handle user data. More information about this may be found in the website's aspirations and features that still need to be implemented. [Features left to implement](#features-left-to-implement).
+Users can log in or create an account on the website. 
 
-![Sign in page](/assets/images/features/sign-in.png)
+    The user must fill up their information, and the page instructs them on how to do so. There are two forms for the various sign-in options.
+
+The user is directed to our 404 error page after completing the form. Raza Noodles currently does not have any servers available to handle user data. 
+
+More information about this may be found in the features that still need to be implemented. [Features left to implement](#features-left-to-implement).
+
+![Sign in page](/assets/images/features/sign-in-page.png)
 
 <br>
 </details>
@@ -465,7 +487,13 @@ Users can log in or create an account on the website. The user must fill up thei
 <summary>404 error page</summary>
 <br>
 
-As mentioned previously for the sign in page the 404 error page is displayed when the user completes a sign in option. Its mostly decorative with the intent of being a message Raza Noodle can choose to display. I chose to alert the user that currently the server is down and to check back again later. It also provides the user with away back to the home page after an error occurs.
+As mentioned previously for the sign in page the 404 error page is displayed when the user completes a sign in option.
+
+    Its mostly decorative with the intent of being a message Raza Noodle can choose to display. 
+
+    I chose to alert the user that currently the server is down and to check back again later. 
+
+    It also provides the user with away back to the home page after an error occurs.
 
 ![404 error page](/assets/images/features/error-page.png)
 
@@ -480,7 +508,13 @@ The website features 3 ways the user can view the menu; The drop down menu optio
 ![Download option](/assets/images/features/download-option-one.png)
 ![Download option](/assets/images/features/download-option-two.png)
 
-Raza Noodles' address and phone number can be found on the landing page and menu page. I've included a function that allows the user to dial the phone number just by pressing it. Raza Noodles needs the ability for users to call them when they visit the website. The user will be asked if they wish to call the number by just tapping the number. I've indicated this by placing a calling icon next to the phone number. To help the user understand that this is a calling feature, it is the same color as the menu options.
+    Raza Noodles' address and phone number can be found on the landing page and menu page. 
+
+I've included a html code that allows the user to dial the phone number just by pressing it.
+
+    Raza Noodles needs the ability for users to call them when they visit the website. 
+
+    The user will be asked if they wish to call the number by just tapping the number. I've indicated this by placing a calling icon next to the phone number. To help the user understand that this is a calling feature, it is the same color as the menu options.
 
 ![Address phone](/assets/images/features/address-phone.png)
 
@@ -501,9 +535,17 @@ Raza Noodles' address and phone number can be found on the landing page and menu
 
 ## Features left to implement
 <hr>
-This website is currently static. HTML5 and CSS3 are used across the website. The following goals are currently beyond the scope for this project. I either currently lack the abilities necessary to implement these functionalities or have not found resources to implement them.
+The present state of this website is that it is static.
 
-They mostly can't be implemented because they are outside the current time frame and are beyond the minimul viable product release I have built.
+    The website makes extensive use of just HTML5 and CSS3. 
+
+The aspirations listed below are currently outside the scope of this project. 
+
+    I either don't have the skills to integrate these features or haven't been able to find the resources to do so.
+
+They can't be executed in most cases since they are outside of my present time frame and demand me to learn new abilities that I don't have time on hand to learn.
+
+    When starting from scratch, building and launching a smartphone application, for example, could take weeks. These would take time to build, but with careful planning and the acquisition of the necessary skills, they could be done.
 
 ### Aspirations for this website
 
@@ -519,30 +561,16 @@ They mostly can't be implemented because they are outside the current time frame
     - Inform the user of any current health policies, alternative opening hours, or guidelines.
 - Advertising.
     - Increase revenue by showing advertisements to users.
-- Web-based servers
+- Web-based servers.
+    - Cloud technology.
     - Take care of traffic and data management.
-- Analysis of user data
+- Analysis of user data.
     - Recognize patterns and forecast future events.
 
 [Back to top](#table-of-contents)
+
 <hr>
 
-# Technologies used
-
-- [HTML5](https://en.wikipedia.org/wiki/HTML5) for the contents and structure of the website.
-- [CSS3](https://en.wikipedia.org/wiki/CSS) for the styling and animations.
-- [Balsamiq](https://balsamiq.com/) for wireframing.
-- [GitPod](https://gitpod.io/) as a local IDE & repository.
-- [GitHub](https://github.com/) as a remote repository.
-- [GitHub Pages](https://pages.github.com/) to deploy the website.
-- [Chrome](https://www.google.com/intl/en_ie/chrome/), [Fire fox](https://www.mozilla.org/en-US/firefox/new/), [Edge](https://www.microsoft.com/en-us/edge) and [Opera](https://www.opera.com/?utm_campaign=%2300%20-%20WW%20-%20Search%20-%20EN%20-%20Branded&gclid=CjwKCAiA3L6PBhBvEiwAINlJ9N99KoEo-3uTFKvHKizeKfFlvMpgMJo-JwFBIPSYZUm_LixSy4s3NxoCc5cQAvD_BwE) for browser testing the responsiveness.
-- [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) for testing screen sizes and using [Lighthouse](https://developers.google.com/web/tools/lighthouse).
-- [TermsFeed](https://www.termsfeed.com/) to build my policy pages.
-- [Favicon.io](https://favicon.io/favicon-generator/) to create a flavicon for Raza Noodles.
-- [Grammerly](https://app.grammarly.com/) for checking my content and writing.
-- [Quillbot](https://quillbot.com/) for paraphrasing my writing.
-
-[Back to top](#table-of-contents)
 # Testing
 
 ## Testing the Features
@@ -1040,7 +1068,24 @@ When I finished the homepage for Raza Noodles, I looked for a way to deploy the 
 5. Once completed, I got the website's URL.
 
 [Back to top](#table-of-contents)
+<hr>
 
+# Technologies used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) for the contents and structure of the website.
+- [CSS3](https://en.wikipedia.org/wiki/CSS) for the styling and animations.
+- [Balsamiq](https://balsamiq.com/) for wireframing.
+- [GitPod](https://gitpod.io/) as a local IDE & repository.
+- [GitHub](https://github.com/) as a remote repository.
+- [GitHub Pages](https://pages.github.com/) to deploy the website.
+- [Chrome](https://www.google.com/intl/en_ie/chrome/), [Fire fox](https://www.mozilla.org/en-US/firefox/new/), [Edge](https://www.microsoft.com/en-us/edge) and [Opera](https://www.opera.com/?utm_campaign=%2300%20-%20WW%20-%20Search%20-%20EN%20-%20Branded&gclid=CjwKCAiA3L6PBhBvEiwAINlJ9N99KoEo-3uTFKvHKizeKfFlvMpgMJo-JwFBIPSYZUm_LixSy4s3NxoCc5cQAvD_BwE) for browser testing the responsiveness.
+- [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) for testing screen sizes and using [Lighthouse](https://developers.google.com/web/tools/lighthouse).
+- [TermsFeed](https://www.termsfeed.com/) to build my policy pages.
+- [Favicon.io](https://favicon.io/favicon-generator/) to create a flavicon for Raza Noodles.
+- [Grammerly](https://app.grammarly.com/) for checking my content and writing.
+- [Quillbot](https://quillbot.com/) for paraphrasing my writing.
+
+[Back to top](#table-of-contents)
 <hr>
 
 # Credits
