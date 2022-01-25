@@ -1069,19 +1069,22 @@ The logo features an icon that intuitively shows a bowl of noodles and chopstick
 
 ### Icons
 All of the icons were sourced from [fontawsome](https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free).
+
+### Images
+The images on the website all came from [Pexels](https://www.pexels.com/).
 <hr>
 
 # Contact
 <hr>
 
-[Kristian Colville](https://github.com/KristianColville1) is a full-stack software developer at [Code Institute](https://codeinstitute.net/ie/), where he is pursuing a QQI Level 6 Diploma in Full Stack Software Development.
+[Kristian Colville](https://github.com/KristianColville1) is a full-stack software developer student at [Code Institute](https://codeinstitute.net/ie/), where he is pursuing a QQI Level 6 Diploma in Full Stack Software Development.
 
 Please do not hesitate to contact Kristian if you require any additional information about this project or wish to discuss work opportunities.
 
 - [LinkedIn](https://www.linkedin.com/in/kristian-colville-711727133/)
 - [GitHub](https://github.com/KristianColville1)
 - Phone: <a href="tel:+35383-393-7493" aria-label="Click here to call Kristian Colville">+35383-393-7493</a>
-- Email: kristiancolville1@gmail.com
+- Email: <a href="mailto:kristiancolville1@gmail.com">kristiancolville1@gmail.com</a>
 
 # Acknowledgments
 <hr>
