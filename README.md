@@ -398,7 +398,7 @@ This section allows the user of the website to see opening hours for Raza Noodle
 <br>
 The second internal page after the home page is the menu page. It features some of the information from the home page such as the address and phone number. It has one of my scroll icons to go further down the page. 
 
-The background effect consists of an animation written in css that comes forwards. The background has an orange color effect. This was done with a background blend mode style property I found in [CSS documentaion](https://devdocs.io/css/).
+The background effect consists of an animation written in css that comes forwards. The background has an orange color effect. This was done with a background blend mode style property I found in [CSS documentation](https://devdocs.io/css/).
 
 ![Menu-page](/assets/images/features/menu-page.png)
 
@@ -436,7 +436,7 @@ The food menu has multiple images, relevant content.
 <summary>Contact page</summary>
 <br>
 
-This feature allows users to send Raza Noodles a message and is another way to reach them. 
+This feature allows users to send Raza Noodles a message and is another way to reach them. The user must fill in their personal information correctly to be able submit a response, and the page instructs them on how to do so.
 
 Within this page is a dummy form that allows the user to share their experience while also allowing Raza Noodles to possibly receive feedback. 
 
@@ -491,7 +491,7 @@ The third animation is on the food menu. It features two image containers that s
 
 Users can log in or create an account on the website. 
 
-The user must fill up their information, and the page instructs them on how to do so. There are two forms for the various sign-in options.
+The user must fill in their personal information correctly to be able sign in or sign up, and the page instructs them on how to do so. There are two forms for the various sign-in options.
 
 The user is directed to our 404 error page after completing the form. Raza Noodles currently does not have any servers available to handle user data. 
 
@@ -1020,6 +1020,8 @@ Although I can heavily rely on common sense for the hamburger menu's purpose, go
 | Thank you page       |              | x         |
 | sign page            |              | x         |
 | README               |      x       |   |
+
+
 [Back to top](#table-of-contents)
 
 <hr>
@@ -1081,6 +1083,8 @@ Congradulations you now have a clone of this repository on your local machine.
 - [Grammerly](https://app.grammarly.com/) for checking my content and writing.
 - [Quillbot](https://quillbot.com/) for paraphrasing my writing.
 - [Coolors](https://coolors.co/) for creating a color palatte to use.
+
+
 [Back to top](#table-of-contents)
 
 <hr>
