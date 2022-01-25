@@ -402,9 +402,11 @@ For small screens the menu becomes a single column and shows how adaptible this 
 <summary>Contact page</summary>
 <br>
 
-This feature allows users to send Raza Noodles a message and is another way to reach them. It allows the user to share their experience while also allowing Raza Noodles to receive feedback.
+This feature allows users to send Raza Noodles a message and is another way to reach them. 
 
-It has a form for the user to enter details and only submits when the user enters all the information correctly.
+Within this page is a dummy form that allows the user to share their experience while also allowing Raza Noodles to possibly receive feedback. 
+
+The form currently does not send an email to the user's address but in up comming projects I intend to implement this feature fully.
 
 ![contact page](/assets/images/features/contact-page.png)
 
@@ -416,7 +418,11 @@ It has a form for the user to enter details and only submits when the user enter
 <summary>Thank you page</summary>
 <br>
 
-After the user submits their message to Raza Noodles on the contact page a new internal page opens presenting the illusion that the user is still on the same page. It gives the user a response telling them to check their emails and also to say thank you. It has a second option to return to the home page right below the thank you message.
+After the user submits a message through the dummy form to Raza Noodles on the contact page a new internal page opens presenting the illusion that the user is still on the same page. It gives the user a response telling them to check their emails and also to say thank you. It has a second option to return to the home page right below the thank you message.
+
+The message on the thank you page is misleading, according to my sources, because it does not send a message to the user's email address. I'd want to stress out that this isn't a genuine restaurant, and the feature isn't entirely functional without the assistance of a robot or a server. If I had more time to finish it, I might have tried to figure out how to make this feature function. This project's scope does not include it.
+
+It is, at the very least, a pleasant feature that is just cosmetic but gives the site a more legitimate appearance.
 
 ![Thank you page](/assets/images/features/thank-you-page.png)
 
@@ -737,9 +743,8 @@ Testing results:
 <summary>Contact page</summary>
 <br>
 
-This feature allows users to send Raza Noodles a message and is another way to reach them. It allows the user to share their experience while also allowing Raza Noodles to receive feedback.
 
-It has a form for the user to enter details and only submits when the user enters all the information correctly.
+
 
 ![contact page](/assets/images/features/contact-page.png)
 
@@ -751,7 +756,7 @@ It has a form for the user to enter details and only submits when the user enter
 <summary>Thank you page</summary>
 <br>
 
-After the user submits their message to Raza Noodles on the contact page a new internal page opens presenting the illusion that the user is still on the same page. It gives the user a response telling them to check their emails and also to say thank you. It has a second option to return to the home page right below the thank you message.
+
 
 ![Thank you page](/assets/images/features/thank-you-page.png)
 
