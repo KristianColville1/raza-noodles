@@ -503,13 +503,13 @@ They mostly can't be implemented because they are outside the current time frame
 
 - A smartphone application.
     - To compete with other businesses.
-- An online delivery service is available.
+- An online delivery service.
     - Allowing the user to place an order via the internet.
 - A system for making payments.
     - Reservations, bookings, and online orders.
-- A cookie-themed pop-up banner.
+- A cookie pop-up banner.
     - Request permission to use cookies.
-- A pop-up banner from Covid.
+- A pop-up banner for COVID19.
     - Inform the user of any current health policies, alternative opening hours, or guidelines.
 - Advertising.
     - Increase revenue by showing advertisements to users.
@@ -1084,7 +1084,7 @@ Please do not hesitate to contact Kristian if you require any additional informa
 - [LinkedIn](https://www.linkedin.com/in/kristian-colville-711727133/)
 - [GitHub](https://github.com/KristianColville1)
 - Phone: <a href="tel:+35383-393-7493" aria-label="Click here to call Kristian Colville">+35383-393-7493</a>
-- Email: <a href="mailto:kristiancolville1@gmail.com">kristiancolville1@gmail.com</a>
+- Email: <a href="mailto:kristiancolville1@gmail.com" target="_blank">kristiancolville1@gmail.com</a>
 
 # Acknowledgments
 <hr>
