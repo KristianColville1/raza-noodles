@@ -27,8 +27,10 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
         * [CSS3](#css3)
         * [Lighthouse](#lighthouse)
     * [Tasks](#tasks)
-* [Version Control](#version-control)
 * [Deployment](#deployment)
+    * [Version Control](#version-control)
+    * [GitHub Pages](#github-pages)
+    * [How to Clone this repository](#how-to-clone-this-repository)
 * [Technologies used](#technologies-used)
 * [Credits](#credits)
 * [Contact](#contact)
@@ -47,10 +49,10 @@ The theme of this website is Asian Cuisine with a focus on noodles. There are ma
 <hr>
 
 - As a user I would like to browse the website.
-- As a user I need to easily find a contact number.   
+- As a user I need to easily find a contact number.
 - As a user it is important I can find an address.
 - As a user I would like to be able to view a food menu.
-- As a user I want to know the opening hours.   
+- As a user I want to know the opening hours.
 - As a user I want to see the foods on offer.
 - As a user I need to be able to find Raza Noodles on other sites.
 - As a user I would like different forms of contacting Raza Noodles.
@@ -1040,7 +1042,9 @@ Although I can heavily rely on common sense for the hamburger menu's purpose, go
 
 <hr>
 
-# Version Control
+# Deployment
+
+## Version Control
 
 I used [GitPod](https://www.gitpod.io/) as a local repository and IDE & [GitHub](https://github.com) as a remote repository.
 
@@ -1054,10 +1058,7 @@ I used [GitPod](https://www.gitpod.io/) as a local repository and IDE & [GitHub]
     *   **git commit -m "Commit message: (i.e. Initial commit)"** *Allows the developer to assign a specific concise statement to the commit*
     *   **git push** *The final command sends the code to GitHub*
 
-[Back to top](#table-of-contents)
-<hr>
-
-# Deployment
+## GitHub Pages
 
 When I finished the homepage for Raza Noodles, I looked for a way to deploy the website. As a deployment solution, I chose the version control system [GitHub](https://github.com). They have an excellent resource called [GitHub pages](https://pages.github.com/) that allows developers to visually inspect how their website would look on a cloud platform.
 
@@ -1067,7 +1068,23 @@ When I finished the homepage for Raza Noodles, I looked for a way to deploy the 
 4. I ensured that it was deployed from the 'root' directory.
 5. Once completed, I got the website's URL.
 
+## How to clone this Repository
+
+Heres six steps to clone the repository: 
+
+1. Log into your [GitHub account](https://github.com/).
+2. Create a new repository and give it a name.
+3. From this repository click the green button labelled code.
+4. Click on HTTPS option and copy the URL link to your clipboard.
+5. Open your chosen [IDE](https://www.redhat.com/en/topics/middleware/what-is-ide#:~:text=An%20integrated%20development%20environment%20(IDE,graphical%20user%20interface%20(GUI).), please note [git](https://git-scm.com/) must be installed.
+6. Open Your terminal in the IDE and type: git clone the-URL-from-here.
+
+Congradulations you now have a clone of this repository on your local machine.
+
 [Back to top](#table-of-contents)
+<hr>
+
+
 <hr>
 
 # Technologies used
