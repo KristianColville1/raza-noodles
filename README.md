@@ -1139,6 +1139,8 @@ Please do not hesitate to contact Kristian if you require any additional informa
 # Acknowledgments
 <hr>
 
+A big shout out to [Code Institute](https://codeinstitute.net/ie/) for providing me with the learning resources to create this project.
+
 I'd like to thank my mentor [Spencer Barriball](https://github.com/5pence) for his invaluable guidance and for reviewing my website.
 
 [Erik Terwan](https://codepen.io/erikterwan/pen/EVzeRP) for this helpful hamburger menu idea written in just HTML and CSS.
