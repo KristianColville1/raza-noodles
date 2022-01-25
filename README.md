@@ -20,7 +20,6 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
     * [Features left to implement](#features-left-to-implement)
 * [Testing](#testing)
     * [Testing the Features](#testing-the-features)
-    * [Colors](#colors)
     * [Responsive Design](#responsive-design)
     * [Validator Testing](#validator-testing)
         * [HTML5](#html5)
@@ -205,7 +204,14 @@ Here is the PDF that I made for this UX plane: [KC Wireframes](/assets/media-fil
 <hr>
 
 #### Colors
-Here are the colors chosen for Raza Noodles. The color black was also used.
+
+Food is frequently connected with the colors orange and purple. The website's colors represent the fact that this is a business.
+
+Orange and purple are also excellent color contrasts.
+
+For the major contrast on the website, I used two darker hues. Dark purple with a hint of orange peel. The two are a perfect complement.
+
+All the colors chosen for Raza Noodles are listed below. For all pages, the color black was also applied to increase the accessibility score. Against most hues, black is the easiest to read. Because my off-white hue didn't work well in the footer, I went with black.
 
 ![Colors](/assets/images/ux-design/colors.png)
 
@@ -230,6 +236,7 @@ Scroll icons on hover:
 Text:
 
     - Baby Powder.
+
 
 #### Fonts
 
@@ -599,13 +606,13 @@ User stories fufilled:
 
 Testing results:
 
-    - On the landing page the user can see all options available to browse the website.
+- On the landing page the user can see all options available to browse the website.
 
-    - The contact number is on the landing page and also on the menu page.
-    
-    - The address is on both the home page and menu page, the food menu section also has google maps embedded.
+- The contact number is on the landing page and also on the menu page.
 
-    - The footer is fixed and can be viewed always and is seen on all internal pages. If other Raza Noodle sites existed this would allow them to view additional Raza Noodle external web pages.
+- The address is on both the home page and menu page, the food menu section also has google maps embedded.
+
+- The footer is fixed and can be viewed always and is seen on all internal pages. If other Raza Noodle sites existed this would allow them to view additional Raza Noodle external web pages.
 
 ![Landing page](/assets/images/features/landing-page.png)
 <br>
@@ -872,50 +879,6 @@ Raza Noodles' address and phone number can be found on the landing page and menu
 
 <br>
 </details>
-
-<hr>
-
-## Colors
-<hr>
-<details>
-<summary>Adobe Color</summary>
-<br>
-
-All colors were tested using [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer). The contrast checker pointed out my red color as a poor choice for my footer links. I opted for a black contrast instead as it made it visually easier to see when hovered over with a mouse. All colors scored above on all tests with high scores.
-
-<br>
-</details>
-
-<details>
-<summary>Black</summary>
-<br>
-
-I experimented with several colors for the logo. I studied a lot of information about colors on Google, and I discovered that black is associated with strength, authority, and power.
-It also represents prestige, and formality. For Raza Noodles it is perfect.
-
-<br>
-</details>
-
-<details>
-<summary>Orange Peel</summary>
-<br>
-
-It was difficult to choose an orange color, so I went with a softer, more natural orange called [Orange peel](https://en.wikipedia.org/wiki/Shades_of_orange#:~:text=Orange%20peel%20is%20the%20color,amber%20on%20the%20color%20wheel.). It is related to joy, pleasure, and warmth. It's also a fairly trendy color, according to [Color Matters](https://www.colormatters.com/color-and-marketing/59-color-symbolism/the-meanings-of-colors).
-I experimented with several colors before settling on it as the main contrasting hue on a black background. It's halfway between orange and amber.
-
-<br>
-</details>
-
-<details>
-<summary>Outcomes</summary>
-<br>
-
-After looking into other websites that offered similar services to Raza Noodles, I found these colors as a good fit for the concept I was striving to achieve.
-It's self evident that the orange peel color has something to do with food. The black fit the role Raza noodles was after, an elegent design.
-
-<br>
-</details>
-
 <hr>
 
 ## Testing the Content
@@ -974,9 +937,6 @@ It's just trying to keep the responsive design in mind, which is tricky with vie
 <hr>
 
 ## Validator Testing
-
-<hr>
-
 ### HTML5
 
 All internal pages passed official [W3C Validator testing](https://validator.w3.org/nu/#textarea). The policy pages are excluded as they are were generated. I tested my pages by putting the URL of each page into their HTML checker.
@@ -1041,8 +1001,7 @@ Although I can heavily rely on common sense for the hamburger menu's purpose, go
 </details>
 <hr>
 
-## Tasks
-<hr>
+# Tasks
 
 | Task to be completed | not finished | completed |
 | -------------------- | ------------ | --------- |
@@ -1054,11 +1013,12 @@ Although I can heavily rely on common sense for the hamburger menu's purpose, go
 | About section        |              | x         |
 | Opening hours section |             | x         |
 | Footer               |              | x         |
-| External Links       |      x       |           |
-| Menu page            |      x       |   |
-| Gallery page         |      x       |   |
-| Contact page         |      x       | x         |
+| External Links       |      n/a     |     n/a   |
+| Menu page            |              | x |
+| Gallery page         |              | x |
+| Contact page         |              | x         |
 | Thank you page       |              | x         |
+| sign page            |              | x         |
 | README               |      x       |   |
 [Back to top](#table-of-contents)
 
@@ -1120,14 +1080,14 @@ Congradulations you now have a clone of this repository on your local machine.
 - [Favicon.io](https://favicon.io/favicon-generator/) to create a flavicon for Raza Noodles.
 - [Grammerly](https://app.grammarly.com/) for checking my content and writing.
 - [Quillbot](https://quillbot.com/) for paraphrasing my writing.
-
+- [Coolors](https://coolors.co/) for creating a color palatte to use.
 [Back to top](#table-of-contents)
+
 <hr>
 
 # Credits
 
 ## Content
-<hr>
 
 ### Fonts
 Google has a wide varity of free fonts for use. I chose the two fonts for my projects from [here](https://fonts.google.com/).
@@ -1144,6 +1104,7 @@ I used a generator to build my policies from [TermsFeed](https://www.termsfeed.c
    * The main dishes on the menu were sourced from [Jamie Oliver](https://www.jamieoliver.com/recipes/category/world/asian/).
 
    * The special noodle dishes on the menu were sourced from [bbc good food](https://www.bbcgoodfood.com/recipes/collection/noodle-recipes).
+
 <hr>
 
 ## Media
@@ -1158,22 +1119,23 @@ All of the icons were sourced from [fontawsome](https://fontawesome.com/v5.15/ic
 
 ### Images
 The images on the website all came from [Pexels](https://www.pexels.com/).
+
 <hr>
 
 # Contact
-<hr>
 
 [Kristian Colville](https://github.com/KristianColville1) is a full-stack software developer student at [Code Institute](https://codeinstitute.net/ie/), where he is pursuing a QQI Level 6 Diploma in Full Stack Software Development.
 
-Please do not hesitate to contact Kristian if you require any additional information about this project or wish to discuss work opportunities.
+Please do not hesitate to contact Kristian if you require any additional information about this project or wish to discuss work/collaboration opportunities.
 
 - [LinkedIn](https://www.linkedin.com/in/kristian-colville-711727133/)
 - [GitHub](https://github.com/KristianColville1)
 - Phone: <a href="tel:083-393-7493" target="_blank" rel="noopener" aria-label="Click here to call Kristian Colville">+35383-393-7493</a>
 - Email: <a href="mailto:kristiancolville1@gmail.com" target="_blank" aria-label="Click here to email Kristian Colville">kristiancolville1@gmail.com</a>
 
-# Acknowledgments
 <hr>
+
+# Acknowledgments
 
 A big shout out to [Code Institute](https://codeinstitute.net/ie/) for providing me with the learning resources to create this project.
 
