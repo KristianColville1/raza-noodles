@@ -62,13 +62,21 @@ The theme of this website is Asian Cuisine with a focus on noodles. There are ma
 
 ## External user's goal
 
-    Users of the site are interested in Asian cuisine. They are hungry and crave the delicious noodles Raza Noodles can provide. The potential customer wants to know who Raza Noodles are, what dishes they offer, how to contact them and where they are based. 
+Users of the site are interested in Asian cuisine. 
+
+They are hungry and crave the delicious noodles Raza Noodles can provide. 
+
+The potential customer wants to know who Raza Noodles are, what dishes they offer, how to contact them and where they are based. 
 
 <hr>
 
 ## Site owner's goal
 
-    Raza Noodles goal is to serve tasty noodle dishes. They want to be a part of the online community to acquire more customers. The site's owner wants people to see what Raza Noodles is all about, easily access the food menu, and have a way to contact them and know where they are based.
+Raza Noodles goal is to serve tasty noodle dishes. 
+
+They want to be a part of the online community to acquire more customers. 
+
+The site's owner wants people to see what Raza Noodles is all about, easily access the food menu, and have a way to contact them and know where they are based.
 
 <hr>
 
@@ -149,30 +157,31 @@ My potential design elements are important, but categorizing them is a useful wa
 <br>
 
 ### Structure
-These are the current structure targets of the website.
+These are the structure targets of the website.
 Targets: 
 
-    - Navigation for the website
-        - Menu bar.
-        - Ease of access.
-        - Digestible content.
-    - Different web pages for content
-        - Home page.
-        - Food menu.
-        - Contact page.
-            - Contact details.
-            - Map for location.
-            - Reservations.
-        - Gallery page showcasing food.
-        - Sign in/up page.
-        - Policy pages for terms, privacy and cookies.
-    - Relevant sections
-        - Address and location.
-        - About Raza Noodles.
-        - Opening Hours.
-        - Footer with links to external pages.
-    - Downloadable content
-        - Food menu.
+- Navigation for the website
+    - Menu bar.
+    - Ease of access.
+    - Digestible content.
+- Different web pages for content
+    - Home page.
+    - Food menu.
+    - Contact page.
+        - Contact details.
+        - Map for location.
+        - Reservations.
+    - Gallery page showcasing food.
+    - Sign in/up page.
+    - Policy pages for terms, privacy and cookies.
+- Relevant sections
+    - Address and location.
+    - About Raza Noodles.
+    - Food menu section.
+    - Opening Hours.
+    - Footer with links to external pages.
+- Downloadable content
+    - Food menu.
 
 <br>
 </details>
@@ -1074,7 +1083,7 @@ Heres six steps to clone the repository:
 
 1. Log into your [GitHub account](https://github.com/).
 2. Create a new repository and give it a name.
-3. From this repository click the green button labelled code.
+3. At the top of this repository click the green button labelled code.
 4. Click on HTTPS option and copy the URL link to your clipboard.
 5. Open your chosen [IDE](https://www.codecademy.com/article/what-is-an-ide), please note [git](https://git-scm.com/) must be installed.
 6. Open Your terminal in the IDE and type: git clone the-URL-from-here.
