@@ -1076,15 +1076,12 @@ Heres six steps to clone the repository:
 2. Create a new repository and give it a name.
 3. From this repository click the green button labelled code.
 4. Click on HTTPS option and copy the URL link to your clipboard.
-5. Open your chosen [IDE](https://www.redhat.com/en/topics/middleware/what-is-ide#:~:text=An%20integrated%20development%20environment%20(IDE,graphical%20user%20interface%20(GUI).), please note [git](https://git-scm.com/) must be installed.
+5. Open your chosen [IDE](https://www.codecademy.com/article/what-is-an-ide), please note [git](https://git-scm.com/) must be installed.
 6. Open Your terminal in the IDE and type: git clone the-URL-from-here.
 
 Congradulations you now have a clone of this repository on your local machine.
 
 [Back to top](#table-of-contents)
-<hr>
-
-
 <hr>
 
 # Technologies used
