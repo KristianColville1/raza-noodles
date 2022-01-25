@@ -30,6 +30,7 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
 * [Version Control](#version-control)
 * [Deployment](#deployment)
 * [Credits](#credits)
+* [Contact](#contact)
 * [Acknowledgments](#acknowledgments)
 </details>
 
@@ -207,7 +208,7 @@ Background:
 
 Footer: 
 
-    - Black link icons for accessibility reasons and 
+    - Black social media icons for accessibility reasons and 
     - Lavender Floral background.
     - Orange Peel when hovered over.
 
@@ -245,7 +246,7 @@ The text:
 <details>
 <summary>Landing page</summary>
 <br>
-On the main home page is the logo and logo fade design. The user can see a contact number and address. The scroll icon one brings the user to the next section and it has an arrow to indicate the direction of navigation. The menu bar features in the top right corner, this is a mordern and intitiative design. The logo is also present in the top left corner and has a link to the home page. All sections, internal links and external links are either present on the landing page or can be indicated to.
+On the main home page is the logo and logo fade design. The user can see a contact number and address. The scroll icon one brings the user to the next section and it has an arrow to indicate the direction of navigation. The menu bar features in the top right corner, this is a mordern and intuitive design. The logo is also present in the top left corner and has a link to the home page. All sections, internal links and external links are either present on the landing page or can be indicated to.
 
 ![Landing page](/assets/images/features/landing-page.png)
 <br>
@@ -266,6 +267,7 @@ Includes:
         - Menu page.
         - Gallery page.
         - Contact page.
+        - Sign in page.
     - Downloadable pdf documents.
 
 <br>
@@ -1016,23 +1018,15 @@ When I finished the homepage for Raza Noodles, I looked for a way to deploy the 
 ## Content
 <hr>
 
-### The logo
-I created the branding logo with help from here [hatchful.shopify.com](https://hatchful.shopify.com/).
-I tried to keep in mind that this was an Asian style restaurant and chose the appropriate design for the logo after careful consideration.
-The logo features an icon that intuitively shows a bowl of noodles and chopsticks.
-
-### Icons
-All of the icons were sourced from [fontawsome](https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free)
-
 ### Fonts
-Google has a wide varity of free fonts for use. I chose two fonts for my projects from [here](https://fonts.google.com/)
+Google has a wide varity of free fonts for use. I chose the two fonts for my projects from [here](https://fonts.google.com/).
 
 ### Terms of Use, Privacy Policy, Cookies Policy
 I used a generator to build my policies from [TermsFeed](https://www.termsfeed.com/).
 
 ### Food menu items
 
-   * The soups for my food menu were sourced from [bonappetit](https://www.bonappetit.com/recipes/slideshow/noodle-soup)
+   * The soups for my food menu were sourced from [bonappetit](https://www.bonappetit.com/recipes/slideshow/noodle-soup).
 
    * The appetizers for the menu were sourced from [insanelygoodrecipes](https://insanelygoodrecipes.com/asian-appetizers/).
 
@@ -1043,10 +1037,32 @@ I used a generator to build my policies from [TermsFeed](https://www.termsfeed.c
 
 ## Media
 
+### The logo
+I created the branding logo with help from here [hatchful.shopify.com](https://hatchful.shopify.com/).
+I tried to keep in mind that this was an Asian style restaurant and chose the appropriate design for the logo after careful consideration.
+The logo features an icon that intuitively shows a bowl of noodles and chopsticks.
+
+### Icons
+All of the icons were sourced from [fontawsome](https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free).
 <hr>
 
-# Acknowledgments
+# Contact
+<hr>
 
-I would like to express my gratitude to my mentor [Spencer Barriball](https://github.com/5pence) for his guidance with this project. Always willing to provide valuable industry knowledge. He gave me valuable advice and was extremely helpful in his critic of the website. He pushed me to put in the extra mile for this project and I'm grateful for all the feedback I have recieved from Spencer.
+[Kristian Colville](https://github.com/KristianColville1) is a full-stack software developer at [Code Institute](https://codeinstitute.net/ie/), where he is pursuing a QQI Level 6 Diploma in Full Stack Software Development.
+
+Please do not hesitate to contact Kristian if you require any additional information about this project or wish to discuss work opportunities.
+
+- [LinkedIn](https://www.linkedin.com/in/kristian-colville-711727133/)
+- [GitHub](https://github.com/KristianColville1)
+- Phone: <a href="tel:+35383-393-7493" aria-label="Click here to call Kristian Colville">+35383-393-7493</a>
+- Email: kristiancolville1@gmail.com
+
+# Acknowledgments
+<hr>
+
+I'd like to thank my mentor [Spencer Barriball](https://github.com/5pence) for his invaluable guidance and for reviewing my website.
+
+[Erik Terwan](https://codepen.io/erikterwan/pen/EVzeRP) for this helpful hamburger menu idea written in just HTML and CSS.
 
 [Back to top](#table-of-contents)
