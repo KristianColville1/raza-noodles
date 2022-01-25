@@ -1,11 +1,14 @@
-![Image_of_logo](/assets/images/logo/logo_transparent.png)
+
+<img src="assets/images/logo/logo_transparent.png" alt="Raza Noodle logo" height="512px" width="512px">
 
 # Raza Noodles
 Raza Noodles is a noodle restaurant located in county Dublin, which serves delicious Asian cuisine with a noodle focus. We have talented chefs from all over the world whose goal is to provide an exceptional flavorful experience. We take pride in serving the Irish customer with an experience unlike any other.
 
 Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/).
 
-# Table of Contents
+<details>
+<summary>Table of Contents</summary>
+
 * [UX](#ux)
     * [User Stories](#user-stories)
     * [External user's goal](#external-users-goal)
@@ -28,6 +31,7 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
 * [Deployment](#deployment)
 * [Credits](#credits)
 * [Acknowledgments](#acknowledgments)
+</details>
 
 <hr>
 
@@ -61,6 +65,8 @@ Users of the site are interested in Asian cuisine. They are hungry and crave the
 ## Site owner's goal
 <hr>
 Raza Noodles goal is to serve tasty noodle dishes. They want to be a part of the online community to acquire more customers. The site's owner wants people to see what Raza Noodles is all about, easily access the food menu, and have a way to contact them and know where they are based.
+
+<hr>
 
 ## Potential features to include
 <hr>
@@ -164,7 +170,6 @@ Targets:
         - Footer with links to external pages.
     - Downloadable content
         - Food menu.
-        - Wine list.
 
 <br>
 </details>
@@ -174,7 +179,8 @@ Targets:
 <br>
 
 ### Skeleton
-Wireframes.
+Wireframes were created using [Balsamiq](https://balsamiq.com/).
+Here is the PDF that I made for this UX plane: [KC Wireframes](/assets/media-files/raza-noodle-wireframes.pdf)
 
 <br>
 </details>
