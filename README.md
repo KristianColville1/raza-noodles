@@ -194,7 +194,7 @@ Targets:
 
 ### Skeleton
 Wireframes were created using [Balsamiq](https://balsamiq.com/).
-Here is the PDF that I made for this UX plane: ![KC Wireframes](/assets/media-files/raza-noodle-wireframes.pdf)
+Here is the PDF that I made for this UX plane: [KC Wireframes](/assets/media-files/raza-noodle-wireframes.pdf)
 
 I created this website as a desktop first website and worked backwards to create it on smaller screens. You can see what I did to do this in the * [Responsive Design](#responsive-design) section.
 
@@ -210,7 +210,7 @@ I created this website as a desktop first website and worked backwards to create
 
 #### Colors
 
-Food is frequently connected with the colors orange and purple. The website's colors represent the fact that this is a business.
+Food is frequently connected with the colors orange and purple. The website's colors represent the fact that this is a food business.
 
 Orange and purple are also excellent color contrasts.
 
@@ -413,13 +413,15 @@ The background effect consists of an animation written in css that comes forward
 <summary>Food Menu</summary>
 <br>
 On the menu page we also have the actual food menu. This allows the user to see what options are available to them and fufills design requirements by Raza Noodles for a competitive design.
-The food menu has multiple images, relevant content.
+The food menu has multiple images and relevant content in the menu for the user.
 
 - At the beginning of the food menu theres a second option for downloading the food menu.
 
 ![Download option](/assets/images/features/download-option-two.png)
 
-- The menu presents the illusion that it is a three-piece fold out menu on larger screens. 
+- The link in the menu bar shows a 3 piece menu and it helps make the menu page cohesive when navigated to.
+
+- The menu presents the illusion that it is a three-piece fold out menu on larger screens.
 
 ![Food-menu](/assets/images/features/three-piece-menu.png)
 
@@ -428,6 +430,8 @@ The food menu has multiple images, relevant content.
 ![Food-menu](/assets/images/features/two-piece-menu.png)
 
 - For small screens the menu becomes a single column and shows how adaptible this food menu is. The food menu section has 3 major shift changes overall.
+
+- The user can view this menu to decide what they might buy when visiting Raza Noodles.
 
 ![Food-menu](/assets/images/features/one-piece-menu.png)
 
@@ -439,9 +443,11 @@ The food menu has multiple images, relevant content.
 <summary>Contact page</summary>
 <br>
 
-This feature allows users to send Raza Noodles a message and is another way to reach them. The user must fill in their personal information correctly to be able submit a response, and the page instructs them on how to do so.
+This feature allows users to send Raza Noodles a message and is another way to reach them. 
 
-Within this page is a dummy form that allows the user to share their experience while also allowing Raza Noodles to possibly receive feedback. 
+- The user must fill in their personal information correctly to be able submit a response, and the page instructs them on how to do so.
+
+- Within this page is a dummy form that allows the user to share their experience while also allowing Raza Noodles to possibly receive feedback. 
 
 The form currently does not send an email to the user's address but in up comming projects I intend to implement this feature fully.
 
@@ -455,11 +461,15 @@ The form currently does not send an email to the user's address but in up commin
 <summary>Thank you page</summary>
 <br>
 
-After the user submits a message through the dummy form to Raza Noodles on the contact page a new internal page opens presenting the illusion that the user is still on the same page. It gives the user a response telling them to check their emails and also to say thank you. It has a second option to return to the home page right below the thank you message.
+After the user submits a message through the dummy form to Raza Noodles on the contact page a new internal page opens presenting the illusion that the user is still on the same page.
 
-The message on the thank you page is misleading, according to my sources, because it does not send a message to the user's email address. I'd want to stress out that this isn't a genuine restaurant, and the feature isn't entirely functional without the assistance of perhaps a robot or a server. If I had more time to finish it, I might have tried to figure out how to make this feature function. This project's scope does not include it.
+- It gives the user a response telling them to check their emails and also to say thank you. 
 
-It is, at the very least, a pleasant feature that is just cosmetic but gives the site a more legitimate appearance.
+- It has a second option to return to the home page right below the thank you message.
+
+The message on the thank you page is misleading, according to my sources, because it does not send a message to the user's email address. I'd want to stress out that this isn't a genuine restaurant, and the feature isn't entirely functional without the assistance of perhaps a robot or a server. If I had more time to finish it, I might have figured out how to make this feature function. This project's scope does not include it.
+
+- It is, at the very least, a pleasant feature that is just cosmetic but gives the site a more legitimate appearance for the user.
 
 ![Thank you page](/assets/images/features/thank-you-page.png)
 
@@ -471,15 +481,24 @@ It is, at the very least, a pleasant feature that is just cosmetic but gives the
 <summary>Animations</summary>
 <br>
 
-The Raza Noodle logo has an animation on the home screen. For the user, this animation adds some elegance to the landing page. For the logo, it gradually fades to full opacity.
+The Raza Noodle logo has an animation on the home screen. 
+
+- For the user, this animation adds some elegance to the landing page on their arrival and each time they visit the home page.
 
 ![Logo animation](/assets/images/features/animation-one.png)
 
-The second animation is on the menu landing page. The backgroud has a color effect done with background blend mode in css. It shows the background scale up when the user goes to this page.
+The second animation is on the menu landing page. 
+
+- The backgroud has a color effect done with background blend mode in css. It shows the background scale up when the user goes to this page.
 
 ![Logo animation](/assets/images/features/menu-page.png)
 
 The third animation is on the food menu. It features two image containers that switch between images every 9 seconds, there is also a delay added so the user will get to see multiple images after going to this section. 
+
+- The user gets to see different dishes made by Raza Noodles
+    - Provides insights to the type of dishes.
+    - What they might look like when prepared.
+    - The quality of the food.
 
 ![Logo animation](/assets/images/features/animation-two.png)
 ![Logo animation](/assets/images/features/animation-three.png)
@@ -492,11 +511,15 @@ The third animation is on the food menu. It features two image containers that s
 <summary>Sign in page</summary>
 <br>
 
-Users can log in or create an account on the website. 
+- Users can log in or create an account on the website. 
 
-The user must fill in their personal information correctly to be able sign in or sign up, and the page instructs them on how to do so. There are two forms for the various sign-in options.
+- The user must fill in their personal information correctly to be able sign in or sign up, and the page instructs them on how to do so.
 
-The user is directed to our 404 error page after completing the form. Raza Noodles currently does not have any servers available to handle user data. 
+There are two forms for the sign-in options.
+
+- The user is directed to our 404 error page after completing the form. 
+
+Raza Noodles currently does not have any servers available to handle user data. 
 
 More information about this may be found in the features that still need to be implemented. [Features left to implement](#features-left-to-implement).
 
@@ -510,11 +533,13 @@ More information about this may be found in the features that still need to be i
 
 As mentioned previously for the sign in page the 404 error page is displayed when the user completes a sign in option.
 
-Its mostly decorative with the intent of being a message Raza Noodle can choose to display. 
+- Its mostly decorative with the intent of being a message Raza Noodle can choose to display. 
 
 I chose to alert the user that currently the server is down and to check back again later. 
 
-It also provides the user with away back to the home page after an error occurs.
+- It also provides the user with away back to the home page after an error occurs.
+
+- It helps the user know this is a legitimate web site by having its own 404 error page.
 
 ![404 error page](/assets/images/features/error-page.png)
 
@@ -529,13 +554,16 @@ The website features 3 ways the user can view the menu; The drop down menu optio
 ![Download option](/assets/images/features/download-option-one.png)
 ![Download option](/assets/images/features/download-option-two.png)
 
-Raza Noodles' address and phone number can be found on the landing page and menu page. 
+- Raza Noodles' address and phone number can be found on the landing page and menu page. 
 
-I've included a html code that allows the user to dial the phone number just by pressing it.
+- I've included a html code that allows the user to dial the phone number just by pressing it.
 
 Raza Noodles needs the ability for users to call them when they visit the website. 
 
-The user will be asked if they wish to call the number by just tapping the number. I've indicated this by placing a calling icon next to the phone number. To help the user understand that this is a calling feature, it is the same color as the menu options.
+- The user will be asked if they wish to call the number by just tapping the number.
+    - I've indicated this by placing a calling icon next to the phone number.
+
+To help the user understand that this is a calling feature, it is the same color as the menu options.
 
 ![Address phone](/assets/images/features/address-phone.png)
 
@@ -556,7 +584,7 @@ This is a static website.
 
 The aspirations listed below are currently outside the scope of this project. 
 
-- I either don't have the skills to integrate these features or haven't been able to find the resources on time.
+- I either don't have the skills to integrate these features yet or haven't been able to find the resources on time.
 
 They can't be executed in most cases since they are outside of my present time frame and demand me to learn new abilities that I don't have time on hand to learn at the moment.
 
@@ -665,6 +693,7 @@ Testing for:
 
     - Navigation abilites of the website.
     - Functional abilites.
+    - Intent.
 
 Testing results:
 
@@ -673,8 +702,9 @@ Testing results:
 - The user can press this button to display available options to browse the website.
 
 - The hamburger menu is styled deliberately as three lines as this is a common design for this type of menu.
-    - Ensuring the user understands its purpose.
-    - Following user design priciples.
+    - Color contrast for the hamburger menu so it is visable.
+    - Ensuring the user understands its purpose & intent.
+    - It follows user design priciples.
 
 User stories fufilled:
 
@@ -692,6 +722,7 @@ User stories fufilled:
 Testing for: 
 
     - Navigational abilities of the menu bar.
+    - Functionality.
 
 Testing results:
 
@@ -742,7 +773,9 @@ User stories fufilled:
 <br>
 
 ![Scroll icons](/assets/images/features/scroll-icon-one.png)
+
 Testing for: 
+
     - Scrolling abilites.
     - Navigation.
     - Purpose.
@@ -753,10 +786,13 @@ Testing results:
 
 - The pages implemented with this feature are the home page & menu page.
 
-- To help indicate it's purpose an animation was added that 'blinks' every second or so to alert the user of a quick navigational option
+- To help indicate it's purpose an animation was added that 'blinks' every 1.5 seconds to alert the user of a quick navigational option
 where pages are longer.
 
 - On the home page there are two scroll icons, the second one brings the user to the opening hours section so they can view opening hours.
+
+- Its purpose is understood.
+    - It points in the direction of navigation.
 
 User stories fufilled:
 
