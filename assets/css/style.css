@@ -1750,6 +1750,12 @@ form label {
         font-size: .9rem;
         font-weight: 300;
     }
+
+    /* gallery page */
+
+    #gallery-page {
+        column-count: 1;
+    }
 }
 
 /* For small screens 375px wide and down */
