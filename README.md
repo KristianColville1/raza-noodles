@@ -19,7 +19,8 @@
         * [HTML5](#html5)
         * [CSS3](#css3)
         * [Lighthouse](#lighthouse)
-    * [Tasks](#tasks)
+    * [Browser Testing](#browser-testing)
+* [Tasks](#tasks)
 * [Deployment](#deployment)
     * [Version Control](#version-control)
     * [GitHub Pages](#github-pages)
@@ -1195,6 +1196,7 @@ All the pages were tested with [Chrome Developer Tools](https://developer.chrome
 
     - All font sizes are 100% legible text.
 
+
 <details>
 <summary>Home page</summary>
 <br>
@@ -1243,6 +1245,10 @@ All the pages were tested with [Chrome Developer Tools](https://developer.chrome
 
 ![Thank you page](/assets/images/thank-you-score.png)
 </details>
+
+## Browser Testing 
+- Page behaves as expected in all browsers tested. The website was tested in [Chrome](https://www.google.com/intl/en_ie/chrome/), [Fire fox](https://www.mozilla.org/en-US/firefox/new/), [Edge](https://www.microsoft.com/en-us/edge) and [Opera](https://www.opera.com/?utm_campaign=%2300%20-%20WW%20-%20Search%20-%20EN%20-%20Branded&gclid=CjwKCAiA3L6PBhBvEiwAINlJ9N99KoEo-3uTFKvHKizeKfFlvMpgMJo-JwFBIPSYZUm_LixSy4s3NxoCc5cQAvD_BwE).
+
 <hr>
 
 # Tasks
