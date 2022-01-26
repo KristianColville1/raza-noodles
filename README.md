@@ -31,6 +31,8 @@
 <hr>
 <hr>
 
+![Responsive Image](/assets/images/features/am-i-responsive.png)
+
 # Raza Noodles
 Raza Noodles is a noodle restaurant located in county Dublin, which serves delicious Asian cuisine with a noodle focus. 
 
@@ -192,7 +194,7 @@ Targets:
 
 ### Skeleton
 Wireframes were created using [Balsamiq](https://balsamiq.com/).
-Here is the PDF that I made for this UX plane: [KC Wireframes](/assets/media-files/raza-noodle-wireframes.pdf)
+Here is the PDF that I made for this UX plane: ![KC Wireframes](/assets/media-files/raza-noodle-wireframes.pdf)
 
 I created this website as a desktop first website and worked backwards to create it on smaller screens. You can see what I did to do this in the * [Responsive Design](#responsive-design) section.
 
