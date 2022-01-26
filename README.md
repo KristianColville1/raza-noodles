@@ -1088,11 +1088,17 @@ The menu page food item text was sourced from online. Please navigate to the [Cr
 I was able to make the website responsive by primarily using pixels and percentages. The maximum screen sizes, which I implemented, allow the site to adapt to various user screens.
 [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was the tool I used to make the site responsive.
 
-Many features were not affected until certain widths were reached and those are indicated as n/a.
+- Many features were not affected until certain widths were reached and those are indicated as n/a.
 
 These adjustments did not apply to the external pages because the policys were created using a generator. External links to other websites were not included in the adjustments because I don't own those websites.
 
-Personal breakpoints for the website are also denoted with 'pbp'. The most work needs to be done on the Menu page, which was done on purpose because it is a key feature of the Raza Noodles website. The Menu page layout changes dramatically for different screen sizes. It was the most challenging to make responsive, but personal breakpoints made it incredibly adaptable.
+- Personal breakpoints for the website are also denoted with 'pbp'. 
+
+The most work needs to be done on the Menu page, which was done on purpose because it is a key feature of the Raza Noodles website. 
+
+The Menu page layout changes dramatically for different screen sizes. It was the most challenging to make responsive, but personal breakpoints made it incredibly adaptable.
+
+Below are set widths provided by chrome developer tools, I also used other max widths but have not included them in the table to improve the readability.
 
 | features / widths | 1920px | 1440px | 1024px | 768px | 425px | 375px | 320px |
 | -------------------- | --- | --- | --- | --- | --- | --- | --- |
@@ -1108,13 +1114,16 @@ Personal breakpoints for the website are also denoted with 'pbp'. The most work 
 | Footer               | n/a | n/a | n/a | Adjusted | Adjusted | Adjusted | n/a |
 | External Links       | x | x | x | x | x | x | x |
 | Menu page            | pbp | pbp | pbp | pbp | pbp | pbp | pbp |
-| Gallery page         | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-| Contact page         | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Gallery page         | n/a | n/a | n/a | Adjusted | n/a | pbp | n/a |
+| Sign in page         | n/a | n/a | n/a | Adjusted | n/a | Adjusted | n/a |
+| Thank you page       | n/a | n/a | n/a | Adjusted | n/a | n/a | n/a |
+| Contact page         | n/a | n/a | n/a | pbp | Adjusted | n/a | n/a |
+| 404 page             | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 
-I experimented with many approaches for making the site responsive and discovered that using pixels was the most accurate and straightforward method for converting the various items on the pages to a suitable format for each screen size. Because the different portions of this website are all positioned 'absolute,' it made the most sense to use pixels to make it responsive. By doing it this way, I was able to save time. Because of this design, the screen's height is irrelevant.
+    I experimented with many approaches for making the site responsive and discovered that using pixels was the most accurate and straightforward method for converting the various items on the pages to a suitable format for each screen size. Because the different portions of this website are all positioned 'absolute,' it made the most sense to use pixels to make it responsive. By doing it this way, I was able to save time. Because of this design, the screen's height is irrelevant.
 
-I tried using viewport height as the unit of measurement for elements on the page, but it had an unacceptably large impact on structural integrity. I can see how these units of measurement could be really useful.
-It's just trying to keep the responsive design in mind, which is tricky with viewport height and width. For starters, different gadgets come in a variety of heights and widths. If this design was for a specific device I would find those units of measurement very handy to have.
+    I tried using viewport height as the unit of measurement for elements on the page, but it had an unacceptably large impact on structural integrity. I can see how these units of measurement could be really useful.
+    It's just trying to keep the responsive design in mind, which is tricky with viewport height and width. For starters, different gadgets come in a variety of heights and widths. If this design was for a specific device I would find those units of measurement very handy to have.
 
 <hr>
 
@@ -1134,7 +1143,7 @@ I ran a direct input check on my CSS file and found no errors. There were no war
 
 ### Lighthouse
 
-All the pages were tested with [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) with the [Lighthouse](https://developers.google.com/web/tools/lighthouse) resource.
+All the pages were tested with [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) using the [Lighthouse](https://developers.google.com/web/tools/lighthouse) resource.
 
 - Performance:
 
