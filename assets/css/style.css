@@ -24,10 +24,6 @@ h1 {
     margin: 3vh;
 }
 
-hr {
-    border: 2px solid #F79F24;
-}
-
 /* Home section */
 
 #home-section {
@@ -299,6 +295,13 @@ span.bars {
     bottom: 0;
 }
 
+.title {
+    text-align: center;
+    position: relative;
+    font-size: 3rem;
+    border-bottom: 3px solid #F79F24;
+}
+
 .left {
     width: 50%;
     float: left;
@@ -401,7 +404,7 @@ span.bars {
 .center-text {
     height: 300px;
     width: 33%;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     position: absolute;
     left: 33%;
@@ -420,20 +423,20 @@ span.bars {
 
 .orange-text {
     font-weight: 900;
-    font-size: 4.5rem;
+    font-size: 3rem;
     color: #F79F24;
 }
 
 .black-text {
     font-weight: 900;
-    font-size: 4.5rem;
+    font-size: 3rem;
     color: black;
 }
 
 .orange-decoration {
     width: 100%;
     height: 10px;
-    background-color: #F79F24;
+    border-top: 3px solid #F79F24;
     position: absolute;
 }
 
@@ -1767,7 +1770,7 @@ form label {
     }
 
     .sc-two-outer {
-        top: 2150px;
+        top: 2050px;
     }
 
     #opening-hours-section {
