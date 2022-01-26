@@ -35,21 +35,23 @@
 ![Responsive Image](/assets/images/features/am-i-responsive.png)
 
 # Raza Noodles
-Raza Noodles is a noodle restaurant located in county Dublin, which serves delicious Asian cuisine with a noodle focus. 
 
-We have talented chefs from all over the world whose goal is to provide an exceptional flavourful experience. We take pride in serving the Irish customer with an experience unlike any other.
+Raza Noodles is a noodle restaurant in Dublin City that specializes in Asian food with a noodle emphasis. They need to attract more clients to increase revenues and expand their business.
+They employ great chefs from all over the world whose mission is to give consumers award-winning cuisine. Raza Noodles takes pride in providing a flavorful experience to Irish customers that is unlike any other on the island. This website hopes to deliver on that ambition for both Raza Noodles and the customers interested in their food.
 
 Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/).
 
+<hr>
 
 # UX
-The theme of this website is Asian Cuisine with a focus on noodles. There are many types of users this may appeal to:
 
-    *User type one: Customers interested in a dine-in experience.*
-    *User type two: People interested in Asian cuisine that enjoy noodles.*
+The theme of this website is Asian cuisine with a focus on noodles. There are many types of users this may appeal to:
+
+**User type one: Customers interested in a dine-in experience.**
+**User type two: People interested in Asian cuisine that enjoy noodles.**
 
 ## User Stories
-<hr>
+
 
 - As a user I would like to browse the website.
 - As a user I need to easily find a contact number.
@@ -65,7 +67,7 @@ The theme of this website is Asian Cuisine with a focus on noodles. There are ma
 
 ## External user's goal
 
-Users of the site are interested in Asian cuisine. 
+    Users of the site are interested in Asian cuisine. 
 
 They are hungry and crave the delicious noodles Raza Noodles can provide. 
 
@@ -75,7 +77,7 @@ The potential customer wants to know who Raza Noodles are, what dishes they offe
 
 ## Site owner's goal
 
-Raza Noodles goal is to serve tasty noodle dishes. 
+    Raza Noodles goal is to serve tasty noodle dishes. 
 
 They want to be a part of the online community to acquire more customers. 
 
@@ -89,7 +91,6 @@ The site's owner wants people to see what Raza Noodles is all about, easily acce
     - Navigation bar
     - Landing page image/logo
     - Details in the design
-        - Responsive to users
         - A food menu and downloadable food menu
         - Competitive design to compete with the crowded market
         - Several ways of communicating with customers
@@ -272,9 +273,9 @@ On the main home page is the logo and logo fade design.
 
 - The user can see a contact number and address. 
 
-- A scroll icon brings the user to the next section and it has an arrow to indicate the direction of navigation and is helped with the use of a CSS animation I implemented. 
+- A scroll icon helps bring the user to the next section and it has an arrow to indicate the direction of navigation and is also helped with the use of a CSS animation I implemented. 
 
-The menu bar features in the top right corner, this is a mordern and intuitive design. 
+The menu bar features in the top right corner, this is a modern and intuitive design.
 
 - The logo is also present in the top left corner and has a link to the home page. 
 
@@ -366,8 +367,8 @@ These policy pages were created using a generator are not my own work. After com
 <details>
 <summary>Scroll Icons</summary>
 <br>
-Allows the user to scroll down to the relavent sections on all internal pages.
-The icons contain links that bring the user to the next section.
+Allows the user the option to scroll down to the relavent sections on all internal pages.
+The icons contain links that bring the user to the next section where pages are longer.
 
 ![Scroll icons](/assets/images/features/scroll-icon-one.png)
 
@@ -379,14 +380,16 @@ The icons contain links that bring the user to the next section.
 <details>
 <summary>About Section</summary>
 <br>
+
 Gives us some information about Raza Noodles and the food.
+It shows us some of the meals Raza Noodles is capable of creating helping to perhaps peek the website users interest.
 
 ![About section](/assets/images/features/about-section.png)
 
 Includes:
 
     - Description of Raza Noodles.
-    - Photos of noodle dishes.
+    - Photos of real noodle dishes.
 
 <br>
 </details>
@@ -405,7 +408,11 @@ This section allows the user of the website to see opening hours for Raza Noodle
 <details>
 <summary>Menu Page</summary>
 <br>
-The second internal page after the home page is the menu page. It features some of the information from the home page such as the address and phone number. It has one of my scroll icons to go further down the page. 
+The second internal page after the home page is the menu page. It features some of the information from the home page such as the address and phone number.
+
+It has one of my scroll icons to go further down the page. 
+
+This helps add cohesiveness to the design for the user, they are shown the address and phone number again after landing on the home page this is where they might go next if they are interested in browsing for options to eat when they arrive at Raza Noodles.
 
 The background effect consists of an animation written in css that comes forwards. The background has an orange color effect. This was done with a background blend mode style property I found in [CSS documentation](https://devdocs.io/css/).
 
@@ -419,7 +426,7 @@ The background effect consists of an animation written in css that comes forward
 <summary>Food Menu</summary>
 <br>
 On the menu page we also have the actual food menu. This allows the user to see what options are available to them and fufills design requirements by Raza Noodles for a competitive design.
-The food menu has multiple images and relevant content in the menu for the user.
+The food menu has multiple images and relevant content in the menu for the user to explore.
 
 - At the beginning of the food menu theres a second option for downloading the food menu.
 
@@ -429,15 +436,18 @@ The food menu has multiple images and relevant content in the menu for the user.
 
 - The menu presents the illusion that it is a three-piece fold out menu on larger screens.
 
+- Animations have been included to show different noodle dishes.
+
 ![Food-menu](/assets/images/features/three-piece-menu.png)
 
 - On medium screens its a two-piece fold out menu and having the inset border in between each section creates these classic menu looks whilst adding abit of creativity.
 
 ![Food-menu](/assets/images/features/two-piece-menu.png)
 
-- For small screens the menu becomes a single column and shows how adaptible this food menu is. The food menu section has 3 major shift changes overall.
+- For small screens the menu becomes a single column and shows how adaptible this food menu is. The food menu section has 3 major shift changes overall for different screen sizes.
 
 - The user can view this menu to decide what they might buy when visiting Raza Noodles.
+    - The website has content the user would like to explore if dining out here.
 
 ![Food-menu](/assets/images/features/one-piece-menu.png)
 
@@ -451,11 +461,10 @@ The food menu has multiple images and relevant content in the menu for the user.
 
 This feature allows users to send Raza Noodles a message and is another way to reach them. 
 
-- The user must fill in their personal information correctly to be able submit a response, and the page instructs them on how to do so.
+- The user must fill in their personal information correctly to be able submit feedback, and the page instructs them on how to do so.
+    - Alerts the user for example if an entry is missing or an email is invalid.
 
-- Within this page is a dummy form that allows the user to share their experience while also allowing Raza Noodles to possibly receive feedback. 
-
-The form currently does not send an email to the user's address but in up comming projects I intend to implement this feature fully.
+- It is a dummy form that allows the user to share their experience while also allowing Raza Noodles to 'possibly' receive feedback. 
 
 ![contact page](/assets/images/features/contact-page.png)
 
@@ -469,13 +478,12 @@ The form currently does not send an email to the user's address but in up commin
 
 After the user submits a message through the dummy form to Raza Noodles on the contact page a new internal page opens presenting the illusion that the user is still on the same page.
 
-- It gives the user a response telling them to check their emails and also to say thank you. 
+- It gives the user a response saying thank you. 
 
 - It has a second option to return to the home page right below the thank you message.
 
-The message on the thank you page is misleading, according to my sources, because it does not send a message to the user's email address. I'd want to stress out that this isn't a genuine restaurant, and the feature isn't entirely functional without the assistance of perhaps a robot or a server. If I had more time to finish it, I might have figured out how to make this feature function. This project's scope does not include it.
-
 - It is, at the very least, a pleasant feature that is just cosmetic but gives the site a more legitimate appearance for the user.
+    - The user is kept on the website instead of their browser reporting the error and a blank screen, which helps to keep retention of the user.
 
 ![Thank you page](/assets/images/features/thank-you-page.png)
 
@@ -489,7 +497,7 @@ The message on the thank you page is misleading, according to my sources, becaus
 
 The Raza Noodle logo has an animation on the home screen. 
 
-- For the user, this animation adds some elegance to the landing page on their arrival and each time they visit the home page.
+- For the user, this animation adds some elegance to the landing page on their arrival each time they visit the home page.
 
 ![Logo animation](/assets/images/features/animation-one.png)
 
