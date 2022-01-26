@@ -585,13 +585,14 @@ To help the user understand that this is a calling feature, it is the same color
 <hr>
 This is a static website.
 
-- The website makes extensive use of just HTML5 and CSS3. 
+- The website makes extensive use of just HTML5 and CSS3.
+    - I would like to see JavaScript implemented throughout the site in later editions.
 
 The aspirations listed below are currently outside the scope of this project. 
 
 - I either don't have the skills to integrate these features yet or haven't been able to find the resources on time.
 
-They can't be executed in most cases since they are outside of my present time frame and demand me to learn new abilities that I don't have time on hand to learn at the moment.
+They can't be executed in most cases since they are outside of my present time frame and/or demand me to learn new abilities that I don't have time on hand to learn at the moment.
 
 - When starting from scratch, building and launching a smartphone application, for example, could take weeks. These would take time to build, but with careful planning and the acquisition of the necessary skills, they could be done.
 
@@ -614,6 +615,8 @@ They can't be executed in most cases since they are outside of my present time f
     - Take care of traffic and data management.
 - Analysis of user data.
     - Recognize patterns and forecast future events.
+- More menu options/pages.
+    - Reservations, online delivery,  etc.
 
 [Back to top](#table-of-contents)
 
