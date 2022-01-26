@@ -1269,7 +1269,7 @@ All the pages were tested with [Chrome Developer Tools](https://developer.chrome
 | Contact page         |              | x         |
 | Thank you page       |              | x         |
 | sign page            |              | x         |
-| 404  page            |              | x         |
+| 404 page             |              | x         |
 | README               |              | x  |
 
 
