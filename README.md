@@ -1305,7 +1305,7 @@ Heres six steps to clone the repository:
 3. At the top of this repository click the green button labelled code.
 4. Click on HTTPS option and copy the URL link to your clipboard.
 5. Open your chosen [IDE](https://www.codecademy.com/article/what-is-an-ide), please note [git](https://git-scm.com/) must be installed.
-6. Open Your terminal in the IDE and type: git clone the-URL-from-here.
+6. Open your terminal in the IDE and type: git clone the-URL-from-here.
 
 Congradulations you now have a clone of this repository on your local machine.
 
