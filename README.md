@@ -1120,10 +1120,10 @@ Below are set widths provided by chrome developer tools, I also used other max w
 | Contact page         | n/a | n/a | n/a | pbp | Adjusted | n/a | n/a |
 | 404 page             | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 
-    I experimented with many approaches for making the site responsive and discovered that using pixels was the most accurate and straightforward method for converting the various items on the pages to a suitable format for each screen size. Because the different portions of this website are all positioned 'absolute,' it made the most sense to use pixels to make it responsive. By doing it this way, I was able to save time. Because of this design, the screen's height is irrelevant.
+I experimented with many approaches for making the site responsive and discovered that using pixels was the most accurate and straightforward method for converting the various items on the pages to a suitable format for each screen size. Because the different portions of this website are all positioned 'absolute,' it made the most sense to use pixels to make it responsive. By doing it this way, I was able to save time. Because of this design, the screen's height is irrelevant.
 
-    I tried using viewport height as the unit of measurement for elements on the page, but it had an unacceptably large impact on structural integrity. I can see how these units of measurement could be really useful.
-    It's just trying to keep the responsive design in mind, which is tricky with viewport height and width. For starters, different gadgets come in a variety of heights and widths. If this design was for a specific device I would find those units of measurement very handy to have.
+I tried using viewport height as the unit of measurement for elements on the page, but it had an unacceptably large impact on structural integrity. I can see how these units of measurement could be really useful.
+It's just trying to keep the responsive design in mind, which is tricky with viewport height and width. For starters, different gadgets come in a variety of heights and widths. If this design was for a specific device I would find those units of measurement very handy to have.
 
 <hr>
 
