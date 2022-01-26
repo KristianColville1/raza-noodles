@@ -351,7 +351,7 @@ Includes:
         - Instagram.
         - Linkedin.
 
-These pages were created using a generator are not my own work. After completing the scope for the UX design I decided these pages were the least of my worries. They are essentially cosmetic. The project has a deadline and I do not have the time to build these. Using a generator saved time for other aspects of the website. These policy pages were created using [TermsFeed](https://www.termsfeed.com/).
+These policy pages were created using a generator are not my own work. After completing the scope for the UX design I decided these pages were the least of my worries. They are essentially cosmetic. The project has a deadline and I do not have the time to build these. Using a generator saved time for other aspects of the website. These policy pages were created using [TermsFeed](https://www.termsfeed.com/).
 
 - They include relevant content you might find on other websites.
 
