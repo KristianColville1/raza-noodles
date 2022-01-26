@@ -1146,7 +1146,7 @@ All the pages were tested with [Chrome Developer Tools](https://developer.chrome
 
     - High scores throughout the website.
 
-Accessibility: 
+- Accessibility: 
 
     - Colors were changed in the footer and background for all pages for better contrast.
 
@@ -1156,7 +1156,7 @@ Accessibility:
 
     - Missing alt/aria labels added to forms and images.
 
-Best Practices:
+- Best Practices:
 
     - Displayed images either are or are near the correct aspect ratio.
 
@@ -1164,7 +1164,7 @@ Best Practices:
 
     - All links to external websites have the attribute 'noopener' allowing safe browsing.
 
-Search Engine Optimization:
+- Search Engine Optimization:
 
     - Semantic HTML included in all internal pages created.
 
@@ -1197,6 +1197,13 @@ Search Engine Optimization:
 <br>
 
 ![Contact page](/assets/images/contact-score.png)
+</details>
+
+<details>
+<summary>Gallery page</summary>
+<br>
+
+![Contact page](/assets/images/gallery-score.png)
 </details>
 
 <details>
