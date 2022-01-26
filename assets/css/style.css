@@ -270,7 +270,7 @@ span.bars {
     position: relative;
     /* animation for icon */
     animation: icon-up-down ease 1.5s;
-    animation-iteration-count: 300;
+    animation-iteration-count: infinite;
     animation-fill-mode: forwards;
 }
 
