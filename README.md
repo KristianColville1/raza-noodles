@@ -1134,11 +1134,49 @@ I ran a direct input check on my CSS file and found no errors. There were no war
 
 ### Lighthouse
 
-To improve these scores, I downsized graphics and changed the color of the footer. For most of the web pages, especially the menu page, the performance score was originally lower than I expected. As much as feasible, images were resized. I purposefully allowed wiggle area for the menu page because it has a lot more going on, and I'm happy with the results of all the pages after using [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) to configure them with [Lighthouse](https://developers.google.com/web/tools/lighthouse).
+All the pages were tested with [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) with the [Lighthouse](https://developers.google.com/web/tools/lighthouse) resource.
 
-The accessibility score is only let down by the way I have implemented a hamburger menu. I have provided an 'aria-roledescription' to hopefully counter act this features let down. It provides the screen reader with an opportunity to understand the role of the hamburger menu. 
+- Performance:
 
-Although I can heavily rely on common sense for the hamburger menu's purpose, going forward that feature will be implemented very differently. This project is pure HTML5 and CSS3. I'm incredibly delighted with the results overall and what I achieved with those languages.
+    - To improve performance I limited the number of images on all pages.
+
+    - Most images were resized and reformated to reduce data consumption.
+
+    - Went as feasibly low in quality for the images without damaging the cosmetic appeal of the website.
+
+    - High scores throughout the website.
+
+Accessibility: 
+
+    - Colors were changed in the footer and background for all pages for better contrast.
+
+    - Font sizes were adjusted.
+
+    - Placement of headings adjusted where possible.
+
+    - Missing alt/aria labels added to forms and images.
+
+Best Practices:
+
+    - Displayed images either are or are near the correct aspect ratio.
+
+    - HTMl doc type included in the html for all pages.
+
+    - All links to external websites have the attribute 'noopener' allowing safe browsing.
+
+Search Engine Optimization:
+
+    - Semantic HTML included in all internal pages created.
+
+    - IDs added to sections.
+
+    - All links have descriptive text added.
+
+    - Alt attributes added to their respecitve images.
+
+    - Meta data descriptions added to each internal page created.
+
+    - All font sizes are 100% legible text.
 
 <details>
 <summary>Home page</summary>
