@@ -20,6 +20,9 @@
         * [CSS3](#css3)
         * [Lighthouse](#lighthouse)
     * [Browser Testing](#browser-testing)
+* [Bugs](#tasks)
+    * [Fixed Bugs](#fixed-bugs)
+    * [Unfixed Bugs](#unfixed-bugs)
 * [Tasks](#tasks)
 * [Deployment](#deployment)
     * [Version Control](#version-control)
@@ -1314,6 +1317,19 @@ All the pages were tested with [Chrome Developer Tools](https://developer.chrome
 - Page behaves as expected in all browsers tested. The website was tested in [Chrome](https://www.google.com/intl/en_ie/chrome/), [Fire fox](https://www.mozilla.org/en-US/firefox/new/), [Edge](https://www.microsoft.com/en-us/edge) and [Opera](https://www.opera.com/?utm_campaign=%2300%20-%20WW%20-%20Search%20-%20EN%20-%20Branded&gclid=CjwKCAiA3L6PBhBvEiwAINlJ9N99KoEo-3uTFKvHKizeKfFlvMpgMJo-JwFBIPSYZUm_LixSy4s3NxoCc5cQAvD_BwE).
 
 <hr>
+
+# Bugs
+
+## Fixed Bugs
+
+The only major issue encountered was making the site responsive. I did not fully understand viewport height as a unit of measurment when I began building the project and it led to time being taking up to fix my mistake. I had to go back and change a lot of css code to use percentages and pixels as units of measurements. I mananged to fix it by tracking all my measurements correctly.
+
+## Unfixed bugs
+
+On small displays, the fixed background inside the food menu will not function. I looked on StackOverflow and everywhere else for help with this problem. I figured out it had a lot to do with my elements' parent-child relationship being set to 'absolute,' but I ran out of time to figure it out, so I simply put in a quick workaround that seemed to work. At lower screens, I changed the background attachment's value, and while it's not as fixed as it is on larger screens, it's at least operating as I intended.
+
+
+[Back to top](#table-of-contents)
 
 # Tasks
 
