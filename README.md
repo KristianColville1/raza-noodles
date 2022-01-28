@@ -47,8 +47,9 @@ Heres a link to the [website](https://kristiancolville1.github.io/raza-noodles/)
 
 The theme of this website is Asian cuisine with a focus on noodles. There are many types of users this may appeal to:
 
-**User type one: Customers interested in a dine-in experience.**
-**User type two: People interested in Asian cuisine that enjoy noodles.**
+*User type one: Customers interested in a dine-in experience.*
+
+*User type two: People interested in Asian cuisine that enjoy noodles.*
 
 ## User Stories
 
@@ -162,6 +163,7 @@ My potential design elements are important, but categorizing them is a useful wa
 
 ### Structure
 These are the structure targets of the website.
+
 Targets: 
 
 - Navigation for the website
@@ -198,7 +200,7 @@ Targets:
 Wireframes were created using [Balsamiq](https://balsamiq.com/).
 Here is the PDF that I made for this UX plane: [KC Wireframes](/assets/media-files/raza-noodle-wireframes.pdf)
 
-I created this website as a desktop first website and worked backwards to create it on smaller screens. You can see what I did to do this in the * [Responsive Design](#responsive-design) section.
+I created this website as a desktop first website and worked backwards to create it on smaller screens. You can see what I did to do this in the [Responsive Design](#responsive-design) section.
 
 <br>
 </details>
@@ -408,9 +410,7 @@ This section allows the user of the website to see opening hours for Raza Noodle
 <details>
 <summary>Menu Page</summary>
 <br>
-The second internal page after the home page is the menu page. It features some of the information from the home page such as the address and phone number.
-
-It has one of my scroll icons to go further down the page. 
+The second internal page after the home page is the menu page. It features some of the information from the home page such as the address and phone number. It has one of my scroll icons to go further down the page. 
 
 This helps add cohesiveness to the design for the user, they are shown the address and phone number again after landing on the home page this is where they might go next if they are interested in browsing for options to eat when they arrive at Raza Noodles.
 
@@ -451,6 +451,17 @@ The food menu has multiple images and relevant content in the menu for the user 
 
 ![Food-menu](/assets/images/features/one-piece-menu.png)
 
+
+<br>
+</details>
+
+<details>
+<summary>Gallery Page</summary>
+<br>
+
+Another internal page included is the gallery page. This allows users to see Raza Noodle photos and get to see some foods prepared by Raza Noodles.
+
+![Gallery Page](/assets/images/features/gallery-page.png)
 
 <br>
 </details>
@@ -553,7 +564,7 @@ I chose to alert the user that currently the server is down and to check back ag
 
 - It also provides the user with away back to the home page after an error occurs.
 
-- It helps the user know this is a legitimate web site by having its own 404 error page.
+- It helps the user know this is a legitimate website by having its own 404 error page.
 
 ![404 error page](/assets/images/features/error-page.png)
 
@@ -570,7 +581,7 @@ The website features 3 ways the user can view the menu; The drop down menu optio
 
 - Raza Noodles' address and phone number can be found on the landing page and menu page. 
 
-- I've included a html code that allows the user to dial the phone number just by pressing it.
+- I've included html code that allows the user to dial the phone number just by pressing it.
 
 Raza Noodles needs the ability for users to call them when they visit the website. 
 
@@ -581,12 +592,6 @@ To help the user understand that this is a calling feature, it is the same color
 
 ![Address phone](/assets/images/features/address-phone.png)
 
-<br>
-</details>
-
-<details>
-<summary>Gallery Page</summary>
-<br>
 <br>
 </details>
 
@@ -609,21 +614,29 @@ They can't be executed in most cases since they are outside of my present time f
 
 - A smartphone application.
     - To compete with other businesses.
+
 - An online delivery service.
     - Allowing the user to place an order via the internet.
+
 - A system for making payments.
     - Reservations, bookings, and online orders.
+
 - A cookie pop-up banner.
     - Request permission to use cookies.
+
 - A pop-up banner for COVID19.
     - Inform the user of any current health policies, alternative opening hours, or guidelines.
+
 - Advertising.
     - Increase revenue by showing advertisements to users.
+
 - Web-based servers.
     - Cloud technology.
     - Take care of traffic and data management.
+
 - Analysis of user data.
     - Recognize patterns and forecast future events.
+
 - More menu options/pages.
     - Reservations, online delivery,  etc.
 
@@ -942,6 +955,31 @@ User stories fufilled:
 </details>
 
 <details>
+<summary>Gallery page</summary>
+
+![Gallery Page](/assets/images/features/gallery-page.png)
+
+Testing for: 
+
+    - Navigation.
+    - Relevance.
+
+Testing results:
+
+- Users are able to navigate to the gallery page through the menu bar.
+
+- Any user of the website interested in seeing noodle dishes can view many different photos from the gallery page.
+
+- The images are mostly noodle dishes allowing the user to get overall sence of Raza Noodles capabilites.
+
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I want to see the foods on offer.
+
+</details>
+
+<details>
 <summary>Contact page</summary>
 <br>
 
@@ -1063,7 +1101,22 @@ User stories fufilled:
 
 ![404 error page](/assets/images/features/error-page.png)
 
+Testing for: 
 
+    - Navigation.
+    - Function.
+
+Testing results:
+
+- Users trying to sign in will be taken to this page upon completition of either of the dummy forms.
+
+- When on this page they have a quick way back to the menu with a link back to the home page underneath the 404 error message.
+
+- It is a common error page on websites and helps cement that this is a legitimate website to the user.
+
+User stories fufilled:
+
+    - As a user I would like to browse the website.
 
 <br>
 </details>
@@ -1072,30 +1125,33 @@ User stories fufilled:
 <br>
 
 ![Download option](/assets/images/features/download-option-one.png)
-![Download option](/assets/images/features/download-option-two.png)
+
 ![Address phone](/assets/images/features/address-phone.png)
+
+Testing for: 
+
+    - Navigation.
+    - Function.
+
+Testing results:
+
+- When users click on the phone number it allows them the ability to instantly call Raza Noodles.
+
+- The number is safe to use and not a real phone number.
+
+- Users can easily find the phone number on two pages in the same general location.
+
+- The address is also in the same locations. Its purpose is understood easily by the user. 
+
+User stories fufilled:
+
+    - As a user I would like to browse the website.
+    - As a user I need to easily find a contact number.
+    - As a user it is important I can find an address.
 
 <br>
 </details>
 <hr>
-
-## Testing the Content
-
-<details>
-<summary>Images and Text</summary>
-<br>
-Raza Noodles is an Asian style resturant. However, I felt after research during the strategy section that the less gimmicky it looked the better. This resturant is not a common fast-food enterprise so it needed to be presented as syphosticated and in its own way it reached those goals.
-
-The images selected are beautiful, anyone interested in noodles that was hungry would find those images delectable. The black background sucks the viewers eyes into the page creating a focus that does not strain the eyes but lifts the viewers attention to the capabilities of this resturant. The colors in the images go with eachother and add great contrast.
-
-There's abit of extra color brought in with these images. I spent along time trying to make this website as cohesive as possible and I am satisfied with my images.
-
-All text on the homepage was wrote by myself.
-
-The menu page food item text was sourced from online. Please navigate to the [Credits](#credits) section to view where I sourced these.
-
-<br>
-</details>
 
 [Back to top](#table-of-contents)
 <hr>
